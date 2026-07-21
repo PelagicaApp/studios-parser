@@ -1,0 +1,94 @@
+name: Parse and publish snapshot
+
+on:
+  schedule:
+    - cron: '0 4 * * 1' # weekly, Monday 04:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot-publish
+  cancel-in-progress: false
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Download latest snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p data
+          gh release download --repo "$GITHUB_REPOSITORY" --pattern 'production_companies.db' --dir data --clobber
+          cp data/production_companies.db data/before.db
+
+      - name: Build parser
+        run: go build -o bin/pelagica-studios .
+
+      - name: Run parser
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: ./bin/pelagica-studios
+
+      - name: Compute diff
+        id: diff
+        run: |
+          sqlite3 data/production_companies.db > data/companies_added.tsv <<'SQL'
+          ATTACH DATABASE 'data/before.db' AS before;
+          .headers on
+          .mode tabs
+          SELECT id, name,
+                 CASE WHEN logo_file_path IS NOT NULL AND logo_file_path != '' THEN 'yes' ELSE 'no' END AS has_logo
+          FROM main.production_companies
+          WHERE id NOT IN (SELECT id FROM before.production_companies)
+          ORDER BY id;
+          SQL
+
+          added_total=$(tail -n +2 data/companies_added.tsv | wc -l | tr -d ' ')
+          added_with_logo=$(tail -n +2 data/companies_added.tsv | awk -F'\t' '$3=="yes"' | wc -l | tr -d ' ')
+
+          {
+            echo "# Companies added"
+            echo
+            echo "- Added: $added_total"
+            echo "- With logos: $added_with_logo"
+            echo
+            echo '```'
+            cat data/companies_added.tsv
+            echo '```'
+          } > data/companies_added.md
+
+          echo "added_total=$added_total" >> "$GITHUB_OUTPUT"
+          echo "added_with_logo=$added_with_logo" >> "$GITHUB_OUTPUT"
+
+      - name: Build logos-only snapshot
+        run: |
+          cp data/production_companies.db data/production_companies_logosonly.db
+          sqlite3 data/production_companies_logosonly.db \
+            "DELETE FROM production_companies WHERE logo_file_path IS NULL OR logo_file_path = ''; VACUUM;"
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="$(date -u +'%Y-%m-%d-%H%M')"
+          title="Snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+          gh release create "$tag" \
+            data/production_companies.db \
+            data/production_companies_logosonly.db \
+            data/companies_added.md \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "$title" \
+            --notes "Automated snapshot from scheduled parser run.
+
+          Companies added: ${{ steps.diff.outputs.added_total }} (with logos: ${{ steps.diff.outputs.added_with_logo }})"
