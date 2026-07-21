@@ -1,0 +1,26 @@
+version: '3'
+
+tasks:
+    build:
+        desc: Compile the app to bin/pelagica-studios
+        cmds:
+            - go build -o bin/pelagica-studios .
+        sources:
+            - '**/*.go'
+            - go.mod
+            - go.sum
+        generates:
+            - bin/pelagica-studios
+
+    start:
+        desc: Run the compiled binary (builds it first if needed)
+        deps: [build]
+        cmds:
+            - ./bin/pelagica-studios
+
+    dev:
+        desc: Run the app directly with go run, without producing a binary
+        cmds:
+            - go run .
+        env:
+            PRODUCTION_COMPANY_LIMIT: "10"
