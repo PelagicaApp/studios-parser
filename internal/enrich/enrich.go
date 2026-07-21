@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"net/http"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -26,6 +27,18 @@ const LimitEnvVar = "PRODUCTION_COMPANY_LIMIT"
 // streak of failures; abort instead of grinding through the rest of a
 // 250k-entry list at the rate limit before anyone notices.
 const maxConsecutiveFailures = 10
+
+// refreshCycleDays controls how often an already-stored company is
+// re-fetched, spreading the work evenly across daily runs so every row is
+// refreshed comfortably inside TMDBs 6 month cache limit.
+const refreshCycleDays = 150
+
+func staleRefreshBatchSize(totalRows int) int {
+	if totalRows <= 0 {
+		return 0
+	}
+	return (totalRows + refreshCycleDays - 1) / refreshCycleDays
+}
 
 func processLimit() int {
 	value, ok := os.LookupEnv(LimitEnvVar)
@@ -136,6 +149,51 @@ func ProcessProductionCompanies(ctx context.Context, idsFilePath string) (proces
 		rate := float64(processed) / time.Since(startTime).Seconds()
 		fmt.Printf("added  %-40.40s  id=%8d  total=%9d/%-9d  rate=%6.2f/s\n",
 			details.Name, details.ID, totalStored, len(ids), rate)
+	}
+
+	staleIDs, err := db.StaleProductionCompanyIDs(database, staleRefreshBatchSize(totalStored))
+	if err != nil {
+		return processed, err
+	}
+
+	removed := 0
+	for _, id := range staleIDs {
+		details, fetchErr := company.Fetch(ctx, client, id)
+		if fetchErr != nil {
+			if errors.Is(fetchErr, context.Canceled) || errors.Is(fetchErr, context.DeadlineExceeded) {
+				return processed, nil
+			}
+
+			var statusErr *tmdb.StatusError
+			if errors.As(fetchErr, &statusErr) && statusErr.StatusCode == http.StatusNotFound {
+				if delErr := db.DeleteProductionCompany(database, id); delErr != nil {
+					fmt.Fprintf(os.Stderr, "failed to remove missing company %d: %v\n", id, delErr)
+					continue
+				}
+				removed++
+				totalStored--
+				consecutiveFailures = 0
+				fmt.Printf("removed no-longer-listed company id=%d\n", id)
+				continue
+			}
+
+			fmt.Fprintf(os.Stderr, "failed to refresh company %d: %v\n", id, fetchErr)
+			consecutiveFailures++
+			if consecutiveFailures >= maxConsecutiveFailures {
+				return processed, fmt.Errorf("aborting after %d consecutive failures, last error: %w", consecutiveFailures, fetchErr)
+			}
+			continue
+		}
+		consecutiveFailures = 0
+
+		if storeErr := db.UpsertProductionCompany(database, *details); storeErr != nil {
+			fmt.Fprintf(os.Stderr, "failed to store refreshed company %d: %v\n", id, storeErr)
+			continue
+		}
+		fmt.Printf("refreshed  %-40.40s  id=%8d\n", details.Name, details.ID)
+	}
+	if len(staleIDs) > 0 {
+		fmt.Printf("refresh pass: checked %d, removed %d\n", len(staleIDs), removed)
 	}
 
 	return processed, nil
