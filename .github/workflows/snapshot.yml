@@ -57,11 +57,20 @@ jobs:
           added_total=$(tail -n +2 data/companies_added.tsv | wc -l | tr -d ' ')
           added_with_logo=$(tail -n +2 data/companies_added.tsv | awk -F'\t' '$3=="yes"' | wc -l | tr -d ' ')
 
+          refreshed_total=$(sqlite3 data/production_companies.db <<'SQL'
+          ATTACH DATABASE 'data/before.db' AS before;
+          SELECT COUNT(*) FROM main.production_companies m
+          JOIN before.production_companies b ON m.id = b.id
+          WHERE m.fetched_at != b.fetched_at;
+          SQL
+          )
+
           {
             echo "# Companies added"
             echo
             echo "- Added: $added_total"
             echo "- With logos: $added_with_logo"
+            echo "- Refreshed: $refreshed_total"
             echo
             echo '```'
             cat data/companies_added.tsv
@@ -70,6 +79,7 @@ jobs:
 
           echo "added_total=$added_total" >> "$GITHUB_OUTPUT"
           echo "added_with_logo=$added_with_logo" >> "$GITHUB_OUTPUT"
+          echo "refreshed_total=$refreshed_total" >> "$GITHUB_OUTPUT"
 
       - name: Build logos-only snapshot
         run: |
@@ -91,4 +101,5 @@ jobs:
             --title "$title" \
             --notes "Automated snapshot from scheduled parser run.
 
-          Companies added: ${{ steps.diff.outputs.added_total }} (with logos: ${{ steps.diff.outputs.added_with_logo }})"
+          Companies added: ${{ steps.diff.outputs.added_total }} (with logos: ${{ steps.diff.outputs.added_with_logo }})
+          Companies refreshed: ${{ steps.diff.outputs.refreshed_total }}"
