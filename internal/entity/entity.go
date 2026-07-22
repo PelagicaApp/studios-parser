@@ -1,4 +1,4 @@
-package company
+package entity
 
 import (
 	"context"
@@ -8,10 +8,22 @@ import (
 	"pelagica-studios/internal/tmdb"
 )
 
-// Details is the flattened set of fields persisted for a production company:
-// the company's own attributes plus the one logo entry (if any) matching the
-// company's top-level logo_path.
+// Type distinguishes the kind of TMDB entity a row represents. TMDB assigns
+// company ids and network ids from separate, overlapping id spaces, so Type
+// is part of a row's identity alongside its id, not just metadata.
+type Type string
+
+const (
+	TypeProductionCompany Type = "production_company"
+	TypeTVNetwork         Type = "tv_network"
+)
+
+// Details is the flattened set of fields persisted for a company or tv
+// network: its own attributes plus the one logo entry (if any) matching its
+// top-level logo_path. TMDB's network responses omit description, so that
+// field is simply left nil for tv networks.
 type Details struct {
+	Type            Type     `json:"type"`
 	ID              int64    `json:"id"`
 	Name            string   `json:"name"`
 	Headquarters    *string  `json:"headquarters"`
@@ -52,18 +64,30 @@ type response struct {
 	} `json:"images"`
 }
 
-func Fetch(ctx context.Context, client *tmdb.Client, id int64) (*Details, error) {
-	body, err := client.Get(ctx, fmt.Sprintf("/3/company/%d", id), map[string]string{"append_to_response": "images"})
+// endpoint returns the TMDB resource path segment for a Type, e.g.
+// "company" for /3/company/{id} or "network" for /3/network/{id}.
+func (t Type) endpoint() string {
+	switch t {
+	case TypeTVNetwork:
+		return "network"
+	default:
+		return "company"
+	}
+}
+
+func Fetch(ctx context.Context, client *tmdb.Client, entityType Type, id int64) (*Details, error) {
+	body, err := client.Get(ctx, fmt.Sprintf("/3/%s/%d", entityType.endpoint(), id), map[string]string{"append_to_response": "images"})
 	if err != nil {
 		return nil, err
 	}
 
 	var parsed response
 	if err := json.Unmarshal(body, &parsed); err != nil {
-		return nil, fmt.Errorf("failed to parse company %d response: %w", id, err)
+		return nil, fmt.Errorf("failed to parse %s %d response: %w", entityType, id, err)
 	}
 
 	details := &Details{
+		Type:          entityType,
 		ID:            parsed.ID,
 		Name:          parsed.Name,
 		Headquarters:  nonEmpty(parsed.Headquarters),

@@ -1,33 +1,33 @@
 # pelagica-studios
 
-A small Go tool that builds a lookup from studio name to logo, sourced from TMDB. It is meant to be used as a data source for other apps, for example a Jellyfin client that wants to show a studio's logo next to its name.
+A small Go tool that builds a lookup from company name to logo, covering both movie/TV production companies and TV networks, sourced from TMDB. It is meant to be used as a data source for other apps, for example a Jellyfin client that wants to show a studio's or network's logo next to its name.
 
 ## How it works
 
-The tool downloads TMDB's daily production company ID export, then fetches full details (name, logo, headquarters, etc.) for every company ID and stores them in a local SQLite database.
+The tool downloads TMDB's daily id exports for production companies and TV networks, then fetches full details (name, logo, headquarters, etc.) for every id and stores them in a single local SQLite database, in a `companies` table with a `type` column set to either `production_company` or `tv_network`.
 
 On every run it:
 
-- Fetches details for any company ID that is not yet in the database.
-- Refreshes a rolling batch of the least recently fetched existing entries, so that every entry gets re-checked well within TMDB's cache retention limit instead of requiring one long, infrequent full re-scan.
-- Removes companies that TMDB no longer returns data for.
+- Fetches details for any id that is not yet in the database, for both entity types.
+- Refreshes a rolling batch of the least recently fetched existing entries across both types, so that every entry gets re-checked well within TMDB's cache retention limit instead of requiring one long, infrequent full re-scan.
+- Removes entries that TMDB no longer returns data for.
 - Writes the database back out as a matching JSON export.
 
-A GitHub Actions workflow (`.github/workflows/snapshot.yml`) runs this daily, downloads the previous snapshot as a starting point, runs the tool, and publishes the result as a new dated GitHub release.
+A GitHub Actions workflow (`.github/workflows/snapshot.yml`) runs this daily, downloads the previous snapshot as a starting point, runs the tool, and publishes the result as a new dated GitHub release. Older snapshots that predate the `companies` table (back when this only tracked production companies under a `production_companies` table) are migrated into the current schema automatically the first time such a database is opened; nothing manual is needed.
 
 ## Releases
 
 Each release contains:
 
-- `production_companies.db`, the full SQLite database.
-- `production_companies_logosonly.db`, the same data with only entries that have a logo.
-- `companies_added.md`, a short report listing companies added since the previous release, how many of those have a logo, and how many existing entries were refreshed in that run.
+- `companies.db`, the full SQLite database.
+- `companies_logosonly.db`, the same data with only entries that have a logo.
+- `companies_added.md`, a short report listing entries added since the previous release (broken down by production companies vs tv networks), how many of those have a logo, and how many existing entries were refreshed in that run.
 
 ## Running locally
 
 Requires Go and a TMDB API read access token set as `TMDB_API_KEY` (an `.env` file is loaded automatically).
 
-Warning: if `data/production_companies.db` does not already exist, the tool has no starting point and will treat every company TMDB knows about, currently around 250,000, as new. At TMDB's rate limit that run takes on the order of half a day. Before running without a starting point, either download a snapshot from the latest release into `data/` first, or set `PRODUCTION_COMPANY_LIMIT` to a small number, as `task dev` already does below.
+Warning: if `data/companies.db` does not already exist, the tool has no starting point and will treat every production company and tv network TMDB knows about, currently around 250,000 combined, as new. At TMDB's rate limit that run takes on the order of half a day. Before running without a starting point, either download a snapshot from the latest release into `data/` first, or set `COMPANY_LIMIT` to a small number, as `task dev` already does below.
 
 ```
 task dev    # go run ., limited to a few companies for quick testing

@@ -4,40 +4,108 @@ import (
 	"database/sql"
 	"time"
 
-	"pelagica-studios/internal/company"
+	"pelagica-studios/internal/entity"
 )
 
-func ensureProductionCompaniesSchema(database *sql.DB) error {
-	_, err := database.Exec(`
-		CREATE TABLE IF NOT EXISTS production_companies (
-			id INTEGER PRIMARY KEY,
-			name TEXT NOT NULL,
-			headquarters TEXT,
-			homepage TEXT,
-			description TEXT,
-			origin_country TEXT,
-			logo_file_path TEXT,
-			logo_aspect_ratio REAL,
-			logo_height INTEGER,
-			logo_id TEXT,
-			logo_file_type TEXT,
-			logo_width INTEGER,
-			logo_vote_count INTEGER,
-			logo_vote_average REAL,
-			fetched_at INTEGER NOT NULL DEFAULT 0
-		)
-	`)
+const companiesTableDDL = `
+	CREATE TABLE IF NOT EXISTS companies (
+		id INTEGER NOT NULL,
+		type TEXT NOT NULL,
+		name TEXT NOT NULL,
+		headquarters TEXT,
+		homepage TEXT,
+		description TEXT,
+		origin_country TEXT,
+		logo_file_path TEXT,
+		logo_aspect_ratio REAL,
+		logo_height INTEGER,
+		logo_id TEXT,
+		logo_file_type TEXT,
+		logo_width INTEGER,
+		logo_vote_count INTEGER,
+		logo_vote_average REAL,
+		fetched_at INTEGER NOT NULL DEFAULT 0,
+		PRIMARY KEY (id, type)
+	)
+`
+
+func ensureCompaniesSchema(database *sql.DB) error {
+	if err := migrateLegacyProductionCompaniesTable(database); err != nil {
+		return err
+	}
+
+	_, err := database.Exec(companiesTableDDL)
+	return err
+}
+
+// migrateLegacyProductionCompaniesTable upgrades legacy database
+func migrateLegacyProductionCompaniesTable(database *sql.DB) error {
+	hasLegacy, err := tableExists(database, "production_companies")
 	if err != nil {
 		return err
 	}
-	return ensureFetchedAtColumn(database)
+	if !hasLegacy {
+		return nil
+	}
+	hasCurrent, err := tableExists(database, "companies")
+	if err != nil {
+		return err
+	}
+	if hasCurrent {
+		return nil
+	}
+
+	if err := ensureColumn(database, "production_companies", "fetched_at", "INTEGER NOT NULL DEFAULT 0"); err != nil {
+		return err
+	}
+
+	tx, err := database.Begin()
+	if err != nil {
+		return err
+	}
+	defer tx.Rollback()
+
+	if _, err := tx.Exec(companiesTableDDL); err != nil {
+		return err
+	}
+
+	_, err = tx.Exec(`
+		INSERT INTO companies (
+			id, type, name, headquarters, homepage, description, origin_country,
+			logo_file_path, logo_aspect_ratio, logo_height, logo_id, logo_file_type,
+			logo_width, logo_vote_count, logo_vote_average, fetched_at
+		)
+		SELECT id, ?, name, headquarters, homepage, description, origin_country,
+			logo_file_path, logo_aspect_ratio, logo_height, logo_id, logo_file_type,
+			logo_width, logo_vote_count, logo_vote_average, fetched_at
+		FROM production_companies
+	`, string(entity.TypeProductionCompany))
+	if err != nil {
+		return err
+	}
+
+	if _, err := tx.Exec(`DROP TABLE production_companies`); err != nil {
+		return err
+	}
+
+	return tx.Commit()
 }
 
-// ensureFetchedAtColumn adds fetched_at to databases created before staleness
-// tracking existed. Backfilled rows default to 0, which sorts first for
-// refresh, so they naturally get a real timestamp the next time they're due.
-func ensureFetchedAtColumn(database *sql.DB) error {
-	rows, err := database.Query(`PRAGMA table_info(production_companies)`)
+func tableExists(database *sql.DB, name string) (bool, error) {
+	var found string
+	err := database.QueryRow(`SELECT name FROM sqlite_master WHERE type = 'table' AND name = ?`, name).Scan(&found)
+	if err == sql.ErrNoRows {
+		return false, nil
+	}
+	if err != nil {
+		return false, err
+	}
+	return true, nil
+}
+
+// ensureColumn adds column to table if it isn't already present.
+func ensureColumn(database *sql.DB, table, column, definition string) error {
+	rows, err := database.Query(`PRAGMA table_info(` + table + `)`)
 	if err != nil {
 		return err
 	}
@@ -50,7 +118,7 @@ func ensureFetchedAtColumn(database *sql.DB) error {
 		if err := rows.Scan(&cid, &name, &colType, &notNull, &dflt, &pk); err != nil {
 			return err
 		}
-		if name == "fetched_at" {
+		if name == column {
 			return rows.Err()
 		}
 	}
@@ -58,12 +126,12 @@ func ensureFetchedAtColumn(database *sql.DB) error {
 		return err
 	}
 
-	_, err = database.Exec(`ALTER TABLE production_companies ADD COLUMN fetched_at INTEGER NOT NULL DEFAULT 0`)
+	_, err = database.Exec(`ALTER TABLE ` + table + ` ADD COLUMN ` + column + ` ` + definition)
 	return err
 }
 
-func ExistingProductionCompanyIDs(database *sql.DB) (map[int64]struct{}, error) {
-	rows, err := database.Query(`SELECT id FROM production_companies`)
+func ExistingIDs(database *sql.DB, entityType entity.Type) (map[int64]struct{}, error) {
+	rows, err := database.Query(`SELECT id FROM companies WHERE type = ?`, string(entityType))
 	if err != nil {
 		return nil, err
 	}
@@ -80,73 +148,84 @@ func ExistingProductionCompanyIDs(database *sql.DB) (map[int64]struct{}, error) 
 	return ids, rows.Err()
 }
 
-func UpsertProductionCompany(database *sql.DB, details company.Details) error {
+func UpsertCompany(database *sql.DB, details entity.Details) error {
 	_, err := database.Exec(`
-		INSERT OR REPLACE INTO production_companies (
-			id, name, headquarters, homepage, description, origin_country,
+		INSERT OR REPLACE INTO companies (
+			id, type, name, headquarters, homepage, description, origin_country,
 			logo_file_path, logo_aspect_ratio, logo_height, logo_id, logo_file_type,
 			logo_width, logo_vote_count, logo_vote_average, fetched_at
-		) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 	`,
-		details.ID, details.Name, details.Headquarters, details.Homepage, details.Description, details.OriginCountry,
+		details.ID, string(details.Type), details.Name, details.Headquarters, details.Homepage, details.Description, details.OriginCountry,
 		details.LogoFilePath, details.LogoAspectRatio, details.LogoHeight, details.LogoID, details.LogoFileType,
 		details.LogoWidth, details.LogoVoteCount, details.LogoVoteAverage, time.Now().Unix(),
 	)
 	return err
 }
 
-// StaleProductionCompanyIDs returns up to limit ids ordered by least
-// recently fetched, for the rolling refresh pass in enrich.
-func StaleProductionCompanyIDs(database *sql.DB, limit int) ([]int64, error) {
+// CompanyKey identifies a row in the companies table. TMDB company ids and
+// network ids can collide, so id alone is not enough to look up a row.
+type CompanyKey struct {
+	ID   int64
+	Type entity.Type
+}
+
+// StaleCompanyKeys returns up to limit keys ordered by least recently
+// fetched, across both entity types, for the rolling refresh pass in enrich.
+func StaleCompanyKeys(database *sql.DB, limit int) ([]CompanyKey, error) {
 	if limit <= 0 {
 		return nil, nil
 	}
 
-	rows, err := database.Query(`SELECT id FROM production_companies ORDER BY fetched_at ASC LIMIT ?`, limit)
+	rows, err := database.Query(`SELECT id, type FROM companies ORDER BY fetched_at ASC LIMIT ?`, limit)
 	if err != nil {
 		return nil, err
 	}
 	defer rows.Close()
 
-	var ids []int64
+	var keys []CompanyKey
 	for rows.Next() {
-		var id int64
-		if err := rows.Scan(&id); err != nil {
+		var key CompanyKey
+		var entityType string
+		if err := rows.Scan(&key.ID, &entityType); err != nil {
 			return nil, err
 		}
-		ids = append(ids, id)
+		key.Type = entity.Type(entityType)
+		keys = append(keys, key)
 	}
-	return ids, rows.Err()
+	return keys, rows.Err()
 }
 
-func DeleteProductionCompany(database *sql.DB, id int64) error {
-	_, err := database.Exec(`DELETE FROM production_companies WHERE id = ?`, id)
+func DeleteCompany(database *sql.DB, key CompanyKey) error {
+	_, err := database.Exec(`DELETE FROM companies WHERE id = ? AND type = ?`, key.ID, string(key.Type))
 	return err
 }
 
-func AllProductionCompanies(database *sql.DB) ([]company.Details, error) {
+func AllCompanies(database *sql.DB) ([]entity.Details, error) {
 	rows, err := database.Query(`
-		SELECT id, name, headquarters, homepage, description, origin_country,
+		SELECT id, type, name, headquarters, homepage, description, origin_country,
 		       logo_file_path, logo_aspect_ratio, logo_height, logo_id, logo_file_type,
 		       logo_width, logo_vote_count, logo_vote_average
-		FROM production_companies
-		ORDER BY id
+		FROM companies
+		ORDER BY type, id
 	`)
 	if err != nil {
 		return nil, err
 	}
 	defer rows.Close()
 
-	var results []company.Details
+	var results []entity.Details
 	for rows.Next() {
-		var d company.Details
+		var d entity.Details
+		var entityType string
 		if err := rows.Scan(
-			&d.ID, &d.Name, &d.Headquarters, &d.Homepage, &d.Description, &d.OriginCountry,
+			&d.ID, &entityType, &d.Name, &d.Headquarters, &d.Homepage, &d.Description, &d.OriginCountry,
 			&d.LogoFilePath, &d.LogoAspectRatio, &d.LogoHeight, &d.LogoID, &d.LogoFileType,
 			&d.LogoWidth, &d.LogoVoteCount, &d.LogoVoteAverage,
 		); err != nil {
 			return nil, err
 		}
+		d.Type = entity.Type(entityType)
 		results = append(results, d)
 	}
 	return results, rows.Err()

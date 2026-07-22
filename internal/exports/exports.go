@@ -1,4 +1,4 @@
-package productioncompanies
+package exports
 
 import (
 	"compress/gzip"
@@ -9,6 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
+	"pelagica-studios/internal/entity"
 	"pelagica-studios/internal/paths"
 )
 
@@ -19,10 +20,25 @@ func formatExportDate(date time.Time) string {
 	return date.UTC().Format("01_02_2006")
 }
 
-func DownloadProductionCompanyIds() (string, error) {
+// exportName returns TMDB's daily export file prefix for a Type, e.g.
+// "production_company_ids" or "tv_network_ids".
+func exportName(entityType entity.Type) string {
+	switch entityType {
+	case entity.TypeTVNetwork:
+		return "tv_network_ids"
+	default:
+		return "production_company_ids"
+	}
+}
+
+// DownloadIDs fetches TMDB's most recent daily id export for entityType,
+// unpacks it, and returns the path to the unpacked JSON lines file.
+func DownloadIDs(entityType entity.Type) (string, error) {
+	name := exportName(entityType)
+
 	for daysBack := 0; daysBack < maxDaysBack; daysBack++ {
 		dateStr := formatExportDate(time.Now().AddDate(0, 0, -daysBack))
-		url := fmt.Sprintf("%s/production_company_ids_%s.json.gz", exportsBaseURL, dateStr)
+		url := fmt.Sprintf("%s/%s_%s.json.gz", exportsBaseURL, name, dateStr)
 
 		response, err := http.Get(url)
 		if err != nil {
@@ -34,7 +50,7 @@ func DownloadProductionCompanyIds() (string, error) {
 			continue
 		}
 
-		outputPath, err := saveUnpackedExport(response.Body, dateStr)
+		outputPath, err := saveUnpackedExport(response.Body, name, dateStr)
 		response.Body.Close()
 		if err != nil {
 			return "", err
@@ -42,10 +58,10 @@ func DownloadProductionCompanyIds() (string, error) {
 		return outputPath, nil
 	}
 
-	return "", fmt.Errorf("no production company export found in the last %d days", maxDaysBack)
+	return "", fmt.Errorf("no %s export found in the last %d days", name, maxDaysBack)
 }
 
-func saveUnpackedExport(gzipped io.Reader, dateStr string) (string, error) {
+func saveUnpackedExport(gzipped io.Reader, name, dateStr string) (string, error) {
 	gzipReader, err := gzip.NewReader(gzipped)
 	if err != nil {
 		return "", err
@@ -56,7 +72,7 @@ func saveUnpackedExport(gzipped io.Reader, dateStr string) (string, error) {
 		return "", err
 	}
 
-	outputPath := filepath.Join(paths.TempDir, fmt.Sprintf("production_company_ids_%s.json", dateStr))
+	outputPath := filepath.Join(paths.TempDir, fmt.Sprintf("%s_%s.json", name, dateStr))
 	outputFile, err := os.Create(outputPath)
 	if err != nil {
 		return "", err
@@ -70,7 +86,7 @@ func saveUnpackedExport(gzipped io.Reader, dateStr string) (string, error) {
 	return outputPath, nil
 }
 
-func DeleteProductionCompanyIdsFile(filePath string) {
+func DeleteIDsFile(filePath string) {
 	if err := os.Remove(filePath); err != nil {
 		fmt.Printf("Failed to delete file %s: %v\n", filePath, err)
 	}

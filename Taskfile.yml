@@ -23,4 +23,4 @@ tasks:
         cmds:
             - go run .
         env:
-            PRODUCTION_COMPANY_LIMIT: "10"
+            COMPANY_LIMIT: "10"

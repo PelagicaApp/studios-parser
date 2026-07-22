@@ -7,23 +7,28 @@ import (
 	"os/signal"
 	"syscall"
 
+	"pelagica-studios/internal/entity"
 	"pelagica-studios/internal/enrich"
-	"pelagica-studios/internal/productioncompanies"
+	"pelagica-studios/internal/exports"
 )
 
 func main() {
 	ctx, stop := signal.NotifyContext(context.Background(), syscall.SIGINT, syscall.SIGTERM)
 	defer stop()
 
-	idsFilePath, err := productioncompanies.DownloadProductionCompanyIds()
-	if err != nil {
-		log.Fatal(err)
+	idsFiles := make(map[entity.Type]string)
+	for _, entityType := range []entity.Type{entity.TypeProductionCompany, entity.TypeTVNetwork} {
+		idsFilePath, err := exports.DownloadIDs(entityType)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Printf("Saved %s export to %s\n", entityType, idsFilePath)
+		idsFiles[entityType] = idsFilePath
 	}
-	fmt.Printf("Saved production company export to %s\n", idsFilePath)
 
-	processed, err := enrich.ProcessProductionCompanies(ctx, idsFilePath)
+	processed, err := enrich.Process(ctx, idsFiles)
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("Processed %d production companies\n", processed)
+	fmt.Printf("Processed %d entities\n", processed)
 }

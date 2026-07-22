@@ -25,7 +25,7 @@ func OpenDatabase(dbPath string) (*sql.DB, error) {
 		return nil, err
 	}
 
-	if err := ensureProductionCompaniesSchema(database); err != nil {
+	if err := ensureCompaniesSchema(database); err != nil {
 		database.Close()
 		return nil, err
 	}
