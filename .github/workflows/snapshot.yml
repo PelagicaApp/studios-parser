@@ -57,13 +57,19 @@ jobs:
           added_total=$(tail -n +2 data/companies_added.tsv | wc -l | tr -d ' ')
           added_with_logo=$(tail -n +2 data/companies_added.tsv | awk -F'\t' '$3=="yes"' | wc -l | tr -d ' ')
 
-          refreshed_total=$(sqlite3 data/production_companies.db <<'SQL'
+          before_has_fetched_at=$(sqlite3 data/before.db "SELECT COUNT(*) FROM pragma_table_info('production_companies') WHERE name = 'fetched_at';")
+          if [ "$before_has_fetched_at" = "1" ]; then
+            refreshed_total=$(sqlite3 data/production_companies.db <<'SQL'
           ATTACH DATABASE 'data/before.db' AS before;
           SELECT COUNT(*) FROM main.production_companies m
           JOIN before.production_companies b ON m.id = b.id
           WHERE m.fetched_at != b.fetched_at;
           SQL
           )
+          else
+            # Starting point predates staleness tracking; nothing to compare against yet.
+            refreshed_total=0
+          fi
 
           {
             echo "# Companies added"
