@@ -1,150 +1,168 @@
 name: Parse and publish snapshot
 
 on:
-  schedule:
-    - cron: '0 4 * * *' # daily at 04:00 UTC
-  workflow_dispatch: {}
+    schedule:
+        - cron: "0 4 * * *" # daily at 04:00 UTC
+    workflow_dispatch: {}
 
 permissions:
-  contents: write
+    contents: write
 
 concurrency:
-  group: snapshot-publish
-  cancel-in-progress: false
+    group: snapshot-publish
+    cancel-in-progress: false
 
 jobs:
-  parse:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    parse:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
 
-      - name: Set up Go
-        uses: actions/setup-go@v5
-        with:
-          go-version-file: go.mod
+            - name: Set up Go
+              uses: actions/setup-go@v5
+              with:
+                  go-version-file: go.mod
 
-      - name: Download latest snapshot
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          mkdir -p data
-          if ! gh release download --repo "$GITHUB_REPOSITORY" --pattern 'companies.db' --dir data --clobber 2>/dev/null; then
-            echo "companies.db not found in latest release, falling back to legacy production_companies.db"
-            gh release download --repo "$GITHUB_REPOSITORY" --pattern 'production_companies.db' --dir data --clobber
-            mv data/production_companies.db data/companies.db
-          fi
-          cp data/companies.db data/before.db
+            - name: Download latest snapshot
+              env:
+                  GH_TOKEN: ${{ github.token }}
+              run: |
+                  mkdir -p data
+                  if ! gh release download --repo "$GITHUB_REPOSITORY" --pattern 'companies.db' --dir data --clobber 2>/dev/null; then
+                    echo "companies.db not found in latest release, falling back to legacy production_companies.db"
+                    gh release download --repo "$GITHUB_REPOSITORY" --pattern 'production_companies.db' --dir data --clobber
+                    mv data/production_companies.db data/companies.db
+                  fi
+                  cp data/companies.db data/before.db
 
-      - name: Build parser
-        run: go build -o bin/pelagica-studios .
+            - name: Build parser
+              run: go build -o bin/pelagica-studios .
 
-      - name: Run parser
-        env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: ./bin/pelagica-studios
+            - name: Run parser
+              env:
+                  TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+              run: ./bin/pelagica-studios
 
-      - name: Compute diff
-        id: diff
-        run: |
-          before_has_companies=$(sqlite3 data/before.db "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='companies';")
+            - name: Compute diff
+              id: diff
+              run: |
+                  before_has_companies=$(sqlite3 data/before.db "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='companies';")
 
-          if [ "$before_has_companies" = "1" ]; then
-            sqlite3 data/companies.db > data/companies_added.tsv <<'SQL'
-          ATTACH DATABASE 'data/before.db' AS before;
-          .headers on
-          .mode tabs
-          SELECT m.id, m.type, m.name,
-                 CASE WHEN m.logo_file_path IS NOT NULL AND m.logo_file_path != '' THEN 'yes' ELSE 'no' END AS has_logo
-          FROM main.companies m
-          LEFT JOIN before.companies b ON m.id = b.id AND m.type = b.type
-          WHERE b.id IS NULL
-          ORDER BY m.type, m.id;
-          SQL
-          else
-            # before.db predates the generic companies table: it still holds the
-            # legacy production_companies table under the new filename. Every tv
-            # network is new by definition, and a production company only counts
-            # as added if its id wasn't already there.
-            sqlite3 data/companies.db > data/companies_added.tsv <<'SQL'
-          ATTACH DATABASE 'data/before.db' AS before;
-          .headers on
-          .mode tabs
-          SELECT m.id, m.type, m.name,
-                 CASE WHEN m.logo_file_path IS NOT NULL AND m.logo_file_path != '' THEN 'yes' ELSE 'no' END AS has_logo
-          FROM main.companies m
-          WHERE m.type != 'production_company'
-             OR m.id NOT IN (SELECT id FROM before.production_companies)
-          ORDER BY m.type, m.id;
-          SQL
-          fi
+                  if [ "$before_has_companies" = "1" ]; then
+                    sqlite3 data/companies.db > data/companies_added.tsv <<'SQL'
+                  ATTACH DATABASE 'data/before.db' AS before;
+                  .headers on
+                  .mode tabs
+                  SELECT m.id, m.type, m.name,
+                         CASE WHEN m.logo_file_path IS NOT NULL AND m.logo_file_path != '' THEN 'yes' ELSE 'no' END AS has_logo
+                  FROM main.companies m
+                  LEFT JOIN before.companies b ON m.id = b.id AND m.type = b.type
+                  WHERE b.id IS NULL
+                  ORDER BY m.type, m.id;
+                  SQL
+                  else
+                    # before.db predates the generic companies table: it still holds the
+                    # legacy production_companies table under the new filename. Every tv
+                    # network is new by definition, and a production company only counts
+                    # as added if its id wasn't already there.
+                    sqlite3 data/companies.db > data/companies_added.tsv <<'SQL'
+                  ATTACH DATABASE 'data/before.db' AS before;
+                  .headers on
+                  .mode tabs
+                  SELECT m.id, m.type, m.name,
+                         CASE WHEN m.logo_file_path IS NOT NULL AND m.logo_file_path != '' THEN 'yes' ELSE 'no' END AS has_logo
+                  FROM main.companies m
+                  WHERE m.type != 'production_company'
+                     OR m.id NOT IN (SELECT id FROM before.production_companies)
+                  ORDER BY m.type, m.id;
+                  SQL
+                  fi
 
-          added_total=$(tail -n +2 data/companies_added.tsv | wc -l | tr -d ' ')
-          added_companies=$(tail -n +2 data/companies_added.tsv | awk -F'\t' '$2=="production_company"' | wc -l | tr -d ' ')
-          added_networks=$(tail -n +2 data/companies_added.tsv | awk -F'\t' '$2=="tv_network"' | wc -l | tr -d ' ')
-          added_with_logo=$(tail -n +2 data/companies_added.tsv | awk -F'\t' '$4=="yes"' | wc -l | tr -d ' ')
+                  added_total=$(tail -n +2 data/companies_added.tsv | wc -l | tr -d ' ')
+                  added_companies=$(tail -n +2 data/companies_added.tsv | awk -F'\t' '$2=="production_company"' | wc -l | tr -d ' ')
+                  added_networks=$(tail -n +2 data/companies_added.tsv | awk -F'\t' '$2=="tv_network"' | wc -l | tr -d ' ')
+                  added_with_logo=$(tail -n +2 data/companies_added.tsv | awk -F'\t' '$4=="yes"' | wc -l | tr -d ' ')
 
-          if [ "$before_has_companies" = "1" ]; then
-            refreshed_total=$(sqlite3 data/companies.db <<'SQL'
-          ATTACH DATABASE 'data/before.db' AS before;
-          SELECT COUNT(*) FROM main.companies m
-          JOIN before.companies b ON m.id = b.id AND m.type = b.type
-          WHERE m.fetched_at != b.fetched_at;
-          SQL
-          )
-          else
-            before_has_fetched_at=$(sqlite3 data/before.db "SELECT COUNT(*) FROM pragma_table_info('production_companies') WHERE name = 'fetched_at';")
-            if [ "$before_has_fetched_at" = "1" ]; then
-              refreshed_total=$(sqlite3 data/companies.db <<'SQL'
-          ATTACH DATABASE 'data/before.db' AS before;
-          SELECT COUNT(*) FROM main.companies m
-          JOIN before.production_companies b ON m.id = b.id
-          WHERE m.type = 'production_company' AND m.fetched_at != b.fetched_at;
-          SQL
-          )
-            else
-              # Starting point predates staleness tracking entirely; nothing to compare against yet.
-              refreshed_total=0
-            fi
-          fi
+                  if [ "$before_has_companies" = "1" ]; then
+                    refreshed_total=$(sqlite3 data/companies.db <<'SQL'
+                  ATTACH DATABASE 'data/before.db' AS before;
+                  SELECT COUNT(*) FROM main.companies m
+                  JOIN before.companies b ON m.id = b.id AND m.type = b.type
+                  WHERE m.fetched_at != b.fetched_at;
+                  SQL
+                  )
+                  else
+                    before_has_fetched_at=$(sqlite3 data/before.db "SELECT COUNT(*) FROM pragma_table_info('production_companies') WHERE name = 'fetched_at';")
+                    if [ "$before_has_fetched_at" = "1" ]; then
+                      refreshed_total=$(sqlite3 data/companies.db <<'SQL'
+                  ATTACH DATABASE 'data/before.db' AS before;
+                  SELECT COUNT(*) FROM main.companies m
+                  JOIN before.production_companies b ON m.id = b.id
+                  WHERE m.type = 'production_company' AND m.fetched_at != b.fetched_at;
+                  SQL
+                  )
+                    else
+                      # Starting point predates staleness tracking entirely; nothing to compare against yet.
+                      refreshed_total=0
+                    fi
+                  fi
 
-          {
-            echo "# Companies added"
-            echo
-            echo "- Added: $added_total ($added_companies production companies, $added_networks tv networks)"
-            echo "- With logos: $added_with_logo"
-            echo "- Refreshed: $refreshed_total"
-            echo
-            echo '```'
-            cat data/companies_added.tsv
-            echo '```'
-          } > data/companies_added.md
+                  {
+                    echo "# Companies added"
+                    echo
+                    echo "- Added: $added_total ($added_companies production companies, $added_networks tv networks)"
+                    echo "- With logos: $added_with_logo"
+                    echo "- Refreshed: $refreshed_total"
+                    echo
+                    echo '```'
+                    cat data/companies_added.tsv
+                    echo '```'
+                  } > data/companies_added.md
 
-          echo "added_total=$added_total" >> "$GITHUB_OUTPUT"
-          echo "added_companies=$added_companies" >> "$GITHUB_OUTPUT"
-          echo "added_networks=$added_networks" >> "$GITHUB_OUTPUT"
-          echo "added_with_logo=$added_with_logo" >> "$GITHUB_OUTPUT"
-          echo "refreshed_total=$refreshed_total" >> "$GITHUB_OUTPUT"
+                  echo "added_total=$added_total" >> "$GITHUB_OUTPUT"
+                  echo "added_companies=$added_companies" >> "$GITHUB_OUTPUT"
+                  echo "added_networks=$added_networks" >> "$GITHUB_OUTPUT"
+                  echo "added_with_logo=$added_with_logo" >> "$GITHUB_OUTPUT"
+                  echo "refreshed_total=$refreshed_total" >> "$GITHUB_OUTPUT"
 
-      - name: Build logos-only snapshot
-        run: |
-          cp data/companies.db data/companies_logosonly.db
-          sqlite3 data/companies_logosonly.db \
-            "DELETE FROM companies WHERE logo_file_path IS NULL OR logo_file_path = ''; VACUUM;"
+            - name: Build logos-only snapshot
+              run: |
+                  cp data/companies.db data/companies_logosonly.db
+                  sqlite3 data/companies_logosonly.db \
+                    "DELETE FROM companies WHERE logo_file_path IS NULL OR logo_file_path = ''; VACUUM;"
 
-      - name: Publish release
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          tag="$(date -u +'%Y-%m-%d-%H%M')"
-          title="Snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
-          gh release create "$tag" \
-            data/companies.db \
-            data/companies_logosonly.db \
-            data/companies_added.md \
-            --repo "$GITHUB_REPOSITORY" \
-            --title "$title" \
-            --notes "Automated snapshot from scheduled parser run.
+            - name: Build minimal JSON
+              run: |
+                  sqlite3 data/companies_logosonly.db <<'SQL'
+                  .headers off
+                  .output data/companies_minimal.json
 
-          Companies added: ${{ steps.diff.outputs.added_total }} (${{ steps.diff.outputs.added_companies }} production companies, ${{ steps.diff.outputs.added_networks }} tv networks, ${{ steps.diff.outputs.added_with_logo }} with logos)
-          Companies refreshed: ${{ steps.diff.outputs.refreshed_total }}"
+                  SELECT json_group_object(
+                    name,
+                    json_object(
+                      'logo_path', logo_file_path,
+                      'type', type
+                    )
+                  )
+                  FROM companies;
+
+                  SQL
+
+            - name: Publish release
+              env:
+                  GH_TOKEN: ${{ github.token }}
+              run: |
+                  tag="$(date -u +'%Y-%m-%d-%H%M')"
+                  title="Snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+                  gh release create "$tag" \
+                    data/companies.db \
+                    data/companies_logosonly.db \
+                    data/companies_added.md \
+                    data/companies_minimal.json \
+                    --repo "$GITHUB_REPOSITORY" \
+                    --title "$title" \
+                    --notes "Automated snapshot from scheduled parser run.
+
+                  Companies added: `${{ steps.diff.outputs.added_total }}` (`${{ steps.diff.outputs.added_companies }}` production companies, `${{ steps.diff.outputs.added_networks }}` tv networks, `${{ steps.diff.outputs.added_with_logo }}` with logos)
+                  Companies refreshed: `${{ steps.diff.outputs.refreshed_total }}`"
