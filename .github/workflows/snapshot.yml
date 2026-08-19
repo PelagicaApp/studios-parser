@@ -2,7 +2,7 @@ name: Parse and publish snapshot
 
 on:
     schedule:
-        - cron: "0 4 * * *" # daily at 04:00 UTC
+        - cron: '0 4 * * *' # daily at 04:00 UTC
     workflow_dispatch: {}
 
 permissions:
@@ -164,5 +164,5 @@ jobs:
                     --title "$title" \
                     --notes "Automated snapshot from scheduled parser run.
 
-                  Companies added: `${{ steps.diff.outputs.added_total }}` (`${{ steps.diff.outputs.added_companies }}` production companies, `${{ steps.diff.outputs.added_networks }}` tv networks, `${{ steps.diff.outputs.added_with_logo }}` with logos)
-                  Companies refreshed: `${{ steps.diff.outputs.refreshed_total }}`"
+                  Companies added: \`${{ steps.diff.outputs.added_total }}\` (\`${{ steps.diff.outputs.added_companies }}\` production companies, \`${{ steps.diff.outputs.added_networks }}\` tv networks, \`${{ steps.diff.outputs.added_with_logo }}\` with logos)
+                  Companies refreshed: \`${{ steps.diff.outputs.refreshed_total }}\`"
