@@ -166,3 +166,30 @@ jobs:
 
                   Companies added: \`${{ steps.diff.outputs.added_total }}\` (\`${{ steps.diff.outputs.added_companies }}\` production companies, \`${{ steps.diff.outputs.added_networks }}\` tv networks, \`${{ steps.diff.outputs.added_with_logo }}\` with logos)
                   Companies refreshed: \`${{ steps.diff.outputs.refreshed_total }}\`"
+
+            - name: Commit files to release branch
+              run: |
+                  mkdir -p /tmp/release-snapshot
+                  cp data/companies.db data/companies_logosonly.db data/companies_added.md data/companies_minimal.json /tmp/release-snapshot/
+
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+
+                  git fetch origin release || true
+                  if git show-ref --verify --quiet refs/remotes/origin/release; then
+                    git checkout -B release origin/release
+                  else
+                    git checkout --orphan release
+                    git rm -rf . --quiet || true
+                  fi
+
+                  cp /tmp/release-snapshot/* .
+
+                  git add companies.db companies_logosonly.db companies_added.md companies_minimal.json
+
+                  if git diff --cached --quiet; then
+                    echo "No changes to commit"
+                  else
+                    git commit -m "Snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+                    git push origin release
+                  fi
