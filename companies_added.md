@@ -1,94 +1,93 @@
 # Companies added
 
-- Added: 85 (81 production companies, 4 tv networks)
-- With logos: 4
+- Added: 84 (81 production companies, 3 tv networks)
+- With logos: 1
 - Refreshed: 1754
 
 ```
 id	type	name	has_logo
-308025	production_company	Tantor Fiction	no
-308026	production_company	La Merced	no
-308027	production_company	金鹰纪实卫视	no
-308028	production_company	Brudder Films	no
-308029	production_company	Bahil and Kinetibeb Biro	no
-308030	production_company	Comic Mack Studios	no
-308031	production_company	Ngabers Production	no
-308032	production_company	2020Films	no
-308033	production_company	Pied Piper Pictures	no
-308034	production_company	Spicy Mama Creative Studio	no
-308035	production_company	Sorry Films	no
-308036	production_company	Birdman Studios	no
-308037	production_company	Videofilm Goskino	no
-308038	production_company	Appai Cinemas	no
-308039	production_company	La Casa di Abou Diabo	no
-308040	production_company	Mahobiya Films Production	no
-308041	production_company	Catamaran Films	no
-308042	production_company	Junaa Films	no
-308043	production_company	Kuno Cromatico	no
-308044	production_company	GAP Produtora	no
-308045	production_company	JetKul Productions	no
-308046	production_company	TCCK Films	no
-308047	production_company	Ferox Cinema (USA)	no
-308048	production_company	Behind Friends	no
-308049	production_company	Constellation Jones	no
-308050	production_company	Heredia Productions	no
-308051	production_company	Šventas Krapas	no
-308052	production_company	DYN	yes
-308053	production_company	RYUBAKU	yes
-308054	production_company	Fluindo Libras	no
-308055	production_company	MGee Films	no
-308056	production_company	Barbershop	no
-308057	production_company	Calico Rock Films	no
-308058	production_company	Blue Hut Productions	no
-308059	production_company	BertON Studio	no
-308060	production_company	Blaze Bizzness	no
-308061	production_company	Breatheasy Productions	no
-308062	production_company	Pasta & Tacos Productions	no
-308063	production_company	Mekanofilms	yes
-308064	production_company	Starlight Theatre Group	no
-308065	production_company	Totalcom Producciones	no
-308066	production_company	KMKN Production	no
-308067	production_company	Spicy AI	no
-308068	production_company	Lead Pipe Productions	no
-308069	production_company	OG Films	no
-308070	production_company	La Máquina Loca	no
-308071	production_company	Ariadna Films	no
-308072	production_company	AndFan Pictures	no
-308073	production_company	Random Animation	no
-308074	production_company	British Sky Broadcasting	no
-308075	production_company	Simas Films (Canada)	no
-308076	production_company	Joseph Goes Film Corporation (CFU) Ltd.	no
-308077	production_company	Feature Film Company Ltd.	no
-308078	production_company	Ferragamo	no
-308079	production_company	PloBoom Productions	no
-308080	production_company	Narcotics Educational Foundation of America	no
-308081	production_company	California Narcotic Officers Association	no
-308082	production_company	Black Dog Films	no
-308083	production_company	Permanent Way Entertainment	no
-308084	production_company	Jindawan Film	no
-308085	production_company	Amoco Corp	no
-308086	production_company	Freiburg Welt-Kinematograph	no
-308087	production_company	Sa Mesa Namin Films	no
-308088	production_company	Stuart Finley Inc	no
-308090	production_company	The Swartski Brothers Inc.	no
-308091	production_company	the house of ferry	no
-308092	production_company	Medi-Cine Films	no
-308093	production_company	Tum Tum Productions	no
-308094	production_company	Motivational Media	no
-308095	production_company	Browntable	no
-308096	production_company	Hailaiwu Entertainment Development	no
-308097	production_company	Fourth Space	no
-308098	production_company	LUMINOUS	no
-308099	production_company	Picture 11	no
-308100	production_company	尚乘数字媒体有限公司	no
-308101	production_company	TV360	no
-308102	production_company	Éclair	no
-308103	production_company	Film Crew9	no
-308104	production_company	DramaBox	no
-308105	production_company	C-Kwa 7 Prod	no
-308106	production_company	Riyashree Creations	no
-9429	tv_network	bingbong	no
-9430	tv_network	fox tv	no
-9431	tv_network	DYN Sport	yes
-9432	tv_network	oiii (DK)	no
+308107	production_company	Fuzzed Club	no
+308108	production_company	Fahleen Fang Films	no
+308109	production_company	Onedio	no
+308110	production_company	Basemode Records	no
+308111	production_company	Film Film Film	no
+308112	production_company	Idiot ink films	no
+308113	production_company	Oh Hey Do	no
+308114	production_company	Viuz.z	no
+308115	production_company	Chard Film Production	no
+308116	production_company	Nite Flights	no
+308117	production_company	Societta Ltda	no
+308118	production_company	DTR Entertainment films	no
+308119	production_company	Vermillion Den pictures	no
+308120	production_company	Eunika Media	no
+308121	production_company	Popcorn Studios	no
+308122	production_company	uncombed	no
+308124	production_company	P&P Productions	no
+308125	production_company	Era Kreatif Film ve Reklamcilik	no
+308126	production_company	Golden Wolf Pictures	no
+308127	production_company	Seen Entertainment	no
+308128	production_company	SINAGBAYAN	no
+308129	production_company	Rushing River Productions	no
+308130	production_company	Picard Productions	no
+308131	production_company	宝冢歌剧团	no
+308132	production_company	Ptichki-Petlichki Production	no
+308133	production_company	Sherman Theatre	yes
+308134	production_company	Nan Bush	no
+308135	production_company	EEVN Films	no
+308136	production_company	Tijuanita Films	no
+308137	production_company	Hermanos Sinay	no
+308138	production_company	Hathor Pictures	no
+308139	production_company	..	no
+308140	production_company	Paisley Productions	no
+308141	production_company	Chimp Steam Productions	no
+308142	production_company	Naif	no
+308143	production_company	Audiovisual Cearense Produções	no
+308144	production_company	Grim Ferryman Films	no
+308145	production_company	Axon Content	no
+308146	production_company	..	no
+308147	production_company	Estrela da Manhã Filmes	no
+308148	production_company	The Green Kitchen	no
+308149	production_company	Prero-Film	no
+308150	production_company	Neon Sky Pictures	no
+308151	production_company	La France Insoumise	no
+308152	production_company	5YLAC	no
+308153	production_company	Brs Media srl	no
+308154	production_company	Spécimen Productions Inc.	no
+308155	production_company	NonFiction Hotlist	no
+308156	production_company	Rougeworks Animation	no
+308157	production_company	orphic film production	no
+308158	production_company	knightfall studios	no
+308159	production_company	The Club Of Alexandra	no
+308160	production_company	Temp Production	no
+308161	production_company	FilmesdoLéo	no
+308162	production_company	Films Make Change	no
+308163	production_company	Alpha & Omega Productions	no
+308164	production_company	Filtro Filmes	no
+308165	production_company	Digital Native Media Group	no
+308166	production_company	Arte Necessária	no
+308167	production_company	Primo Video	no
+308168	production_company	Movie Shield	no
+308169	production_company	Howard Stone	no
+308170	production_company	HEUZIBUZI	no
+308171	production_company	Light Behind Shadow	no
+308172	production_company	Kaizen Kraft Films & Entertainment	no
+308173	production_company	Doggie House	no
+308174	production_company	Stand Up For Nature	no
+308175	production_company	GW media	no
+308176	production_company	Panstwowa Wyzsza Szkola Filmowa (PWSF)	no
+308177	production_company	Sibol Productions	no
+308178	production_company	Gutter Brothers	no
+308179	production_company	Wiener Nation	no
+308180	production_company	Wiener Nation	no
+308181	production_company	Neon Production	no
+308182	production_company	ABV Global Holdings Sdn Bhd	no
+308183	production_company	Tong Lee Service Station Sdn Bhd	no
+308184	production_company	Federation Oil Factory Sdn Bhd	no
+308185	production_company	Umalohokan Productions	no
+308186	production_company	Sciò Produzioni	no
+308187	production_company	24F Pictures	no
+308188	production_company	Windy Studios	no
+9433	tv_network	KVIK	no
+9434	tv_network	Viuz.z	no
+9435	tv_network	JioHotstar	no
 ```
