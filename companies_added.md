@@ -1,135 +1,85 @@
 # Companies added
 
-- Added: 126 (122 production companies, 4 tv networks)
-- With logos: 7
+- Added: 76 (76 production companies, 0 tv networks)
+- With logos: 2
 - Refreshed: 1755
 
 ```
 id	type	name	has_logo
-308189	production_company	48 Hour Film Project Santiago	no
-308190	production_company	Griffon Film	no
-308191	production_company	(c)ESP.9	yes
-308192	production_company	S+ Pictures	no
-308193	production_company	White Light Studio	no
-308194	production_company	Marins Film	no
-308195	production_company	Ttn Sklv Films	no
-308196	production_company	Escalier Aps	no
-308197	production_company	Scenario Bungei Kyokai	no
-308198	production_company	Arkiv Collective	no
-308199	production_company	Paradoc Film	no
-308200	production_company	Nihon Denpo tsushin-sha	no
-308201	production_company	中国中央电视台	no
-308202	production_company	Hong Kong Jockey Club Centre for Positive Aging	yes
-308203	production_company	Gollywod	no
-308204	production_company	Bell the Cat Films	no
-308205	production_company	Gollywood	no
-308206	production_company	One Person House Film	no
-308207	production_company	Media Molecule	yes
-308208	production_company	DGM Productions	no
-308209	production_company	gutter bibe	no
-308210	production_company	ParadocFilm	no
-308211	production_company	Bingkai Indonesia	no
-308212	production_company	Tyrnauer Media	no
-308213	production_company	Lab Parasea	no
-308214	production_company	Adel Abdel-Dayem AI Productions	no
-308215	production_company	MyDogAteMyHomework	no
-308216	production_company	5W Media	no
-308217	production_company	Clover Television	no
-308218	production_company	pitik buga	no
-308219	production_company	Çizgi production	no
-308220	production_company	Elmeça studios	no
-308221	production_company	Part Time Productions	no
-308222	production_company	R B film	no
-308223	production_company	RB Films	no
-308224	production_company	Skymack Productions	no
-308225	production_company	Ctrl + A	no
-308226	production_company	Ramon Production	no
-308227	production_company	Sportsko Radio 90.3 FM - Skopje	no
-308228	production_company	Freddie Pavitt Media	no
-308229	production_company	G31 Productions	no
-308230	production_company	Sumo Digital	yes
-308231	production_company	Era of Light Films	no
-308232	production_company	Pajak Pictures Productions	no
-308233	production_company	Sri Shaila Pictures	no
-308234	production_company	Institut Universitaire de France	no
-308235	production_company	Schirn Kunsthalle Frankfurt	no
-308236	production_company	Sphinx	no
-308237	production_company	HiCSA	no
-308238	production_company	LIRA	no
-308239	production_company	Kaiwara Films (Pvt) Ltd.	no
-308240	production_company	Circle Pit Pictures	no
-308241	production_company	Cercina Films Productions	no
-308242	production_company	CURATION Entertainment	no
-308243	production_company	Venkateshwara Productions	no
-308244	production_company	SPIEYE	no
-308245	production_company	Ananthlakshmi Pictures	no
-308246	production_company	Pelican Pictures	no
-308247	production_company	Mem	no
-308248	production_company	Local Story Films	no
-308249	production_company	ATO Content	no
-308250	production_company	University of Applied Science and Arts Dortmund	no
-308251	production_company	Grassroots Pictures Inc.	no
-308252	production_company	Cítrica Films	no
-308253	production_company	Distant Horizon	no
-308254	production_company	Thioniko LLC	no
-308255	production_company	BBC	no
-308256	production_company	Alexandre Sorin Productions	no
-308257	production_company	Neruda Production	no
-308258	production_company	AbyGal Productions	no
-308259	production_company	Natural Medicine Productions	no
-308260	production_company	High Grade	no
-308261	production_company	Kinobiz Film	no
-308262	production_company	Transnational Institute	no
-308263	production_company	Antara films	no
-308264	production_company	Palameda Production	no
-308265	production_company	shaminevisuals	no
-308266	production_company	You/You	no
-308267	production_company	You Vs. You	no
-308268	production_company	Eye see productions	no
-308269	production_company	Queercity Media and Productions	no
-308270	production_company	Studio Hexa	no
-308271	production_company	EcoutezVoir	no
-308272	production_company	Beach Front Productions	yes
-308273	production_company	Apollon Studio	no
-308274	production_company	DO Productions	yes
-308275	production_company	23Sul Media Produções Audiovisuais	no
-308276	production_company	Zhongshi Hangtong Film and Television Production	no
-308277	production_company	Juhetang Culture Development	no
-308278	production_company	Filmbum	no
-308279	production_company	Sheldrake Films (GB)	no
-308280	production_company	Seven Arts Pictures (GB)	no
-308281	production_company	Palomar Pictures International	no
-308282	production_company	Vision Realm	no
-308283	production_company	Porny Days	no
-308284	production_company	adult time	no
-308285	production_company	First+Main Films	no
-308286	production_company	Universal Global Television	no
-308287	production_company	Kinostudio	no
-308288	production_company	Fox 32 Chicago (WFLD)	no
-308289	production_company	АиБ Records	no
-308290	production_company	A-One Records	no
-308291	production_company	Giggly Box Co.,Ltd.	no
-308292	production_company	P.J. Epic Productions	no
-308293	production_company	Neil Enterprises	no
-308294	production_company	Aviate Pictures	no
-308295	production_company	Impound Comics	no
-308296	production_company	Printel	no
-308297	production_company	Chitch Files	no
-308298	production_company	Multi Track Movieton Pvt. Ltd.	no
-308299	production_company	All Star TV	no
-308300	production_company	M2BA	no
-308301	production_company	Watch Me Unravel	no
-308302	production_company	Garima Avinash Productions	no
-308303	production_company	Makalu Films Pvt. Ltd.	no
-308304	production_company	ArtMania Films	no
-308305	production_company	Mata Manakamana Films Pvt. Ltd.	no
-308306	production_company	Gecko Production	no
-308307	production_company	SKAA productions	no
-308308	production_company	sugarcube productions	no
-308309	production_company	Reff Films	no
-308310	production_company	Reef Films	no
-9436	tv_network	Naver Webtoon	yes
-9437	tv_network	国内全网首播：**2026‑05‑29**（金鹰卡通 17:30 电视首播；爱奇艺 / 腾讯 / 优酷 / 芒果 TV/B 站同步上线）	no
-9438	tv_network	Goodie Yahnz Media	no
-9439	tv_network	StrongTime Studios	no
+308311	production_company	Chumoli	no
+308312	production_company	F2 Pictures	no
+308313	production_company	Reg Life	no
+308314	production_company	La Tontería Productions	no
+308315	production_company	1COM1 Production	no
+308316	production_company	Astera Pictures	no
+308317	production_company	闽侯县	no
+308318	production_company	Suburbia	no
+308319	production_company	Vision Achieve Strong	no
+308320	production_company	Suburbia multimedia	no
+308321	production_company	Maverix AS	no
+308322	production_company	Al-Wafa Production	no
+308323	production_company	Chlorine Digital Media	no
+308324	production_company	SECURENT	no
+308325	production_company	City Lights (UK)	no
+308326	production_company	Timens Group	no
+308327	production_company	One Life Production	no
+308328	production_company	Alpha Works	no
+308329	production_company	New Game Media	no
+308330	production_company	Pixel Playground	no
+308331	production_company	Chasing Studios	no
+308332	production_company	Elazon Entertainment	no
+308333	production_company	niwaki	no
+308334	production_company	Shalini Cinemas	no
+308335	production_company	Arttep	no
+308336	production_company	Chasing Daylight Productions	no
+308337	production_company	Lonlumar Studios	no
+308338	production_company	Feedback Filmworks	no
+308339	production_company	Spencie Returns	no
+308340	production_company	Elite Films	no
+308341	production_company	SIGVA Media	no
+308342	production_company	Lacewood Studio	no
+308343	production_company	Measat Broadcast	no
+308344	production_company	Network Systems	no
+308345	production_company	Rainbow Co., Ltd.	no
+308346	production_company	Gone Fishing Media	no
+308347	production_company	Good Physics	no
+308348	production_company	Neruda Production	no
+308349	production_company	Vono Production	no
+308350	production_company	Avocado Pictures	no
+308351	production_company	Bleachfilms	no
+308352	production_company	Shedir Films	no
+308353	production_company	Mambo Jack Filmes	no
+308354	production_company	Watchtower Collective	no
+308355	production_company	Midnight Coffee Entertainment	no
+308356	production_company	Requisite Content	no
+308357	production_company	Focused Studios	no
+308358	production_company	Sumbadhat Productions	no
+308359	production_company	Kat Buggy Productions	no
+308360	production_company	Shenman Entertainment Da Yuzhou Studio	no
+308361	production_company	Schumann Belde film & tv	no
+308362	production_company	MediaChromo Studios	yes
+308363	production_company	In Cammino (chemin faisant)	no
+308364	production_company	KHM - Kunsthochschule für Medien Köln / Academy of Media Arts Cologne	no
+308365	production_company	May Kassem	no
+308366	production_company	Laura Marques	no
+308367	production_company	Maria Eduarda Barreto	no
+308368	production_company	Lemon Wedge Studios	no
+308369	production_company	COSMOS APEX	no
+308370	production_company	Prime Video	no
+308371	production_company	SerDiverse	no
+308372	production_company	Faculdade de Serviço Social (UFJF)	no
+308373	production_company	Free Play Productions	no
+308374	production_company	유한회사 영화사 반딧불	no
+308375	production_company	Sea To Sky Productions	no
+308376	production_company	C. Sette Cintra Filmes	no
+308377	production_company	北京快乐新升文化传播有限公司	no
+308378	production_company	THE GLIMMERING SEA OF STARS	no
+308379	production_company	BFC Films	no
+308380	production_company	IROKE	yes
+308381	production_company	LUA SHAYENNE DANCE COMPANY	no
+308382	production_company	G. P. Abraham Ltd	no
+308383	production_company	The Blended Future Project	no
+308384	production_company	JUNGLEMN Films	no
+308385	production_company	Black Mark	no
+308386	production_company	BLACK DICK	no
 ```
