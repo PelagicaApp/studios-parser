@@ -1,117 +1,101 @@
 # Companies added
 
-- Added: 108 (105 production companies, 3 tv networks)
+- Added: 92 (92 production companies, 0 tv networks)
 - With logos: 2
 - Refreshed: 1759
 
 ```
 id	type	name	has_logo
-308795	production_company	The Blue Studio	yes
-308796	production_company	Captain Platypus! Productions	no
-308797	production_company	DLC Productions	no
-308798	production_company	Oromar	no
-308799	production_company	Oromar	no
-308800	production_company	Dorcel	no
-308801	production_company	Ssarinamu Film	no
-308802	production_company	Santa Cruz Medicinals	no
-308803	production_company	Adrenalin	no
-308804	production_company	Flare	no
-308805	production_company	Anubis Pictures	no
-308806	production_company	Glacé Media	no
-308807	production_company	Mosaic Productions	no
-308808	production_company	Damru Productions	no
-308809	production_company	Hochschule Anhalt	no
-308810	production_company	Studio Redson	no
-308811	production_company	Spike Media	no
-308812	production_company	Spective Studios	no
-308813	production_company	Iguana Enterprises	no
-308814	production_company	Crizmo Productions	no
-308815	production_company	Cachila Producciones	no
-308816	production_company	SIAMO un magazine Productions	no
-308817	production_company	B.A.S. Acting Studios	no
-308818	production_company	Blueprint Media	no
-308819	production_company	Disforia Films	no
-308820	production_company	Punkt	no
-308821	production_company	Baltic-Film (PL)	no
-308822	production_company	Scarty Production	no
-308823	production_company	YeahBvddy	no
-308824	production_company	Dream Katcher Productions	no
-308825	production_company	Dokumentaravdelingen	no
-308826	production_company	Abraham_11 Productions	no
-308827	production_company	Binge Entertainment	no
-308828	production_company	Festival 1001 Notes	no
-308829	production_company	Camino Productions Inc.	no
-308830	production_company	RUFFHAUS	no
-308831	production_company	The Deep End Films	no
-308832	production_company	Pre-Code	no
-308833	production_company	Les Productions Cool Raoul	no
-308834	production_company	JI Label	yes
-308835	production_company	Block 12	no
-308836	production_company	Associazione Treno dei Sogni	no
-308837	production_company	Squared Media	no
-308838	production_company	Black Tie Pictures	no
-308839	production_company	Kabo Story	no
-308840	production_company	Kino Productions	no
-308841	production_company	Golden Filmworks	no
-308842	production_company	Compasso Da Tesoura	no
-308843	production_company	LaBranche Productions	no
-308844	production_company	Salamander Studios	no
-308845	production_company	Kitty Studio	no
-308846	production_company	Allan McKeown Presents	no
-308847	production_company	Creative Cowboys	no
-308848	production_company	Lurelei	no
-308849	production_company	Mika Entertainment	no
-308850	production_company	Magnified Pictures	no
-308851	production_company	UCI Artist	no
-308852	production_company	Featherstone Pictures UK	no
-308853	production_company	Silvio Films	no
-308854	production_company	Silvio Productions	no
-308855	production_company	Portisch-Riff Ges.m.b.H.	no
-308856	production_company	Horsemaker Studios	no
-308857	production_company	ScratchToon Productions	no
-308858	production_company	Stretchy	no
-308859	production_company	The Walten Files Team	no
-308860	production_company	Entrego	no
-308861	production_company	Time International	no
-308862	production_company	Interpannonia Film Ltd.	no
-308863	production_company	Funny Film	no
-308864	production_company	Photo shooter 99	no
-308865	production_company	Creepy Van Films	no
-308866	production_company	Luna Media Company	no
-308867	production_company	Wake Up Productions Ltd	no
-308868	production_company	Riñón Izquierdo	no
-308869	production_company	SIE Investment	no
-308870	production_company	EWC Creatives	no
-308871	production_company	Asta Universal Media	no
-308872	production_company	Le Majestieux Company	no
-308873	production_company	Femor Productions	no
-308874	production_company	Gen Pop Entertainment	no
-308875	production_company	Gonin Saga Production Committee	no
-308876	production_company	Little Arty Productions	no
-308877	production_company	MMI	no
-308878	production_company	Satellite Cinema	no
-308879	production_company	OB Kikaku	no
-308880	production_company	Glover Pictures	no
-308881	production_company	Uno Criativo	no
-308882	production_company	DNA Produções Artísticas	no
-308883	production_company	HEMERO.	no
-308884	production_company	Happy Designs	no
-308885	production_company	QatroGatos Pixel Factory	no
-308886	production_company	The Hexascope Collective	no
-308887	production_company	Lucho Sabe Productions LLC	no
-308888	production_company	Cult Studio	no
-308889	production_company	Studio Feather	no
-308890	production_company	COTA Entertainment	no
-308891	production_company	Gold Screen Pictures	no
-308892	production_company	Silver Sky Productions	no
-308893	production_company	HD Cinema Productions	no
-308894	production_company	Six Feet Under Entertainment	no
-308895	production_company	tres ilusiones films	no
-308896	production_company	نادي الشباب	no
-308897	production_company	Sine Sinati	no
-308898	production_company	Liz Katz Productions	no
-308899	production_company	Fumble Bee Productions	no
-9451	tv_network	oneplay	no
-9452	tv_network	masreya media	no
-9453	tv_network	江苏城市频道	no
+308900	production_company	La Gamine Volante	no
+308901	production_company	Serendipity Studios	no
+308902	production_company	Thanapat Poonsapya Productions	no
+308903	production_company	Flesh Wound Productions	no
+308904	production_company	Ibabao Film Community	no
+308905	production_company	Fulmini & Leopardi (IT)	no
+308906	production_company	Studio Italiano di Storia dell’Arte	no
+308907	production_company	Làstrego & Testa Multimedia (IT)	no
+308908	production_company	Vilanova Productions	no
+308909	production_company	Alto Invest	no
+308910	production_company	Collectif Colombes	no
+308911	production_company	CJ BLUE Entertainment	no
+308912	production_company	Blue Group	no
+308913	production_company	Le Chat qui dort	no
+308914	production_company	Le progrès	no
+308915	production_company	Le Progrès	no
+308916	production_company	Moon Coyote Productions	no
+308917	production_company	Haruru Filmak	no
+308918	production_company	Palette Terre	no
+308919	production_company	Agencija za web portale i novinske delatnosti PINA NC	no
+308920	production_company	Produkcija Perun	no
+308921	production_company	Aquila Films	no
+308922	production_company	FearPix TV	no
+308923	production_company	Prism Lens FX	no
+308924	production_company	Limi Projects	no
+308925	production_company	Bambu Filmes	no
+308926	production_company	Blue Desk	no
+308927	production_company	The Danish Film School	no
+308928	production_company	Cosmopolitan Pictures (US)	yes
+308929	production_company	Tent Renter Productions	no
+308930	production_company	Goli Baje Films	no
+308931	production_company	Morphi	no
+308932	production_company	No Focus? No Problem! Productions	no
+308933	production_company	La Jolla Playhouse	no
+308934	production_company	Key Animation Studio	yes
+308935	production_company	Sinekra Entertainment	no
+308936	production_company	Casita	no
+308937	production_company	Chini.png	no
+308938	production_company	Matucana 100	no
+308939	production_company	Night Films	no
+308940	production_company	SCP	no
+308941	production_company	Tailor Film Productions	no
+308942	production_company	Long Shot Productions, Ltd	no
+308943	production_company	About C.	no
+308944	production_company	deffi records	no
+308945	production_company	Xenja Cinema	no
+308946	production_company	Paddy Wok	no
+308947	production_company	Archadia	no
+308948	production_company	Studios Pan-Imago	no
+308949	production_company	Schreibman/Kant Films	no
+308950	production_company	Jejeg Production	no
+308951	production_company	Smenda Production	no
+308952	production_company	Main Street Media	no
+308953	production_company	Liceo Moderno Celestín Freinet	no
+308954	production_company	JR1S	no
+308955	production_company	Flopped Productions	no
+308956	production_company	CAST Production	no
+308958	production_company	Ibozvukslab	no
+308959	production_company	Asia Group (AG)	no
+308960	production_company	Noisy Bench	no
+308961	production_company	The Alkazi Foundation for the Arts	no
+308962	production_company	Voilier Films	no
+308963	production_company	G Cosmos	no
+308964	production_company	G.O Films International	no
+308965	production_company	Paradoxa	no
+308966	production_company	Flying Eagle Entertainments LLP	no
+308967	production_company	Secret Of Us Official (我们的秘密)	no
+308968	production_company	Paperboy Pictures	no
+308969	production_company	La Raie Rouge	no
+308970	production_company	ToonTastic Entertainment	no
+308971	production_company	New Plot Films	no
+308972	production_company	Horizon Films (PL)	no
+308973	production_company	Headass Boys	no
+308974	production_company	JMC Productions	no
+308975	production_company	AYS Protection Sdn Bhd	no
+308976	production_company	Ndf Luxe Sdn Bhd	no
+308977	production_company	Atharizz Studio Sdn Bhd	no
+308978	production_company	The Down Low Concept	no
+308979	production_company	PBfilms Sdn Bhd	no
+308980	production_company	Tempo Infinito Filmes	no
+308981	production_company	Crooked Toes	no
+308982	production_company	Gerbang Filem Sdn Bhd	no
+308983	production_company	Nuansa Film Sdn Bhd	no
+308984	production_company	Layar Atma Kreatif	no
+308985	production_company	Atomic Toybox Entertainment	no
+308986	production_company	IVC Media	no
+308987	production_company	Killer Tomato Entertainment	no
+308988	production_company	iFAME (iFabulous Art Media & Event)	no
+308989	production_company	Murray International	no
+308990	production_company	Bright Pictures TV	no
+308991	production_company	Hashtag NP	no
+308992	production_company	Cinevedas	no
 ```
