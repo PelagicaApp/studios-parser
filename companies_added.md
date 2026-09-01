@@ -1,83 +1,99 @@
 # Companies added
 
-- Added: 74 (70 production companies, 4 tv networks)
-- With logos: 6
-- Refreshed: 1759
+- Added: 90 (86 production companies, 4 tv networks)
+- With logos: 8
+- Refreshed: 1762
 
 ```
 id	type	name	has_logo
-309095	production_company	Melocotonero Producciones SL	no
-309096	production_company	mQuest Movies	no
-309097	production_company	Ladyred Producciones	no
-309098	production_company	El Diario Vasco	no
-309099	production_company	Mimidou Productions	no
-309100	production_company	New Servicing Media	no
-309101	production_company	Pigman Productions	no
-309102	production_company	Paramount picture​	no
-309103	production_company	Komunitas Belajar Qaryah Thayyibah	no
-309104	production_company	Sergio Jorge P.	no
-309105	production_company	Option Cinéma - Lycée Simone Veil Valbonne	no
-309106	production_company	Gorkha Films Pvt. Ltd.	no
-309107	production_company	Soggy Dog Productions	no
-309108	production_company	DAD films	no
-309109	production_company	Rzehulka Filmagentur	no
-309110	production_company	229 TV UPI	no
-309111	production_company	SR Malmö	no
-309112	production_company	Seattle International Films	no
-309113	production_company	Marvel Films	no
-309114	production_company	Tokyo Movie Shinsha	no
-309115	production_company	Enze's Channel	no
-309116	production_company	The Troll Cambodia	yes
-309117	production_company	Vientiane Capital Television	no
-309118	production_company	again again production	no
-309119	production_company	Ziva Productions	no
-309120	production_company	ACD Films	no
-309121	production_company	Chaos Factory	no
-309122	production_company	Dreamline Productions	no
-309123	production_company	Asbestos Information Committee	no
-309124	production_company	JJ Home Video (제이제이홈비디오)	no
-309125	production_company	Yes Yes Pictures	no
-309126	production_company	Cash Productions	no
-309127	production_company	Studio Goti	yes
-309128	production_company	CCube Studios	no
-309129	production_company	salute pictures	no
-309130	production_company	Le Petite Ellipse	no
-309131	production_company	Les Etincelles	no
-309132	production_company	Bluedog Productions	no
-309133	production_company	Faxon/Rash Productions	no
-309134	production_company	Simply Films	no
-309135	production_company	Union Films	no
-309136	production_company	Bizarre Europe	no
-309137	production_company	World without End	no
-309138	production_company	Produced Productions	no
-309139	production_company	ascend	no
-309140	production_company	Clyde Navigation Trust	no
-309141	production_company	Xtreme Amateurs	no
-309142	production_company	VCL	no
-309143	production_company	Dexter Burns Productions	no
-309144	production_company	Black Ink Pictures	no
-309145	production_company	Hagar Productions	no
-309146	production_company	Co.lab	no
-309147	production_company	Diagonelle	no
-309148	production_company	Imotion	no
-309149	production_company	Media DZ	yes
-309150	production_company	Vitrine Filmes España	no
-309151	production_company	Pos Video&Television	no
-309152	production_company	Parkdale Valley Land Trust	no
-309153	production_company	Bergman Productions	no
-309154	production_company	THE FILM MILL	no
-309155	production_company	Ameyukti Studios	no
-309156	production_company	Main Originals	yes
-309157	production_company	Rolling Marble Productions	no
-309158	production_company	Lady in Ermine Productions	no
-309159	production_company	Intra Communications, Inc	no
-309160	production_company	Jacket Dog Productions	no
-309161	production_company	Aabkash Films	no
-309162	production_company	Corte Y Queda	no
-309163	production_company	the fucourt	yes
-309164	production_company	Subhlaxmi Films Production	no
-9455	tv_network	Derana Plus	yes
-9456	tv_network	Kultura	no
-9457	tv_network	REUB1	no
-9458	tv_network	REUB2	no
+309165	production_company	Atipik	no
+309166	production_company	Mekin Film	no
+309167	production_company	AlmostFridayTV	no
+309168	production_company	Committee for Culture of St. Petersburg	no
+309169	production_company	Moscow Department of Culture	no
+309170	production_company	Aaveg Production	no
+309171	production_company	Cece Productions	no
+309172	production_company	Square 84 Productions	no
+309173	production_company	Cinnamon Ice Productions	no
+309174	production_company	Allusio Pictures	no
+309175	production_company	畅语网络科技有限公司	no
+309176	production_company	章鱼动漫	no
+309177	production_company	Guinness Ganesha Studios	yes
+309178	production_company	Yoshlik Film Studio	no
+309179	production_company	Suryodaya Films	no
+309180	production_company	S.O.S. Films Pvt. Ltd.	no
+309181	production_company	Bishowmurthi Films Productin Pvt. Ltd.	no
+309182	production_company	Pelikulayag	no
+309183	production_company	Inking Ideas Film Productions	no
+309184	production_company	Eiwa Production	no
+309185	production_company	Yanal Abuzaid Film	no
+309186	production_company	Wol Studio	no
+309187	production_company	Asphyxiation Films	no
+309188	production_company	B.B.CINEMA	no
+309189	production_company	さんかのっ	no
+309190	production_company	Bon Sens Production	no
+309191	production_company	Antidogma	no
+309192	production_company	Penny Drop Productions	no
+309193	production_company	Toronto Outdoor Film Festival	no
+309194	production_company	Mashburn Media	no
+309195	production_company	Dhaka Dhamaka Films	no
+309196	production_company	Outtahouse	no
+309197	production_company	Próspero Filmes	no
+309198	production_company	Tiny Nucleus	no
+309199	production_company	MS NOW	yes
+309200	production_company	Cobden Pictures	no
+309201	production_company	A Tele Factory	no
+309202	production_company	ABC-Paramount	no
+309203	production_company	Weeki Wachee	no
+309204	production_company	Denver Adonis Productions	no
+309205	production_company	Curious Genes Productions	no
+309206	production_company	Reuben Studios Family Entertainment	no
+309207	production_company	Duende	no
+309208	production_company	Pizza Chunk	no
+309209	production_company	Go South Films	no
+309210	production_company	Ganesh Creations	no
+309211	production_company	BlueBrick Productions	no
+309212	production_company	Palm Beach Atlantic University Films	no
+309213	production_company	3113 Entertainment	no
+309214	production_company	Harbinger Creative	no
+309215	production_company	Ponmalar International	no
+309216	production_company	RiVen Productions	no
+309217	production_company	Ink Cap Media	no
+309218	production_company	Dome Video Productions	no
+309219	production_company	Interleave Studios	yes
+309220	production_company	Mohan Productions	no
+309221	production_company	NewGroup Media	no
+309222	production_company	14 Luglio Cinematografica	no
+309223	production_company	Redstone Gang	no
+309224	production_company	Des movie studios	no
+309225	production_company	Kelly+Yamamoto Productions	no
+309226	production_company	Paper Cup Films	no
+309227	production_company	YZ films	no
+309228	production_company	Persi Motion Pictures	no
+309229	production_company	Alcor Film	no
+309230	production_company	Superstar Art Foundation	no
+309231	production_company	Traitor Productions	no
+309232	production_company	MC2 Produção	no
+309233	production_company	Furniss Films	no
+309234	production_company	FireSinger Productions	no
+309235	production_company	Website Years	no
+309236	production_company	Distorted Features	no
+309237	production_company	FLYOFF	yes
+309238	production_company	NDR fernsehen	no
+309239	production_company	Dasmo Films	no
+309240	production_company	Ekta Arts Pvt. Ltd.	no
+309241	production_company	Pacific Pictures Company Pvt. Ltd.	no
+309242	production_company	Công ty Nghe nhìn Hà Nội	no
+309243	production_company	宁波启一影视娱乐有限公司	no
+309244	production_company	Working Class Film Co.	yes
+309245	production_company	GRC Productions	no
+309246	production_company	Moksha Arts	no
+309247	production_company	NetShort	no
+309248	production_company	me	no
+309249	production_company	Jayashree Movie Production	no
+309250	production_company	MUGA	no
+9459	tv_network	TrueVisions NOW	yes
+9460	tv_network	VBTV	yes
+9461	tv_network	IRIB Nahal	yes
+9462	tv_network	Law&Crime	no
 ```
