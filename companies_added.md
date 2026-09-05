@@ -1,100 +1,130 @@
 # Companies added
 
-- Added: 91 (89 production companies, 2 tv networks)
-- With logos: 4
+- Added: 121 (119 production companies, 2 tv networks)
+- With logos: 5
 - Refreshed: 1764
 
 ```
 id	type	name	has_logo
-309469	production_company	OGMC Productions	no
-309470	production_company	Sino Studio	yes
-309471	production_company	Vagabond Studio	no
-309472	production_company	Magizh Mandram	no
-309473	production_company	Série d’Art Pathé Frères	no
-309474	production_company	Alexandre Bilardo Productions	no
-309475	production_company	長景路电影工作室	yes
-309476	production_company	長景路电影工作室	no
-309477	production_company	Canal Emploi	no
-309478	production_company	Mediaform Production	no
-309479	production_company	Lotus Visual Productions	yes
-309480	production_company	Counterweight Films	no
-309481	production_company	Cracker Studios	no
-309482	production_company	Micro Budget Short funded by the EU – NextGenerationEU 2.0	no
-309483	production_company	Project Arc Productions	no
-309484	production_company	Spellmaker Productions	no
-309485	production_company	Indigo View Productions	no
-309486	production_company	Finos Film Acquisition and Distribution Private Company IKE	no
-309487	production_company	Ursa Criações	no
-309488	production_company	LABo Artes Performativas	yes
-309489	production_company	BRECHA	no
-309490	production_company	Castelo Filme	no
-309491	production_company	TV5 Cambodia	no
-309492	production_company	Kara and Nate	no
-309493	production_company	Spirit Music Group	no
-309494	production_company	Mascista	no
-309495	production_company	Tendency Pictures	no
-309496	production_company	Rattle Branch Productions	no
-309497	production_company	Hypixel Studios	no
-309498	production_company	Yoquer	no
-309499	production_company	Capitolina Filmes	no
-309500	production_company	TDBD	no
-309501	production_company	Quanta Equipamentos	no
-309502	production_company	Yellow Line Films Production	no
-309503	production_company	Anti Climaticus	no
-309504	production_company	Gruppo 80 (IT)	no
-309505	production_company	Providence Road Entertainment	no
-309506	production_company	BobergProduction	no
-309507	production_company	Mundane Monster Media	no
-309508	production_company	Idiot Films	no
-309509	production_company	Lyrical Animation	no
-309510	production_company	Meatier Productions	no
-309511	production_company	Nexo Audiovisuales	no
-309512	production_company	mondance	no
-309513	production_company	Full Throttle Productions	no
-309514	production_company	Boncho	no
-309515	production_company	Weaver Media	no
-309516	production_company	Kalem Films	no
-309518	production_company	Mosca Studio	no
-309519	production_company	Running Lean Productions	no
-309520	production_company	Weekend Studios	no
-309521	production_company	Weekend Studios	no
-309522	production_company	Hipfire Video	no
-309523	production_company	LeRêve	no
-309524	production_company	Sutton screenings	no
-309525	production_company	Wiggiam pictures	no
-309526	production_company	Wilson productions	no
-309527	production_company	kwamsook entertainment	no
-309528	production_company	Film Next Door & Sons	no
-309529	production_company	Give A Reason Video Entertainment	no
-309530	production_company	Thaai Movie Creations	no
-309532	production_company	Pinball Productions	no
-309533	production_company	Viridian Films	no
-309534	production_company	The Game Crew	no
-309535	production_company	Speer/Grossman Productions	no
-309536	production_company	Winged Tiger Projects	no
-309537	production_company	Smoke One Tribe Productions	no
-309538	production_company	Jacob Hochstetler Family Association	no
-309539	production_company	North Star Miller Media	no
-309540	production_company	Staraw Productions	no
-309541	production_company	Masko Film Company	no
-309542	production_company	CRANK PICTURE$	no
-309543	production_company	Philippe L.Dib	no
-309544	production_company	El Mastaba Center	no
-309545	production_company	No Fate Project	no
-309546	production_company	The New New	no
-309547	production_company	Rāpeti Magic Films	no
-309548	production_company	HYLO Films	no
-309549	production_company	School of Future Media, The University of Hong Kong	no
-309550	production_company	Birdy Fox Films	no
-309551	production_company	Broken Glass Media	no
-309552	production_company	Stainglass Entertainment	no
-309553	production_company	Powder Keg Films	no
-309554	production_company	Meant To Be Media	no
-309555	production_company	Shantul Films	no
-309556	production_company	Short Straw Films	no
-309557	production_company	Moon Over Mansfield Productions Inc.	no
-309558	production_company	Machhapuchre Films Pvt. Ltd.	no
-309559	production_company	MEGRLOMANIA PHANTASY WORKS	no
-9465	tv_network	MNC Media (ID)	no
-9466	tv_network	NHK	no
+309560	production_company	Namovie	no
+309561	production_company	Padma Pictures Pvt. Ltd.	no
+309562	production_company	Mirabilia Entertainment	no
+309563	production_company	Sigdel Films Pvt. Ltd.	no
+309564	production_company	Film World Pvt. Ltd.	no
+309565	production_company	m&m&m media	no
+309566	production_company	Western International Trade	no
+309567	production_company	Fingerkino	no
+309568	production_company	DLB FILMS	no
+309569	production_company	Co. Fa. Service	no
+309570	production_company	Sherthani Films	no
+309571	production_company	Image Network	no
+309572	production_company	El Perro S.A.S.	no
+309573	production_company	shanaya media	no
+309574	production_company	PlayTime Entertainment	no
+309575	production_company	星光国际传媒集团	no
+309576	production_company	VALLESPIR 75	no
+309577	production_company	Guy890	no
+309578	production_company	KOKOTEKO	no
+309579	production_company	Stone Cold Productions	no
+309580	production_company	DFM Creative	no
+309581	production_company	Ilona VR	no
+309582	production_company	Fall Risk Entertainment	no
+309583	production_company	Short Films	no
+309584	production_company	Linder Productions	no
+309585	production_company	Butt Stuff Productions	no
+309586	production_company	Smyth Films	no
+309587	production_company	Capus Mundi Studios	no
+309588	production_company	Mazumzé Filmes	no
+309589	production_company	Bali Do Ocidente Produções	no
+309590	production_company	Blue Frog Productions	no
+309591	production_company	Middling Women	no
+309592	production_company	Circolo Culturale G.Bini di Flambro	no
+309593	production_company	Imperial Records	no
+309594	production_company	Paramount Plus	no
+309595	production_company	KRK Creations	no
+309596	production_company	Universal Music Japan	no
+309597	production_company	Universal Music Japan	no
+309598	production_company	Gerbilhouse	no
+309599	production_company	Animation of Arizona	no
+309600	production_company	ユニバーサルミュージック	no
+309601	production_company	Bill Walker Productions, Inc.	no
+309602	production_company	Annam Movies	no
+309603	production_company	Para Kreator	no
+309604	production_company	Untitled	no
+309605	production_company	Sultana Siddiqui	no
+309606	production_company	Cinergies	no
+309607	production_company	Esme Grace Pictures	no
+309608	production_company	LM Filmes	no
+309609	production_company	LINK Produções Audio Visuais	no
+309610	production_company	Varga Pictures	no
+309611	production_company	Cubb Films	no
+309612	production_company	Eighth Driver Films	no
+309613	production_company	Aksarasa	no
+309614	production_company	Cinergies	no
+309615	production_company	UNTITLED	yes
+309616	production_company	T-Interlace Media Productions	no
+309617	production_company	Mugna Creative Works	no
+309618	production_company	Barking Owl	yes
+309619	production_company	Final Film	no
+309620	production_company	Vox Haus	yes
+309621	production_company	941 Productions	no
+309622	production_company	Flatlander Films	no
+309623	production_company	HuGas Productions	no
+309624	production_company	Multivision	no
+309625	production_company	The End	no
+309626	production_company	Tool Kit	no
+309627	production_company	Avantgarde Production	no
+309628	production_company	Tru Narrativ	no
+309629	production_company	Spicy Daisy Productions	no
+309630	production_company	Stazo Film Productions Ltd	no
+309631	production_company	Iroko Produtora e Assessoria	no
+309632	production_company	Vetor Filmes	no
+309633	production_company	Blendtec	no
+309634	production_company	Himalaya TV	no
+309635	production_company	Haque | Fisher	no
+309636	production_company	Emorix Films	no
+309637	production_company	Aaron Fisher Media	no
+309638	production_company	Built On Cinema	no
+309639	production_company	Matinta Filmes	no
+309640	production_company	Novercia	no
+309641	production_company	Trident Productions	no
+309642	production_company	Romanov Production	no
+309643	production_company	Armax Films	no
+309644	production_company	Evolire	no
+309645	production_company	Evolire Producciones	no
+309646	production_company	Padang Produções	no
+309647	production_company	Paravox	no
+309648	production_company	A Lost and Found Sight and Sound Production	no
+309649	production_company	Padang Promoções	no
+309650	production_company	Dynamical Light Studio	no
+309651	production_company	Yaaklong Production	no
+309652	production_company	Ámbar Ceniza	no
+309653	production_company	Sideshow Inc	no
+309654	production_company	BBC Titans	no
+309655	production_company	International Media Funds Management	no
+309656	production_company	Tropico Lab	no
+309657	production_company	Bledi In Progress	no
+309658	production_company	FoxFur	yes
+309659	production_company	Areyto Eléniko	no
+309660	production_company	Bleach Films	no
+309661	production_company	susyfilms	no
+309662	production_company	Blue Water Films	no
+309663	production_company	LT Productions	no
+309664	production_company	Studio 29 Films	no
+309665	production_company	Cineventure 6	no
+309666	production_company	Sub/Liminal Productions	no
+309667	production_company	Jean-Claude Rousseau	no
+309668	production_company	PSYCHOLOGICAL PRODUCTION	no
+309669	production_company	The Emperor's New Clothes	no
+309670	production_company	Four Rings Studio	no
+309671	production_company	Tito Coca	no
+309672	production_company	Creature Weature Productions	no
+309673	production_company	Giraffffes	no
+309674	production_company	Mohan Mohammed Films	no
+309675	production_company	Serikat Kami	no
+309676	production_company	Walhi Kalimantan Selatan	no
+309677	production_company	Acte 2	no
+309678	production_company	稻草综合制作有限公司	no
+9467	tv_network	15min	no
+9468	tv_network	Apple Podcasts	yes
 ```
