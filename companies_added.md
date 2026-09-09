@@ -1,122 +1,96 @@
 # Companies added
 
-- Added: 113 (108 production companies, 5 tv networks)
-- With logos: 1
+- Added: 87 (86 production companies, 1 tv networks)
+- With logos: 4
 - Refreshed: 1766
 
 ```
 id	type	name	has_logo
-309869	production_company	Vikrant Rai Films	no
-309870	production_company	Broekzak Films	no
-309871	production_company	Patang Pictures	no
-309872	production_company	Julie Tolza – SEVENTINE	no
-309873	production_company	The Boston Movie Company	no
-309874	production_company	Caroline Delage	no
-309875	production_company	Electric Prism	no
-309876	production_company	Los Hermanos Polo Films	no
-309877	production_company	Grão de Histórias	no
-309878	production_company	Asun Rodriguez	no
-309879	production_company	Cinescalas	no
-309880	production_company	CAT PRODUCTION	no
-309881	production_company	Broken Leg Proudctions	no
-309882	production_company	Stillroom Studios Sdn Bhd.	no
-309883	production_company	When it comes to booking accommodations for your next vacation or business trip, Priceline Hotels offers one of the most reliable and comprehensive services available online.	no
-309884	production_company	Generation Eleven Pictures	no
-309885	production_company	KMM Ventures	no
-309886	production_company	Domingo Producciones	no
-309887	production_company	Kalaimagal Kalaikoodam	no
-309888	production_company	The Fourth Dimension Academy	no
-309889	production_company	New Line Talkies	no
-309890	production_company	Jalpa Cine Arts Pvt. Ltd.	no
-309891	production_company	Noman production	no
-309892	production_company	Jay Chamunda Sai Pvt. Ltd.	no
-309893	production_company	zeevision.ir	no
-309894	production_company	Nitts Productions	no
-309895	production_company	库洛游戏	no
-309896	production_company	Lautaro Film - Sindicato Argentino	no
-309897	production_company	C.B. Films Pvt. Ltd.	no
-309898	production_company	Meerturtle Productions	no
-309899	production_company	Jharana Motion Pictures Pvt. Ltd.	no
-309900	production_company	Brazilian Television	no
-309901	production_company	Siddhi Binayak Films Pvt. Ltd.	no
-309902	production_company	Paramount pictures	no
-309903	production_company	Cinedox AB	no
-309904	production_company	TAMANO	no
-309905	production_company	Brazilian Television Filmes	no
-309906	production_company	NegoBras Rio de Janeiro	no
-309907	production_company	FishTeam	no
-309908	production_company	Uttar Ganga Films Pvt. Ltd.	no
-309909	production_company	LNKGO	no
-309910	production_company	Laxmipuja Films Pvt. Ltd.	no
-309911	production_company	Satanarts TV	no
-309912	production_company	KemFilm	no
-309913	production_company	Artisan Films	no
-309914	production_company	Séquences Clés Productions	no
-309915	production_company	Black Dog Productions	no
-309916	production_company	ATYPIK Studio	no
-309917	production_company	Sibir	no
-309918	production_company	LNK GO	no
-309919	production_company	Lilithfilms	no
-309920	production_company	Klaketa Árabe	no
-309921	production_company	The Between Women Filmmakers’ Caravan	no
-309922	production_company	Coast to Coast	no
-309923	production_company	KinoOlimp	no
-309924	production_company	Xenoslit AI Targeting System	no
-309925	production_company	Image-Nation BCN	no
-309926	production_company	Cineartists	no
-309927	production_company	Central film school	no
-309928	production_company	Louis Tracy Productions	no
-309929	production_company	Reality TV Productions	no
-309930	production_company	Shanghai Disney Resort	no
-309931	production_company	R&R Pictures	no
-309932	production_company	Tokamak Pictures	no
-309933	production_company	Notice Productions	no
-309934	production_company	Biscaia-Carnide Stuido	no
-309935	production_company	Biscaia-Carnide Studio (PT)	no
-309936	production_company	Shortcutz Ovar (PT)	no
-309937	production_company	Colgado Productions	no
-309938	production_company	Black & Boujee Productions	no
-309939	production_company	McGuffin	no
-309940	production_company	Mcguffin	no
-309941	production_company	Mamoulon Creative	no
-309942	production_company	Felis Pictures	no
-309943	production_company	Mountain Lion Films	no
-309945	production_company	Bella Animación La Película	no
-309946	production_company	Acheron Films	no
-309947	production_company	Ming Hwa Production Ltd.	no
-309948	production_company	Espectros Visibles	no
-309949	production_company	The Winthrop Moving Picture Co.	no
-309950	production_company	La Daga Productions	no
-309951	production_company	Turning-Heads_ Media	no
-309952	production_company	GachaMation Television	no
-309953	production_company	Ryan K Films	no
-309954	production_company	Greenday Films	no
-309955	production_company	Honto Production	no
-309956	production_company	Pottermore Publishing	no
-309957	production_company	Krown'd Kingd'm Entertaiment	no
-309958	production_company	Naniiro	no
-309959	production_company	Joint Entertainment International	no
-309960	production_company	Version 510 Productions	no
-309961	production_company	a Lunsford Company	no
-309962	production_company	S. Jensen Studios	no
-309963	production_company	Rosemary St Films	no
-309964	production_company	Khepri Productions	no
-309965	production_company	me la sono inventata sul momento	no
-309966	production_company	Janapukar Media House Pvt. Ltd.	no
-309967	production_company	Underhanded Productions	no
-309968	production_company	Geral Filmes	no
-309969	production_company	Shovelware films	no
-309970	production_company	Tlahuicole Productions	yes
-309971	production_company	Serikat Suket	no
-309972	production_company	Mantrabumi	no
-309973	production_company	LPM Jimat	no
-309974	production_company	Jatam	no
-309975	production_company	Southbox Entertainment	no
-309976	production_company	Win from Within Productions	no
-309977	production_company	Andras Hamori Productions	no
-9475	tv_network	LNK GO	no
-9476	tv_network	LNK GO	no
-9477	tv_network	LNK GO	no
-9478	tv_network	Gelatina	no
-9479	tv_network	Filmbox+	no
+309978	production_company	Salom TV	no
+309979	production_company	Public House Pictures	yes
+309980	production_company	JLo7Art / México /  Productora audiovisual independiente mexicana.	no
+309981	production_company	Betontod Records	no
+309982	production_company	Schmollywood	no
+309983	production_company	Harish Cinemas	no
+309984	production_company	Wiqqi Films	no
+309985	production_company	SIMIA Productions	no
+309986	production_company	Hamm4	no
+309987	production_company	Akt Produksjon	no
+309988	production_company	Continente Pictures	no
+309989	production_company	Công ty cổ phần Sao Thế Giới	no
+309990	production_company	Kinouniprod	no
+309991	production_company	Doublethink Films	yes
+309992	production_company	Lobo Rojo Films	no
+309993	production_company	Serious Moonlight Productions	no
+309994	production_company	Chattery Teeth Productions	no
+309995	production_company	Raggy Media	no
+309996	production_company	Xata producciónes	no
+309997	production_company	Euro Fiction	no
+309998	production_company	Ekura Animal	no
+309999	production_company	Danny Patterson Productions	no
+310000	production_company	YanaLin	no
+310001	production_company	FVP Media	no
+310002	production_company	Bee Sting Films	no
+310003	production_company	VIGA	no
+310004	production_company	BDBD Story Studio	no
+310005	production_company	KeiBoogie Productions	yes
+310006	production_company	Sbadadm Production	no
+310007	production_company	Sbadadam Production	no
+310008	production_company	Facture Production	no
+310009	production_company	SALDARIN 6 MOVIE	no
+310010	production_company	Mogili Nithish Kumar	no
+310011	production_company	GE Productions	no
+310012	production_company	Autumn Productions	no
+310013	production_company	H.Björk Productions	no
+310014	production_company	Rosita's Bizum	no
+310015	production_company	Original Quality	no
+310016	production_company	Studio abit	yes
+310017	production_company	Womp Stomp Films	no
+310018	production_company	Booska-P	no
+310019	production_company	So-Foot	no
+310020	production_company	Deggael Communications	no
+310021	production_company	Family Care Foundation	no
+310022	production_company	Musée Rodin	no
+310023	production_company	Double Vision Interactive	no
+310024	production_company	Mageia Oy	no
+310025	production_company	Sarcofagus	no
+310026	production_company	Hot Tension	no
+310027	production_company	Artist International Group	no
+310028	production_company	Black Square Magazine	no
+310029	production_company	Institut d'Estudis Catalans	no
+310030	production_company	KobeDaMan Studios	no
+310031	production_company	Urban Production GmbH	no
+310032	production_company	Turning-Heads_ Animation	no
+310033	production_company	Kvietfilm	no
+310034	production_company	Great Films LLC	no
+310035	production_company	ARTEPOFAGIA	no
+310036	production_company	Zetawave Productions	no
+310037	production_company	BEsmut	no
+310038	production_company	Evan Saxon Productions	no
+310039	production_company	Giant Squid Films	no
+310040	production_company	All Day Breakfast	no
+310041	production_company	St. Quay Films	no
+310042	production_company	Agencja Artystyczna Eskander	no
+310043	production_company	Sagesse Productions	no
+310044	production_company	Cover Story	no
+310045	production_company	JacksonOneMedia	no
+310046	production_company	Valiant World Media Group	no
+310047	production_company	Luna Pictures, Inc.	no
+310048	production_company	Shanghai Pictures Sdn. Bhd.	no
+310049	production_company	Baozhijie Group Co., LTD	no
+310050	production_company	Cinematográfica Ojalá	no
+310051	production_company	IquaCine	no
+310052	production_company	Today is Friday In California Productions	no
+310053	production_company	AnimeFesta block	no
+310054	production_company	Gail and Efron Productions	no
+310055	production_company	Sena Film	no
+310056	production_company	Triple Threat Films	no
+310057	production_company	Dave Lee Productions	no
+310058	production_company	Stained Glass Films	no
+310059	production_company	Weamigoss	no
+310060	production_company	Chyorno-beloe kino	no
+310061	production_company	Kiosk Films	no
+310062	production_company	J2F Production	no
+310063	production_company	Purocuento Films	no
+9480	tv_network	ZEE5	no
 ```
