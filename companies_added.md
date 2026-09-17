@@ -1,135 +1,128 @@
 # Companies added
 
-- Added: 126 (119 production companies, 7 tv networks)
-- With logos: 6
-- Refreshed: 1773
+- Added: 119 (117 production companies, 2 tv networks)
+- With logos: 4
+- Refreshed: 1774
 
 ```
 id	type	name	has_logo
-310796	production_company	OLYMPUS	no
-310797	production_company	Clapp Trapp Productions	no
-310798	production_company	Samjhana Films Pvt. Ltd.	no
-310799	production_company	Kankyo Television Trust	no
-310800	production_company	Amateur CLOVER	no
-310801	production_company	Dinas Pariwisata Kabupaten Bekasi	no
-310802	production_company	Krakonošovo	no
-310803	production_company	CINETECH	yes
-310804	production_company	البيت الفني للمسرح	no
-310805	production_company	Baykuş Show	no
-310806	production_company	فرقة تحية كاريوكا المسرحية	no
-310807	production_company	SSL Studio's	no
-310808	production_company	twin freaks studio, s.l.	no
-310809	production_company	Aftasta Borðið	no
-310810	production_company	Rumble	no
-310811	production_company	الشراع الفضي للإنتاج الإعلامي	no
-310812	production_company	Cunamis Films	no
-310813	production_company	Show guys	no
-310814	production_company	Ferretti International s.r.l.	no
-310815	production_company	عصام إمام	no
-310816	production_company	Just Republic	no
-310817	production_company	Fame Fighting	no
-310818	production_company	Komeda Films	no
-310819	production_company	Hatake Studio	no
-310820	production_company	Sweeper Studios	no
-310821	production_company	Mai Production	no
-310822	production_company	KBS	no
-310823	production_company	Borderline FAE	no
-310824	production_company	Level Field Media Finance	no
-310825	production_company	Admiral Films	no
-310826	production_company	STVR	no
-310827	production_company	Food Network Italia	no
-310828	production_company	Mediterranean Films	no
-310829	production_company	ALTANOCTA	no
-310830	production_company	Olle Morfar FIlm	no
-310831	production_company	E2F Film 1 inc.	no
-310832	production_company	Heros Fragiles	no
-310833	production_company	Escalenta	no
-310834	production_company	Factanza Media	no
-310835	production_company	Little Baby Holler Productions	no
-310836	production_company	AAA-MEDIA	no
-310837	production_company	ORBIUM Studios	no
-310838	production_company	Storyteller Entertainment	no
-310839	production_company	Divine Virus	no
-310840	production_company	JG Kids	no
-310841	production_company	Kapaho Lising Productions	no
-310842	production_company	AudioVisuals	no
-310843	production_company	Piccolo Creative	no
-310844	production_company	WotNot Pictures	no
-310845	production_company	Mediabox (CY)	no
-310846	production_company	Mediabox (CY)	no
-310847	production_company	Stander Productions	no
-310848	production_company	Cookie Cutter Productions	no
-310849	production_company	Camp/Timbermann Productions	no
-310850	production_company	Salto Filmes	no
-310851	production_company	Spatz Audiovisual	no
-310852	production_company	Story Works	no
-310853	production_company	Stanley Schneider Productions	no
-310854	production_company	Frankovich/Self Productions	no
-310855	production_company	Edmontosaurus Inc.	no
-310856	production_company	UnivaleTV	no
-310857	production_company	R.A.T Films	no
-310858	production_company	PodzZzaborom pictures	no
-310859	production_company	Shoman Productions	no
-310860	production_company	Hyperbole Medien GmbH	no
-310861	production_company	TEEN’S CANDY	no
-310862	production_company	Play Productions	no
-310863	production_company	Feingold Films	no
-310864	production_company	Applecart	no
-310865	production_company	Atlas Adventures	no
-310866	production_company	COUM Transmissions	no
-310867	production_company	JLNH Productions	no
-310868	production_company	Pensar & Acreditar Produtora	no
-310869	production_company	Pensar & Acreditar Produções	no
-310870	production_company	Sounds Like Film	no
-310871	production_company	Kanon Film	no
-310872	production_company	SNF Bangla	no
-310873	production_company	Danaan Publishing	no
-310874	production_company	RickeyRovitoProductions	no
-310876	production_company	JCST	no
-310877	production_company	Radiotopia	no
-310878	production_company	Ujiri Productions	yes
-310879	production_company	Tuskers Den Pictures	no
-310880	production_company	SYLYAN PRODUCTIONS	no
-310881	production_company	Banijay Rights	yes
-310882	production_company	Gen Film	no
-310883	production_company	Peter & fish	no
-310884	production_company	NuttyLenz Films	no
-310885	production_company	Rice Is Nice Productions	no
-310886	production_company	frame generation	no
-310887	production_company	Boram Entertainment	no
-310888	production_company	Back House Productions	no
-310889	production_company	Max Woods Productions	no
-310890	production_company	autoral	no
-310891	production_company	Panic Ventures	no
-310892	production_company	Magic Heart Film Production	no
-310893	production_company	Fableist	no
-310894	production_company	Trizz Studio	no
-310895	production_company	Sembilan Mahameru Sinema	no
-310896	production_company	Deni Creator	no
-310897	production_company	360 Digital Studios	no
-310898	production_company	World Safari Productions	no
-310899	production_company	Shreyanidhi Creations	no
-310900	production_company	Trailer Filmes	no
-310901	production_company	Lukewarm Films	no
-310902	production_company	Sketchy Things	no
-310903	production_company	Einibó Films	no
-310904	production_company	Três Tempos Filmes	no
-310905	production_company	Radioclip Produções	no
-310906	production_company	Chitrakorn Productions	no
-310907	production_company	Concello de Parada de Síl	no
-310908	production_company	Medusa	no
-310909	production_company	The 11th Hour Project	yes
-310910	production_company	Raising Day Entertainment	no
-310911	production_company	Eyecon	no
-310912	production_company	A24	no
-310913	production_company	Jubiliance	no
-310914	production_company	Apex Mission Entertainment	no
-310915	production_company	Polymer	no
-9499	tv_network	Sky Max	no
-9500	tv_network	KOCOWA	yes
-9501	tv_network	TV Nova	no
-9502	tv_network	tving	no
-9503	tv_network	Relay	yes
-9504	tv_network	UnivaleTV	no
-9505	tv_network	原神官网	no
+310916	production_company	Yellow Bulbs	no
+310917	production_company	bukit lama films	no
+310918	production_company	IrisFilms	no
+310919	production_company	WJS Productions	no
+310920	production_company	MINT Producciones	no
+310921	production_company	Seev Entertainment	no
+310922	production_company	Mari Pro	no
+310923	production_company	AKSPRO TEAM PRODUCTION	no
+310924	production_company	Oktopus Productions	no
+310925	production_company	עיריית רמת השרון	no
+310926	production_company	Sayani Gupta Movies	no
+310927	production_company	Thaai Sakthi Productions	no
+310928	production_company	NomadEye Productions	no
+310929	production_company	Point Bee Productions	no
+310930	production_company	LiveCatch	no
+310931	production_company	Filmes De Paisagem Ltda	no
+310932	production_company	Grass Jelly	no
+310933	production_company	Christopher Gabayan	no
+310934	production_company	Gabayan Media	no
+310935	production_company	Renderframe Produções Audiovisuais	no
+310936	production_company	Tattooira Produções	no
+310937	production_company	G2 Entertainment	no
+310938	production_company	Phoenix Marie Productions	no
+310939	production_company	La Mola Studio	no
+310940	production_company	Sísmica	no
+310941	production_company	Reel7 Productions	no
+310942	production_company	Acid Rain Films	no
+310943	production_company	Produkcję bramy nieba	no
+310944	production_company	Elena Carrasco	no
+310945	production_company	Produkcje bramy nieba	no
+310946	production_company	Rodeoscope	no
+310947	production_company	Panther Co.	no
+310948	production_company	Baltazar Produção & Conteúdo	yes
+310949	production_company	Lyon Park	no
+310950	production_company	Perros Meadows	no
+310951	production_company	Cuyahoga Community College	no
+310952	production_company	Regional Film (NO)	no
+310953	production_company	Yoke Pictures	no
+310954	production_company	Metrol Technology	no
+310955	production_company	Kibitzer Films	no
+310956	production_company	GiantSponge Productions	no
+310957	production_company	Drama-Film/Radio-TV Section of Roberto Clemente High School Chicago	no
+310958	production_company	Dynamical Pictures	no
+310959	production_company	Timoneira Produções	yes
+310960	production_company	Redwood Motion Pictures	no
+310961	production_company	Take the Shot Films	no
+310962	production_company	Media Funds Management	no
+310963	production_company	Soho Images Film Laboratory	no
+310964	production_company	Cine Plus Koln GmbH (DE)	no
+310965	production_company	Sound Vision GmbH (DE)	no
+310966	production_company	Urząd Miasta Gdańska (PL)	no
+310967	production_company	BlackRabbit Productions	no
+310968	production_company	Four Even Studios	no
+310969	production_company	Déclaration Studio	no
+310970	production_company	Claudia Sontheim Filmproduktion	no
+310971	production_company	Movienet Film (DE)	no
+310972	production_company	Cinéma Public Films (FR)	no
+310973	production_company	Exit Light Productions Inc.	no
+310974	production_company	Redding	no
+310975	production_company	المواكب للعلوم والدعاية والإعلان	no
+310976	production_company	Chandyland	no
+310977	production_company	Simonova.TV	no
+310978	production_company	Kaans Production And Entertainment Studio	no
+310979	production_company	Making Access Kindle for Everyone	no
+310980	production_company	smalltownhicks productions	no
+310981	production_company	Movie time productions	no
+310982	production_company	SMS Combines	no
+310983	production_company	Aqua Gemini	no
+310984	production_company	La Sept Cinema	no
+310985	production_company	Schultze-Rhonhof Film	no
+310986	production_company	Salstudios	no
+310987	production_company	tutomanstudios	no
+310988	production_company	gregouplay production	no
+310989	production_company	julienlebgdu52100studio	no
+310990	production_company	Vix Production	no
+310991	production_company	GregouPlay Production	no
+310992	production_company	Dumont Studios	no
+310993	production_company	Star Blue TV	no
+310994	production_company	BE World Class Management	no
+310995	production_company	Seminario Internacional Teológico Bautista	no
+310996	production_company	CEIL - CONICET	no
+310997	production_company	Universidad Arturo Prat	no
+310998	production_company	Grundy Productions	no
+310999	production_company	Ankle Deep LLC.	no
+311000	production_company	The Pauline Quirk Acadamy	no
+311001	production_company	CircleSolid Films	no
+311002	production_company	Inter Face	no
+311003	production_company	Conseil Général de la Charente-Maritime	no
+311004	production_company	Communauté d'agglomération de La Rochelle	no
+311005	production_company	Pays Royannais	no
+311006	production_company	Pays Rochefortais	no
+311007	production_company	G2 Productions	no
+311008	production_company	Favourite Films	no
+311009	production_company	Lone Cactus Productions	no
+311010	production_company	Forest Edge Productions	no
+311011	production_company	Pilna	no
+311012	production_company	Rust Belt Studios	no
+311013	production_company	ADHESIVE	no
+311014	production_company	Sick Boy Picture Show	no
+311015	production_company	PT Tekno Media Group	no
+311016	production_company	Jocelyn & Jocelyn	no
+311017	production_company	Gillaine Dalmedo Movies	no
+311018	production_company	Mabou Mines	no
+311019	production_company	Dwor-Film	no
+311020	production_company	Bliksum Films	no
+311021	production_company	Drama5	no
+311022	production_company	SMPN 1 Sedati	no
+311023	production_company	Ahoy Associates Entertainment (US)	no
+311024	production_company	SMPN 1	no
+311025	production_company	TaT	no
+311026	production_company	meaningof	yes
+311027	production_company	CCONBOX	no
+311028	production_company	H Productions	no
+311029	production_company	AREPA	no
+311030	production_company	Centro Rosa Fortini	no
+311031	production_company	Vaartakaar Films	no
+311032	production_company	Súbita Filmes	no
+9506	tv_network	Charana TV	yes
+9507	tv_network	VTV8	no
 ```
