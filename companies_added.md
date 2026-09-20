@@ -1,148 +1,166 @@
 # Companies added
 
-- Added: 139 (134 production companies, 5 tv networks)
-- With logos: 8
-- Refreshed: 1776
+- Added: 157 (153 production companies, 4 tv networks)
+- With logos: 5
+- Refreshed: 1777
 
 ```
 id	type	name	has_logo
-311190	production_company	National Parks DVDs	no
-311191	production_company	Maha Productions	no
-311192	production_company	Eye Catcher	yes
-311193	production_company	Jumping Frames	yes
-311194	production_company	Three Legends Entertainment	yes
-311195	production_company	Panther Films	no
-311196	production_company	Ffreebirds	no
-311197	production_company	Black Panther Films	no
-311198	production_company	Mistral Film	no
-311199	production_company	Lycée Jehan Ango	no
-311200	production_company	ט'7 בע"מ	no
-311201	production_company	Doensaduak Film	no
-311202	production_company	Star & Sky Productions	no
-311203	production_company	Hamzex Films	no
-311204	production_company	Précaire Films	no
-311205	production_company	Bridge Media Group	yes
-311206	production_company	พรรคการเรียน	no
-311207	production_company	Kohkret production	no
-311208	production_company	Mini_Keggs10	no
-311209	production_company	B_RN Criações Culturais	no
-311210	production_company	Golden Sun	no
-311211	production_company	AMA	no
-311212	production_company	VATAN	no
-311213	production_company	Crazy House Music Labs	no
-311214	production_company	Cinesquare	no
-311215	production_company	Tekmerion Productions	no
-311216	production_company	VERTIKAL	no
-311217	production_company	APOLLO SOUND	no
-311218	production_company	1001 Frames	no
-311219	production_company	Clandestine.Production	no
-311220	production_company	Gopikrishna Global Entertainers	no
-311221	production_company	Marketcom	no
-311222	production_company	Religia.tv	no
-311223	production_company	Humane World for Animals	no
-311224	production_company	Big Bang Creative	no
-311225	production_company	Miracle Studios	no
-311226	production_company	Passo Ridotto	no
-311227	production_company	Pianetamare film festival	no
-311228	production_company	Crazy Legs Features	no
-311229	production_company	Neighborhood Entertainment Fund	no
-311230	production_company	Cinetools Film	no
-311231	production_company	Internationale Film-Corporation (DE)	no
-311232	production_company	Handyyman Productions	no
-311233	production_company	Sita22 Films	no
-311234	production_company	DIPC	no
-311235	production_company	Hearst Networks Polska	no
-311236	production_company	Crime+Investigation Polsat	no
-311237	production_company	RISE Company­­	no
-311238	production_company	BKAP Film	no
-311239	production_company	CGV	no
-311240	production_company	La Patris Films, LLC	no
-311241	production_company	Something Brewing Productions	no
-311242	production_company	Zenistesia Filmes	no
-311243	production_company	visionarycircle	no
-311244	production_company	Fundación Márgenes y Vínculos	no
-311245	production_company	Surge of Power Enterprises LLC	no
-311246	production_company	Threshold House	no
-311247	production_company	Endangered Earth Foundation	no
-311248	production_company	مؤسسة الشروق للإعلام	no
-311249	production_company	Lonely Fish Productions	yes
-311250	production_company	Pest Productions	no
-311251	production_company	The Watergate Caper LLC	no
-311252	production_company	Shveka Productions	yes
-311253	production_company	To The Letter Productions	no
-311254	production_company	Crash Tako Studios	no
-311255	production_company	Ordinary Pictures	no
-311256	production_company	Hardly Know Her Productions	no
-311257	production_company	DramaShorts	no
-311258	production_company	Colectivo Espartaco	no
-311259	production_company	Colectivo audiovisual Espartaco	no
-311260	production_company	Roondog Productions	no
-311261	production_company	Delux Productions India	no
-311262	production_company	N.N. Investment Corporation	no
-311263	production_company	Fading Moon Productions	no
-311264	production_company	Samanta Enterprises	no
-311265	production_company	Mommy's Boy	no
-311266	production_company	T.V. Films Pvt. Ltd.	no
-311267	production_company	ABass Films	no
-311268	production_company	Abuela Content	no
-311269	production_company	Продюсерська Агенція «АССА»	no
-311270	production_company	JH Studios	no
-311271	production_company	Faculty of Information and Communication Technology	no
-311272	production_company	NostalgiaBox Productions	no
-311273	production_company	Big Irv's Used Films	no
-311274	production_company	MEN	no
-311275	production_company	Cinemasters	no
-311276	production_company	Inversia Films	no
-311277	production_company	BigBoyGameTown	no
-311278	production_company	Insania films	no
-311279	production_company	O25 Films	no
-311280	production_company	Shoghl Cairo Pictures	no
-311281	production_company	Thirumurugan Enterprises	no
-311282	production_company	Debesh Ghosh	no
-311283	production_company	St. George Movies	no
-311284	production_company	GW Production	no
-311285	production_company	Persistor Media	no
-311286	production_company	Ambica Films	no
-311287	production_company	Shri Vishwabharthi Films	no
-311288	production_company	Filmkar Productions	no
-311289	production_company	Ashok Pictures Pvt. Ltd.	no
-311290	production_company	Kardar Studios	no
-311291	production_company	The Collective Film Company	no
-311292	production_company	Surya Gayathri Productions	no
-311293	production_company	Sadu Chitra	no
-311294	production_company	B Major Productions	no
-311295	production_company	little gems	no
-311296	production_company	Life in Motion Productions	no
-311297	production_company	BRG Group	no
-311298	production_company	Orange Chariot	no
-311299	production_company	1989 productions	no
-311300	production_company	NonStop TV	no
-311301	production_company	Werdna Nottarts	no
-311302	production_company	Studio Lambert North	no
-311303	production_company	CK NO COMANDO	no
-311304	production_company	Drew Spears Productions	no
-311305	production_company	Shaji Films	no
-311306	production_company	Movie Crafts	no
-311307	production_company	Dinasti Sinema	no
-311308	production_company	Bamora Studio	no
-311309	production_company	CNR Pictures	no
-311310	production_company	Jerseymoth Productions	no
-311311	production_company	Troot Finland	no
-311312	production_company	Flying Fog Pictures	no
-311313	production_company	Yoga Chitra	no
-311314	production_company	Wolf Pack Pictures LLC	no
-311315	production_company	Garage-Band Films	no
-311316	production_company	Rak Buku Media	no
-311317	production_company	Bushi Bros Films	no
-311318	production_company	Line Clear Motion Pictures	no
-311319	production_company	Aazam Arts	no
-311320	production_company	Netta Lou Creative	no
-311321	production_company	Fandango Media	yes
-311322	production_company	Kingsgate Films (London) Ltd.	no
-311323	production_company	TBB Film	no
-9512	tv_network	ZEE5	no
-9513	tv_network	ZEE5	no
-9514	tv_network	Unlimited Production	no
-9515	tv_network	Sagar Arts	no
-9516	tv_network	V Sport Extra	yes
+311324	production_company	映画『VAiN』製作チーム	no
+311325	production_company	Eelectric Studio	no
+311326	production_company	11A-Dr	no
+311327	production_company	Laurostudio	yes
+311328	production_company	Forks Productions	no
+311329	production_company	Chūō Bunka Eiga	no
+311330	production_company	Aziani Iron	no
+311331	production_company	Rong	no
+311332	production_company	High Investments Films	no
+311333	production_company	Guerilla Works LLC	no
+311334	production_company	Paprika Scripted	no
+311335	production_company	East Act Entertainment	no
+311336	production_company	Tedfest Productions	no
+311337	production_company	广东无量泡映画传媒有限公司	no
+311338	production_company	广州虎虎生威影业有限公司	no
+311339	production_company	微戏时代 (深圳) 影视文化有限公司	no
+311340	production_company	广东奇真荔马影业有限公司	no
+311341	production_company	普宁市流沙电影城有限公司	no
+311342	production_company	广州展宏影业有限公司	no
+311343	production_company	江苏抖瓜文化传媒有限公司	no
+311344	production_company	佛山市蓝岳文化传媒有限公司	no
+311345	production_company	寰马影业 (浙江) 有限公司	no
+311346	production_company	南京戎盛影业有限公司	no
+311347	production_company	寰亚传媒集团	no
+311348	production_company	滚石唱片	no
+311349	production_company	EAS Music Limited	no
+311350	production_company	Cas Bean Audio	yes
+311351	production_company	丰华唱片	no
+311352	production_company	相信音乐	no
+311353	production_company	Aim Production	no
+311354	production_company	Rajawali Cipta Sinema	no
+311355	production_company	My Streets Films SK	no
+311356	production_company	Netzwerk Schweiz	no
+311357	production_company	Ekzel Films	no
+311358	production_company	My Destiny Production	no
+311359	production_company	Off the Page Entertainment	no
+311360	production_company	King Isthmus Films	no
+311361	production_company	Dirt Film	no
+311362	production_company	Dapper Cat Pictures	no
+311363	production_company	Invasion Studios	no
+311364	production_company	Martini Pictures	no
+311365	production_company	Kruefilms	no
+311366	production_company	Florenzano Films	no
+311367	production_company	Isle of Dogs Films	no
+311368	production_company	Daciano Films	no
+311369	production_company	Diablo FilmWorks	no
+311370	production_company	Resurrection Films I	no
+311371	production_company	Hellfire Cinema	no
+311372	production_company	Keptone Filmz	no
+311373	production_company	Endangered Spirit	no
+311374	production_company	Raghav Pillutla Films	no
+311375	production_company	Impossible Funky Productions	no
+311376	production_company	C	no
+311377	production_company	Lakshmi Film Combines	no
+311378	production_company	Aura Production	no
+311379	production_company	Tiwi	no
+311380	production_company	Ahlaksız Canavar	no
+311381	production_company	Packer Productions Ltd.	no
+311382	production_company	R.L. Square	no
+311383	production_company	TRAKK Productions	no
+311384	production_company	Makrophobic Films	no
+311385	production_company	New York Horror Film Productions	no
+311386	production_company	b4 Productions	no
+311387	production_company	Rural Route One	no
+311388	production_company	NU Theater	no
+311389	production_company	Traditional Films	no
+311390	production_company	A213 production	no
+311391	production_company	RAW	no
+311392	production_company	99 Film Production & Development	no
+311393	production_company	VSTM	no
+311394	production_company	Manmade Entertainment Productions	no
+311395	production_company	Golden Trophy Film Production	no
+311396	production_company	Coletivo Guarda Chuva Amarelo	no
+311397	production_company	Two Faces	no
+311398	production_company	Lembayung Pictures	no
+311399	production_company	Cine Club Kulon Progo	no
+311400	production_company	4 Ventos	no
+311401	production_company	Clear Star Pictures	no
+311402	production_company	Iris Feminist Collective	no
+311403	production_company	Smena Film Company LLC	no
+311404	production_company	Atlantide Audiovisivi	no
+311405	production_company	ACF Arezzo	no
+311406	production_company	Drift Releasing	no
+311407	production_company	Cinema Di Cria	no
+311408	production_company	Rosetta Pictures	no
+311409	production_company	Celtic Broadcasting	no
+311410	production_company	Vagabond Films	no
+311411	production_company	Vision TV	no
+311412	production_company	Resistance Productions	no
+311413	production_company	Nebuchadnezzar Productions	no
+311414	production_company	Ziehl & Zal	no
+311415	production_company	The Spuzzle Group	no
+311416	production_company	K&J Studios	no
+311417	production_company	Agran Barton Television	no
+311418	production_company	WPBT Community Television Foundation of South Florida Inc.	no
+311419	production_company	Abba Film & Entertainment	no
+311420	production_company	Dry Canyon	no
+311421	production_company	Gold Creek Films	no
+311422	production_company	Keen Fortune	no
+311423	production_company	Lavin Entertainment	no
+311424	production_company	Lun TV	no
+311425	production_company	Danan/Moreno Films	no
+311426	production_company	ca.thar.tic filmWorks	no
+311427	production_company	Films Univers	no
+311428	production_company	Media Associates	no
+311429	production_company	Kubik/Rumar Films	no
+311430	production_company	Karmic Mahjong Productions	no
+311431	production_company	Harvard Film	no
+311432	production_company	Denham Productions	no
+311433	production_company	Seagate Films	no
+311434	production_company	The Center for Advanced Film Studies	no
+311435	production_company	Big H Productions	no
+311436	production_company	Stoll Studios	no
+311437	production_company	H30 Motion Pictures	no
+311438	production_company	Just Right Films	no
+311439	production_company	Fund for Theater and Film	no
+311440	production_company	Money Plays Company Inc.	no
+311441	production_company	Wald-Way Films Productions	no
+311442	production_company	Cap Pictures	no
+311443	production_company	Peace Quilters Production Company	no
+311444	production_company	Children's Home Society of California	no
+311445	production_company	Lester Films Limited	no
+311446	production_company	James Hooker Prodductions	no
+311447	production_company	Consolidated American Consumer Pictures	no
+311448	production_company	Wildlight Productions	no
+311449	production_company	Polku Films	no
+311450	production_company	Producers Creative Partnership (PCP)	no
+311451	production_company	Producciones Olguín	no
+311452	production_company	Studio Goblin	no
+311453	production_company	Betty World Pictures	no
+311454	production_company	Produções da Avó	no
+311455	production_company	Animovaná tvorba	no
+311456	production_company	Studio Lynnchen	yes
+311457	production_company	Duck Song Studios	no
+311458	production_company	Cozy Comb	no
+311459	production_company	Goofy Ah Pictures	no
+311460	production_company	785 Studios	no
+311461	production_company	Animala	no
+311462	production_company	Return Fire Productions	no
+311463	production_company	Movie Network	no
+311464	production_company	Unilever Indonesia	no
+311465	production_company	Frank. Omnicom	no
+311466	production_company	Kemistry	no
+311467	production_company	Persona Pictures (ID)	no
+311468	production_company	Del Otro Lado Films	no
+311469	production_company	Desmond Bros Media	no
+311470	production_company	Calambre	no
+311471	production_company	Dramawave	no
+311472	production_company	Chicken Assemble Producciones S.L.	no
+311473	production_company	RIZOMA cine	no
+311474	production_company	SACD	no
+311475	production_company	Raahim Malik Films	no
+311476	production_company	Nagina Films	no
+9517	tv_network	TV1000	yes
+9518	tv_network	MNET PLUS	no
+9519	tv_network	The Movie Network Channels	no
+9520	tv_network	Makusi	yes
 ```
