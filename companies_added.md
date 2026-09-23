@@ -1,140 +1,116 @@
 # Companies added
 
-- Added: 131 (129 production companies, 2 tv networks)
-- With logos: 5
-- Refreshed: 1778
+- Added: 107 (104 production companies, 3 tv networks)
+- With logos: 2
+- Refreshed: 1779
 
 ```
 id	type	name	has_logo
-311624	production_company	RTV Noord	no
-311625	production_company	Larsen Bay Entertainment	no
-311626	production_company	Movie Bazar	no
-311627	production_company	Eduform	no
-311628	production_company	L'ARTIST	no
-311629	production_company	it'sPOV	no
-311630	production_company	FeetishPOV	no
-311631	production_company	Rio Tarumã Films	no
-311632	production_company	Genius Film Company	no
-311633	production_company	Mineola Films	no
-311634	production_company	Skeleton Pictures	no
-311635	production_company	Arbor Avenue Films	no
-311636	production_company	Sonnyboo Productions	no
-311637	production_company	Hollywood Wizard	no
-311638	production_company	Heydey Independent	no
-311639	production_company	Branit VFX	no
-311640	production_company	Linkia Films	no
-311641	production_company	Markus Films	no
-311642	production_company	V.L.F. Laboratories	no
-311643	production_company	Cranberry Island Films	no
-311644	production_company	Cine-Xcess	no
-311645	production_company	Dominion	no
-311646	production_company	Total Performance Ltd.	no
-311647	production_company	2 Entertain Films	no
-311648	production_company	Dorad Productions	no
-311649	production_company	Great Amwell Company	no
-311650	production_company	abfilm	no
-311651	production_company	Maya Films (MA)	no
-311652	production_company	Travel Life	no
-311653	production_company	PWO Produções	no
-311654	production_company	Made In Morocco Films (MA)	no
-311655	production_company	Conexão Norte Produções	no
-311656	production_company	Cineland (MA)	no
-311657	production_company	MMM Films	no
-311658	production_company	Cinautre (MA)	no
-311659	production_company	Rawes Studios Reality³	no
-311660	production_company	Olar Filmes	yes
-311661	production_company	Music and Pictures International	no
-311662	production_company	K-CALB Productions	no
-311663	production_company	Hail/Mills Productions	no
-311664	production_company	Louis Jordan Productions	no
-311665	production_company	CPES Marseilleveyre	no
-311666	production_company	Modjadji Films	no
-311667	production_company	offtharecord	no
-311668	production_company	Jaguar Film Distribution	no
-311669	production_company	TP Ross Films	no
-311670	production_company	Conlyn Films	no
-311671	production_company	Vysoká škola ekonomická	no
-311672	production_company	Concept Cabinet	no
-311673	production_company	Lunar Films	no
-311674	production_company	CHILD B	no
-311675	production_company	Boundless Entertainment	no
-311676	production_company	Howl Films	no
-311677	production_company	Shotwed Film	no
-311678	production_company	Xcalibre Motion Picture Company	no
-311679	production_company	Deathtrash Pictures	no
-311680	production_company	Terra Roxa	no
-311681	production_company	Chuck Vincent Production	no
-311682	production_company	Sichel Productions	no
-311683	production_company	New Image Video	no
-311684	production_company	Ardiente Studios	no
-311685	production_company	Fullmotion Vintage	no
-311686	production_company	Libra Interdelta Film	no
-311687	production_company	Interlab Som e Imagem	no
-311688	production_company	Program Filmes	no
-311689	production_company	Lalitha Siva Jyothi Studios	no
-311690	production_company	May Waddington Projetos Socioambientais	no
-311691	production_company	Jury Rigged Pictures	no
-311692	production_company	Vice Pictures	yes
-311693	production_company	BNF Capital	no
-311694	production_company	Film Committee at Media City Qatar	no
-311695	production_company	Can In Mouth Studios	no
-311696	production_company	TwoTwentyTwo Film	no
-311697	production_company	Parate en Esta Mount	no
-311698	production_company	Parate en Esta Mount Films	no
-311699	production_company	Telekinetic	no
-311700	production_company	Halliday & Freund Production	no
-311701	production_company	Mediadviz	no
-311702	production_company	Wet Wax Productions	no
-311703	production_company	Pentameter Productions	no
-311704	production_company	Hellitage Films	no
-311705	production_company	dotmov pictures	no
-311706	production_company	Sintered Steel	no
-311707	production_company	9 Millones	no
-311708	production_company	Something Else Entirely LLC	no
-311709	production_company	Phinisinema	no
-311710	production_company	NVP Creations	no
-311711	production_company	CARBON 12 Studio	no
-311712	production_company	Producciones Cometa	no
-311713	production_company	Friedmann Wawrzynowicz Production	no
-311714	production_company	Lumiere de Cinema	no
-311715	production_company	Backwards World Productions	no
-311716	production_company	The Cabinet Productions	no
-311717	production_company	Fok Shing Film Company	no
-311718	production_company	Torec Productions	no
-311719	production_company	Anemonenas	no
-311720	production_company	Anemonenas Laboratorio Creativo	no
-311721	production_company	@LCDLManosos	no
-311722	production_company	Layar tumbuh	no
-311723	production_company	A25	no
-311724	production_company	Woohoo Storytime	no
-311725	production_company	Chug Lyfe	no
-311726	production_company	Comité de l'Expédition Française à l'Himalaya	no
-311727	production_company	South Side Moviez	no
-311728	production_company	Nuts Media	no
-311729	production_company	Ipluso - Instituto Politécnico da Lusofonia	yes
-311730	production_company	Grupo de los Diez	no
-311731	production_company	RTL Hrvatska	no
-311732	production_company	Arlux	no
-311733	production_company	Pinon Park	no
-311734	production_company	Jarier Studios	no
-311735	production_company	WLTS	no
-311736	production_company	TheJunkFoodShow	no
-311737	production_company	Satalana Prod.	no
-311738	production_company	Fable Studio	no
-311739	production_company	Gossip Goblin, Inc.	no
-311740	production_company	Light Brigade Entertainment	no
-311741	production_company	A Matilha - Filmes	no
-311742	production_company	Scorched Cabin Productions	no
-311743	production_company	Cinematografo	no
-311744	production_company	Ordinary Things	no
-311745	production_company	Émerveiller Design Lab	no
-311746	production_company	Hong Kong Metropolitan University	yes
-311747	production_company	Shiny Saws	no
-311748	production_company	Río Luminoso	no
-311749	production_company	Mercury Films	no
-311750	production_company	National Productions	no
-311751	production_company	School Boy Films	no
-311752	production_company	Brickk Films	no
-9524	tv_network	@LCDLManosos	no
-9525	tv_network	oneplus (CH)	yes
+311753	production_company	Guitarman Productions	no
+311754	production_company	Moody Pond	no
+311755	production_company	Sri Bharat Arts	no
+311756	production_company	I Read	no
+311757	production_company	Mendips Corporation Canarias	no
+311758	production_company	Atelier 11	no
+311759	production_company	Ameba Production	no
+311760	production_company	Gilformats	yes
+311761	production_company	CT Producciones	no
+311762	production_company	Egalite Production	no
+311763	production_company	Garis Keras Film	no
+311764	production_company	The Running Channel	no
+311765	production_company	Sofica Sogécinéma	no
+311766	production_company	Gato Gravado Filmes	no
+311767	production_company	İstanbul Film Ajansı	no
+311768	production_company	BINUS TV Club	no
+311769	production_company	Cult Modern	no
+311770	production_company	JΚ PRODUCTIONS-ΚΑΡΑΓΙΑΝΝΗΣ	no
+311771	production_company	极速拍档	no
+311772	production_company	Atria Studio	yes
+311773	production_company	Tani Pro	no
+311774	production_company	New Light Productions Ltd	no
+311775	production_company	Venus Films	no
+311776	production_company	https://scienceandnonduality.com/	no
+311777	production_company	Death Proof Filmes	no
+311778	production_company	Aspeksindo	no
+311779	production_company	APCM Productions	no
+311780	production_company	Lingkaran Fokus Indonesia	no
+311781	production_company	Nuestro Ayer	no
+311782	production_company	Carice van Houten zit in onze film	no
+311783	production_company	British Broadcasting Corporation	no
+311784	production_company	Jobpro Distribution Sdn. Bhd.	no
+311785	production_company	Remain Seated Please	no
+311786	production_company	The Best Friends Channel	no
+311787	production_company	Artha News	no
+311788	production_company	Teen Spirit Productions	no
+311789	production_company	Judd Bernard Productions	no
+311790	production_company	William Morris Entertainment	no
+311791	production_company	LaLiga Studios	no
+311792	production_company	Segredo Filmes	no
+311793	production_company	Studio T.	no
+311794	production_company	Manas Filme	no
+311795	production_company	Emulsió Films AIE	no
+311796	production_company	Bintang RR Pictures	no
+311797	production_company	Kuda Hitam Sinema	no
+311798	production_company	Irth	no
+311799	production_company	Artemide	no
+311800	production_company	Slit Lamp Films (EG)	no
+311801	production_company	Alexander Kharlamov Studio	no
+311802	production_company	The Bridge Films	no
+311803	production_company	MGC Entertainment	no
+311804	production_company	TNI Entertainment & Express Entertainment Project	no
+311805	production_company	SBOX by Sakshi	no
+311806	production_company	Venu Nair Productions	no
+311807	production_company	Empire LLC	no
+311808	production_company	Consuelo Foundation	no
+311809	production_company	Lake Village Music LLC	no
+311810	production_company	415eastrecording	no
+311811	production_company	Independent Artist	no
+311812	production_company	Doğa Derneği	no
+311813	production_company	Schweizerische Filmzentrale	no
+311814	production_company	W. Leckebusch & Co.	no
+311815	production_company	A.D.I.L. Association des Intérêts de Lausanne	no
+311816	production_company	Schweizerische Filmzentrale	no
+311817	production_company	F.A.N Studio	no
+311818	production_company	Kinofilmes	no
+311819	production_company	GangGang & PuanPuan Productions	no
+311820	production_company	Morrigan House	no
+311821	production_company	A John Lennon Tribute LTD. Production	no
+311822	production_company	Grupo Kinema	no
+311823	production_company	The Equality Hub	no
+311824	production_company	Mono Next	no
+311825	production_company	Shree Internationalz	no
+311826	production_company	Teatro Lasalyano	no
+311827	production_company	Kesitja Films	no
+311828	production_company	Pink Peony Productions	no
+311829	production_company	Baku Producciones	no
+311830	production_company	Red Duck Reels	no
+311831	production_company	Muniverse	no
+311832	production_company	Holly Randall Agency	no
+311833	production_company	Insight Media	no
+311834	production_company	필름레이버유니온FLU	no
+311835	production_company	Hydra Eye Productions	no
+311836	production_company	STUDIO 22	no
+311837	production_company	Chaos Effects	no
+311838	production_company	SWAP Producciones	no
+311839	production_company	Tea Tree Players	no
+311840	production_company	Boy5 Production	no
+311841	production_company	JSF Creative Studio	no
+311842	production_company	Indie Perú	no
+311843	production_company	A.R. Shipman Productions	no
+311844	production_company	Alliance Films Corporation	no
+311845	production_company	Gem Pictures	no
+311846	production_company	Tiburon II Productions	no
+311847	production_company	Heinrich Bauer-Film	no
+311848	production_company	Purna Pictures	no
+311849	production_company	Les Films Tenax	no
+311850	production_company	Escuela de Medios y Producción Audiovisual – EMPA	no
+311851	production_company	NITIDA	no
+311852	production_company	Films Cinéka	no
+311853	production_company	Statement City	no
+311854	production_company	Windy Lighthouse Studios	no
+311855	production_company	Skiff Mountain Films	no
+311856	production_company	DPS Cinematic	no
+9526	tv_network	Muniverse	no
+9527	tv_network	ofive+	no
+9528	tv_network	OFive+	no
 ```
