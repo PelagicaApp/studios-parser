@@ -1,149 +1,132 @@
 # Companies added
 
-- Added: 140 (138 production companies, 2 tv networks)
-- With logos: 2
-- Refreshed: 1783
+- Added: 123 (122 production companies, 1 tv networks)
+- With logos: 8
+- Refreshed: 1782
 
 ```
 id	type	name	has_logo
-312427	production_company	F.F COMPANY CORP	no
-312428	production_company	Hiott Entertainment	no
-312429	production_company	Grafisk Besvikelse	no
-312430	production_company	HAA! Films	no
-312431	production_company	Tridac Films	no
-312432	production_company	nmatic	no
-312433	production_company	Shree Mahalasa Productions Ponda	no
-312434	production_company	Thread Light productions	no
-312435	production_company	Shree Mahalasa Productions Ponda	no
-312436	production_company	Calle Pura Production	no
-312437	production_company	Red & Blue Productions	no
-312438	production_company	OzzyX Media	no
-312439	production_company	Apostle Films	no
-312440	production_company	Attic22	no
-312441	production_company	Lyon House Productions	no
-312442	production_company	Sofisticated Productions	no
-312443	production_company	Cyd Jade Productions	no
-312444	production_company	Shutter Color Productions	no
-312445	production_company	Plain Only Clothing	no
-312446	production_company	Maia Production srl	no
-312447	production_company	Laura Rubirola Sala	no
-312448	production_company	dmtwo Media	no
-312449	production_company	Sri Varahi Films	no
-312450	production_company	Cosmos Pictures	no
-312451	production_company	Epic Films & Entertainment	no
-312452	production_company	N A Motion Pictures	no
-312453	production_company	Parallax Films	no
-312454	production_company	Best Case Studios	no
-312455	production_company	XUJIANMING FILM STUDIO	no
-312456	production_company	Alliance - Acción Imam	no
-312457	production_company	Peanuts Entertainment	no
-312458	production_company	Imagic Production	no
-312459	production_company	Film N Pictures	no
-312460	production_company	Wild Gift Films	no
-312461	production_company	ILC Sport	no
-312462	production_company	Verna Films	no
-312463	production_company	Serve	no
-312464	production_company	Old Monk Entertainment	no
-312465	production_company	Kanal Göteborg	no
-312466	production_company	Nova TV	no
-312467	production_company	The Assembly Room	no
-312468	production_company	Bunch of Nerds	no
-312469	production_company	The Endurance Creative	no
-312470	production_company	Prociton	no
-312471	production_company	Comme des gosses Company	no
-312472	production_company	i80 Entertainment	no
-312473	production_company	Fundación Kunphen	no
-312474	production_company	Frans van de Staak Filmproductions	no
-312475	production_company	V7 Entertainments	no
-312476	production_company	For Me	no
-312477	production_company	Petzl UK	no
-312478	production_company	La Sportiva UK	no
-312479	production_company	Universo audiovisual	no
-312480	production_company	Variete News	no
-312481	production_company	DLDR	no
-312482	production_company	Menda C	no
-312483	production_company	X Labs Entertainment LLC	no
-312484	production_company	American Luminary Ltd.	no
-312485	production_company	Anaoana Pictures	no
-312486	production_company	Vanishing Point	no
-312487	production_company	La Buitre Producciones Audiovisuales	no
-312488	production_company	Studio IbraFilm	no
-312489	production_company	Vivision	no
-312490	production_company	Jakuzi Entertainment	no
-312491	production_company	AMOR EN PRIMERA INSTANCIA AIE	no
-312492	production_company	Lightning Mill	no
-312493	production_company	Bonalin Productions SL	no
-312494	production_company	Lunaynieva	no
-312495	production_company	Wallada Media	no
-312496	production_company	Productions Roch Brunette	no
-312497	production_company	Filmoteca Argentina	no
-312498	production_company	Cynoor Films	no
-312499	production_company	Prairie Cat Productions	no
-312500	production_company	Keenspot	no
-312501	production_company	Fullcolor	no
-312502	production_company	CSTR Productions	no
-312503	production_company	LPJ Ltd.	no
-312504	production_company	Tropical Desert Productions	no
-312505	production_company	Kurzfilm	no
-312506	production_company	Holiewood, alex steele olache	no
-312507	production_company	Sentiero Film Ets	no
-312508	production_company	The Nerve Centre	no
-312509	production_company	Festuc	no
-312510	production_company	lingvano	no
-312511	production_company	sign solutions	no
-312512	production_company	Skillshare	no
-312513	production_company	Who Are You Films	no
-312514	production_company	connecthub	no
-312515	production_company	Plunkett Prodiction	no
-312516	production_company	Indago Production	no
-312517	production_company	Wellock Productions	no
-312518	production_company	Películas Inmundas	no
-312519	production_company	Bianto Films	no
-312520	production_company	Summerwine Productions	no
-312521	production_company	Summer Wine Films	no
-312522	production_company	True North	no
-312523	production_company	Kamala Pictures	no
-312524	production_company	Fallouss productions	no
-312525	production_company	Patterns SARL	no
-312526	production_company	Horizons Films (MA)	no
-312527	production_company	Substance	no
-312528	production_company	Ngao Tong Films	no
-312529	production_company	Siła-Kino (PL)	no
-312530	production_company	Grogs Inc.	no
-312531	production_company	We Drop a Bomb Pictures	no
-312532	production_company	Memory Girl	no
-312533	production_company	EQUEVUBATOR	no
-312534	production_company	15mmproducciones	no
-312535	production_company	Bruma Films	no
-312536	production_company	LSinclairStudios	no
-312537	production_company	Lilium Producciones	no
-312538	production_company	Skelly World Entertainment	no
-312539	production_company	Gentle Monster	no
-312540	production_company	Niji Spectrum Productions	no
-312541	production_company	44 Poduction	no
-312542	production_company	Limitless Films	no
-312543	production_company	No Pases Pena	no
-312544	production_company	IRIB Pooya & Nahal	no
-312545	production_company	Exploredinary	no
-312546	production_company	Plano FIlms	no
-312547	production_company	Caldas La Serie	no
-312548	production_company	Steckler Movies	no
-312549	production_company	38℃ Animation Studio Co., Ltd	no
-312550	production_company	Los Culeros+	no
-312551	production_company	HEY Tv	no
-312552	production_company	Quarterway	no
-312553	production_company	Mon Studio	no
-312554	production_company	38℃ Animation Studio Co., Ltd	no
-312555	production_company	38℃ Animation Studio	no
-312556	production_company	SVJ Films	no
-312557	production_company	Hade Rent	no
-312558	production_company	PUNICA	no
-312559	production_company	Stichting Jongerentheater Quint	no
-312560	production_company	Dream Movie Makers	no
-312561	production_company	Nayavayu Chitralu	no
-312562	production_company	Madness & Mayhem	no
-312563	production_company	Billy's Toon Times	no
-312564	production_company	Anthamation	no
-9539	tv_network	Zeevision	yes
-9540	tv_network	HEY Tv	yes
+312565	production_company	Stella Polare Films	no
+312566	production_company	Associazione Culturale il Giardino degli Elicrisi	no
+312567	production_company	Sastha Productions	no
+312568	production_company	Yes No Wave Music	no
+312569	production_company	Papuan Voices	no
+312570	production_company	A. G. A. Productions	yes
+312571	production_company	Ram Brothers Productions	no
+312572	production_company	Banchan Films	no
+312573	production_company	DPN Productions	no
+312574	production_company	Gopnik Studio	no
+312575	production_company	Rozan Tasvir	no
+312576	production_company	Bimarian Films	no
+312577	production_company	SY Cinemagic	no
+312578	production_company	Kanndir	no
+312579	production_company	Brahmaputra	no
+312580	production_company	Creative Worx Entertainment	no
+312581	production_company	Creative Worx Entertainment	no
+312582	production_company	Dorobantu Film & Television	no
+312583	production_company	Abhimana Theatre Pictures Pvt Ltd	no
+312584	production_company	Josef Rideg Film GmbH	no
+312585	production_company	Talking Child	no
+312586	production_company	Secret Beach Films	yes
+312587	production_company	Wright Productions & Entertainment	yes
+312588	production_company	Labros	no
+312589	production_company	Mawar Cinema Project	no
+312590	production_company	Dinda Cinema Pictures	no
+312591	production_company	Bahlul	no
+312592	production_company	Heima Studios	no
+312593	production_company	Orang Kaya Film	no
+312594	production_company	Zolly Conteúdo	no
+312595	production_company	Nemours Marketing, Inc.	no
+312596	production_company	Seven Hills Cine Creation	no
+312597	production_company	Three Birds Landing Productions	no
+312598	production_company	Amelie Films	no
+312599	production_company	KaBoGa Films	no
+312600	production_company	Basicfilm	no
+312601	production_company	BlitzStudios Entertainment	no
+312602	production_company	Indigo Films	no
+312603	production_company	LaraLunaCine	no
+312604	production_company	Films Films Films Oy	no
+312605	production_company	Milgram Malonito Music	no
+312606	production_company	Kontent Productions	no
+312607	production_company	Cucarachas Films	no
+312608	production_company	Digital T Productions	no
+312609	production_company	Wanpakusha K.K.	no
+312610	production_company	War Child Records	no
+312611	production_company	EmptyFrame	no
+312612	production_company	ANAPHRA	no
+312613	production_company	Gruff Studios	no
+312614	production_company	venhaprocinema	no
+312615	production_company	KOFIEKOM	no
+312616	production_company	Little Tweak Productions	no
+312617	production_company	Magic & Lucky Jonz Productions	no
+312618	production_company	Morēi Films	no
+312619	production_company	Magizh Productions	no
+312620	production_company	News Analysis Associates	no
+312621	production_company	Capitol Video Communications	no
+312622	production_company	The PH Balance	no
+312623	production_company	Quo Cine	no
+312624	production_company	GamersLoungeProductions	no
+312625	production_company	Firmament-Film GmbH	no
+312626	production_company	Lucifer Video Enterprises	no
+312627	production_company	O2:82	no
+312628	production_company	44 Production	no
+312629	production_company	Athens Film	no
+312630	production_company	StoneShack	no
+312631	production_company	EYKA Films	no
+312632	production_company	Topeka Pictures	no
+312633	production_company	Deutsche Himalaja-Stiftung	no
+312634	production_company	Stuart Webbs-Film Company Reicher und Reicher	no
+312635	production_company	LEMONCITO FILMES	no
+312636	production_company	Lemoncito Filmes	no
+312637	production_company	Mirala Produções (BR)	no
+312638	production_company	Lemoncito Filmes (BR)	no
+312639	production_company	BlackRec Filmes (BR)	no
+312640	production_company	KeySee Production	no
+312641	production_company	KEEDFOUR	no
+312642	production_company	steklo.production	no
+312643	production_company	Maxim Jago	no
+312644	production_company	Perugia Cinematografica	no
+312645	production_company	JVQV	no
+312646	production_company	Aspen Films	no
+312647	production_company	anhelo	no
+312648	production_company	anhelo	no
+312649	production_company	aRealityBuffersFilms	no
+312650	production_company	Verity Fiction	no
+312651	production_company	Carvel Rock	no
+312652	production_company	MFP Munich Film Partners GmbH & Co. Rugrats Productions	no
+312653	production_company	Niebla Studios	no
+312654	production_company	Roaming Lens	no
+312655	production_company	Gemma Cinematografica	no
+312656	production_company	Julia Film Trieste	no
+312657	production_company	CIne-GUF	no
+312658	production_company	Canto do Galo Filmes	yes
+312659	production_company	ONG Roda Baiana	yes
+312660	production_company	Pazos Studio	no
+312661	production_company	Ilaya Ilaya	yes
+312662	production_company	чучело кинопроизводство	no
+312663	production_company	ZWStudios	no
+312664	production_company	AimForTheBushesFilm	no
+312665	production_company	Maya Film	yes
+312666	production_company	Sinema Semesta	no
+312667	production_company	Krishnakant Mishra Films	no
+312668	production_company	SKYmedia	no
+312669	production_company	AGFA	no
+312670	production_company	HET Productions	no
+312671	production_company	Kitoons	no
+312672	production_company	Aakash Aath	no
+312673	production_company	Oso Pardo Films	no
+312674	production_company	Barrio 18	no
+312675	production_company	Ruleta Estudios	no
+312676	production_company	La Cine Ticino	no
+312677	production_company	All Trades	no
+312678	production_company	惊人科技	no
+312679	production_company	TPN Media Holdings	no
+312680	production_company	notrich Media	yes
+312681	production_company	Xanny Flix Media Networks	no
+312682	production_company	Dorobantu Film & Television	no
+312683	production_company	Abrian Collins Productions	no
+312684	production_company	TazerCraft	no
+312685	production_company	Cinematografistas Mexicanos Asociados	no
+312686	production_company	vagales producciones	no
+9541	tv_network	Raipe Tv	no
 ```
