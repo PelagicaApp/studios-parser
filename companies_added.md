@@ -1,94 +1,115 @@
 # Companies added
 
-- Added: 85 (85 production companies, 0 tv networks)
+- Added: 106 (105 production companies, 1 tv networks)
 - With logos: 2
-- Refreshed: 1790
+- Refreshed: 1786
 
 ```
 id	type	name	has_logo
-313794	production_company	Cinema Manelici	no
-313795	production_company	Ruellia	no
-313796	production_company	Cerúlea	no
-313797	production_company	opaak films	no
-313798	production_company	CGD East West	no
-313799	production_company	Studio Anadyr	no
-313800	production_company	nrtv.	no
-313801	production_company	Beppe Carletti	no
-313802	production_company	Off the Book	no
-313803	production_company	Tabloid NOVA	no
-313804	production_company	3f Music Pictures film	no
-313805	production_company	Filmwerk Kalliope	no
-313806	production_company	Cines, Roma	no
-313807	production_company	Bravofucker	no
-313808	production_company	Bravofucker	no
-313809	production_company	Krishnasproduction	no
-313810	production_company	Noctura Studios	no
-313811	production_company	Fhantom_4	no
-313812	production_company	Universal Music	no
-313813	production_company	Everything’s Gone, LLC.	no
-313814	production_company	MG Cinecraft	no
-313815	production_company	Duplicate	no
-313816	production_company	Yer Yatağı	no
-313817	production_company	Anabase Productions	no
-313818	production_company	Pernel Media Production	no
-313819	production_company	Studio 237	no
-313820	production_company	CUCULÍ producciones	no
-313821	production_company	House of Hades Productions	no
-313822	production_company	Cine Internacional de la Argentina	no
-313823	production_company	Byaheng Wantawsan	no
-313824	production_company	Saturnema Filmes	no
-313825	production_company	National Film Institute (NFI) Hungary	no
-313826	production_company	21 Raccoons	no
-313827	production_company	RS-IP L3C	no
-313828	production_company	The Dunwich dolls	no
-313829	production_company	TQM FILMS	no
-313830	production_company	Cinemaniax!	no
-313831	production_company	Edmonton Screen	no
-313832	production_company	Inovativa Group	no
-313833	production_company	Dreams Reset Studio	no
-313834	production_company	GMM Films	no
-313835	production_company	Boonnum Production	no
-313836	production_company	Gambar Bergerak Indonesia	no
-313837	production_company	Wina Sinema Film	no
-313838	production_company	Unita Film	no
-313839	production_company	Gerdes-Morrow Productions	no
-313840	production_company	Home Video Productions	no
-313841	production_company	Heartefact	no
-313842	production_company	Rain Media Pictures	no
-313843	production_company	The Hello in There Foundation	no
-313844	production_company	Snake Jar Documentaries	no
-313845	production_company	Telliture Pictures	no
-313846	production_company	TruStory Films	no
-313847	production_company	Thepsis Brown Laboratory	no
-313848	production_company	Zdf	no
-313849	production_company	UNATC Bucharest	no
-313850	production_company	AMM productions	no
-313851	production_company	Temporal Cine	no
-313852	production_company	Corn Filmworks	no
-313853	production_company	Tanami producciones	no
-313854	production_company	70mmScreenProduction	no
-313855	production_company	247 Lowlife	no
-313856	production_company	Grupo cine arte	no
-313857	production_company	Killjoye	no
-313858	production_company	Spartan Productions	no
-313859	production_company	The Mountaineers	yes
-313860	production_company	Unik Film	no
-313861	production_company	ALPAS	no
-313862	production_company	Rapture Temptation	no
-313863	production_company	70mmScreenProduction	no
-313864	production_company	Firelake Media	no
-313865	production_company	70mmScreenProduction	no
-313866	production_company	Everyone+ Productions	no
-313867	production_company	JPSCine	no
-313868	production_company	Video Nasties Productions	no
-313869	production_company	Fourth Medium Studios	no
-313870	production_company	恒星引力传媒	no
-313871	production_company	SICK MATE SICK Produtions	no
-313872	production_company	Cabeça de Cuia Filmes	no
-313873	production_company	The Void Video Club	no
-313874	production_company	ITM Productions	yes
-313875	production_company	不可能的世界	no
-313876	production_company	Mystic Cinema	no
-313877	production_company	Airheadsinc	no
-313878	production_company	Talpa Network	no
+313879	production_company	The Code Srl	no
+313880	production_company	Gobstar	no
+313881	production_company	Kites Entertainment Pvt. Ltd.	no
+313882	production_company	Films Secrets	no
+313883	production_company	Sannō Pro	no
+313884	production_company	Kojō Pro	no
+313885	production_company	Club Pardon Videoproduktion	no
+313886	production_company	B.C. Video (D)	no
+313887	production_company	Beautiful Pictures	no
+313888	production_company	Kansei Eiga	no
+313889	production_company	Vexere Entertainment Group	yes
+313890	production_company	Nichibei Eiga	no
+313891	production_company	June Cultural Contents	no
+313892	production_company	Hälsinglands museum	no
+313893	production_company	J.A. Films	no
+313894	production_company	InterFace Pictures	no
+313895	production_company	Rator Studios	no
+313896	production_company	Think Indie	no
+313897	production_company	Think Music	no
+313898	production_company	Kimvhey Production	no
+313899	production_company	Dhiraj Infinity Films	no
+313900	production_company	Club Sandwich	no
+313901	production_company	Notturna Film	no
+313902	production_company	Les productions du balcons	no
+313903	production_company	La D	no
+313904	production_company	Hors champs Production	no
+313905	production_company	Manolo Pictures	no
+313906	production_company	EniseyFilm	no
+313907	production_company	Cycle	no
+313908	production_company	Retort Productions	no
+313909	production_company	Crossing Fingers Studio	no
+313910	production_company	Pillage Corp	no
+313911	production_company	Magic Time Picture	no
+313912	production_company	Hujan Gula Production	no
+313913	production_company	AJ Pictures	no
+313914	production_company	Java Production Agency	no
+313915	production_company	existentials:LAB	no
+313916	production_company	Sword and Sorcery Productions	no
+313917	production_company	Bong Video	no
+313918	production_company	Al-Bustan Seeds of Culture	no
+313919	production_company	MeatHead Studios	no
+313920	production_company	Ariana Films	no
+313921	production_company	Retro Matador Studios	no
+313922	production_company	Coquelicot	no
+313923	production_company	Buzzz Productions	no
+313924	production_company	Analog Child	no
+313925	production_company	Orange Wednesday	no
+313926	production_company	Axiom	no
+313927	production_company	Calzar0	no
+313928	production_company	Eiffel	no
+313929	production_company	MANTECA	no
+313930	production_company	IDEA Guadalajara	no
+313931	production_company	Lale Film (IR)	no
+313932	production_company	NON STYLE	yes
+313933	production_company	Islamic Culture and Arts Complex	no
+313934	production_company	Jordskjelv	no
+313935	production_company	OMNISCIENT PRODUCTION	no
+313936	production_company	Formation Pictures	no
+313937	production_company	Ossian Scotland	no
+313938	production_company	CFRT Productions	no
+313939	production_company	XSKY Production	no
+313940	production_company	Wolf Kitten Pictures	no
+313941	production_company	Slightly Productions	no
+313942	production_company	Arden Films	no
+313943	production_company	Puatarara Films	no
+313944	production_company	Beyond Films	no
+313945	production_company	le village production	no
+313946	production_company	film 66	no
+313947	production_company	MGI	no
+313948	production_company	Little Idea Media	no
+313949	production_company	Leones en invierno	no
+313950	production_company	The Glow Animation Studio	no
+313951	production_company	Isla Audiovisual La Coleccionista	no
+313952	production_company	An Annatated Production	no
+313953	production_company	Syncera Incorporated	no
+313954	production_company	ROC Productions	no
+313955	production_company	Brmx filmes	no
+313956	production_company	Upcal Entertainment	no
+313957	production_company	Vicangelo Films	no
+313958	production_company	Avondale College	no
+313959	production_company	CMG Worldwide	no
+313960	production_company	Kinoism	no
+313961	production_company	Sapru Art International	no
+313962	production_company	Grave and Busters	no
+313963	production_company	Department of Educational Talking Pictures	no
+313964	production_company	Paradigma N	no
+313965	production_company	NHK	no
+313966	production_company	Italotone	no
+313967	production_company	RLA Talking Picture Corporation	no
+313968	production_company	The Cinema Production of the Deaf	no
+313969	production_company	Frames Per Second	no
+313970	production_company	Asymmetric Motion Pictures	no
+313971	production_company	Special Projects	no
+313972	production_company	WRC-TV Public Affairs	no
+313973	production_company	Medan Pictures	no
+313974	production_company	Hispania Talking Film Corp.	no
+313975	production_company	Paramount	no
+313976	production_company	Tentacula Ventures	no
+313977	production_company	And Her Son’s Productions	no
+313978	production_company	August Palm Creative	no
+313979	production_company	CCTV-8(CN)	no
+313980	production_company	大麦娱乐(CN)	no
+313981	production_company	Okko	no
+313982	production_company	文雅工作室(CN)	no
+313983	production_company	Full Sensor Productions	no
+9564	tv_network	KRO NCRV	no
 ```
