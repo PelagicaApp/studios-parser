@@ -1,128 +1,139 @@
 # Companies added
 
-- Added: 119 (117 production companies, 2 tv networks)
-- With logos: 2
-- Refreshed: 1793
+- Added: 130 (129 production companies, 1 tv networks)
+- With logos: 4
+- Refreshed: 1792
 
 ```
 id	type	name	has_logo
-313984	production_company	Vivian  Entertainment	no
-313985	production_company	Globe Pictures	no
-313986	production_company	LYNKN0TF0UND.404	no
-313987	production_company	Nosnibert Productions	no
-313988	production_company	Nosnibert Films	no
-313989	production_company	Institute of Visual Training	no
-313990	production_company	PA3 Productions	no
-313991	production_company	Bonobo Film (It)	no
-313992	production_company	Ramesh Deo Productions	no
-313993	production_company	Kruchi Production	no
-313994	production_company	Pato producciones	no
-313995	production_company	UGC Producciones	no
-313996	production_company	Alberto se queja de que hay muchas productoras producciones	no
-313997	production_company	edison manu	no
-313998	production_company	Founder movies and Lufree	no
-313999	production_company	Sinemorfosis Pictures	no
-314000	production_company	ECHO Pictures	no
-314001	production_company	IDS Campus Production	no
-314002	production_company	Wet Mouth	no
-314003	production_company	Bur	no
-314004	production_company	SiXiTZ Studios	no
-314005	production_company	Rainbow Animation Productions	no
-314006	production_company	Roblox Studios	no
-314007	production_company	Dennis Gomez Productions	no
-314008	production_company	Laurostudio	no
-314009	production_company	MMM Carioca	no
-314010	production_company	Dccproduction	no
-314011	production_company	Edgy Media (UK)	no
-314012	production_company	H3 Entertainment	no
-314013	production_company	Val Creates	no
-314014	production_company	DramatiC Producciones	no
-314015	production_company	Ex Machina Studios	no
-314016	production_company	Blumhouse Atomic Monster	no
-314017	production_company	Uruguay Campus Film	no
-314018	production_company	Bild Center Videoproduktion	no
-314019	production_company	Companion Animal Productions	no
-314020	production_company	Obscure Film	no
-314021	production_company	Sinema Ltd.	no
-314022	production_company	KPG	yes
-314023	production_company	Devon And Benny	no
-314024	production_company	Sai Sapru Creations	no
-314025	production_company	LWI Pictures	no
-314026	production_company	Corrado Rustici	no
-314027	production_company	Arpavideo S.r.l.	no
-314028	production_company	Cruce Inverso	no
-314029	production_company	Mr. Friend	no
-314030	production_company	Channel 5	no
-314031	production_company	Lab Creative Studio	no
-314032	production_company	华研国际音乐	no
-314033	production_company	Studio wabi sabi	no
-314034	production_company	Silly Wee Films	no
-314035	production_company	Mr. Friend Production	no
-314036	production_company	Objectif 49 Films	no
-314037	production_company	Phatty Acid	no
-314038	production_company	Oren Peli Productions	no
-314039	production_company	BCN Media Hub	no
-314040	production_company	Burazzers	no
-314041	production_company	Avid Season Productions	no
-314042	production_company	TheProject Music Company	no
-314043	production_company	Orpheus Media	no
-314044	production_company	Heidenkamp Nature Pictures	no
-314045	production_company	Oxoloo	no
-314046	production_company	The Peanut Park Crew	no
-314047	production_company	12th Kentucky Movie	no
-314048	production_company	Blumhouse International	no
-314049	production_company	Twilight Production Studio	no
-314050	production_company	Fastbreak Films	no
-314051	production_company	Camposanto Films	no
-314052	production_company	Peacemaker International	no
-314053	production_company	Moving Image Studios	no
-314054	production_company	All You Can Eat Productions	no
-314055	production_company	Sweet Enough Productions	no
-314056	production_company	Magnetic Dreams Animation Studios	no
-314057	production_company	Patience Productions	no
-314058	production_company	TNS Productions Inc.	no
-314059	production_company	Children's Video Development	no
-314060	production_company	TIS Entertainment	no
-314061	production_company	Sunless Frame	no
-314062	production_company	Mainframe Productions	no
-314063	production_company	GM Silenfut	no
-314064	production_company	Errante	no
-314065	production_company	Le Cinquième Rêve	no
-314066	production_company	Fire Escape Films	no
-314067	production_company	Tubakolose Production	no
-314068	production_company	Onigiri	no
-314069	production_company	Le Prénom Hervé	no
-314070	production_company	[Void] Visual Programing	no
-314071	production_company	FAB 9 Television	no
-314072	production_company	Flipaclip	no
-314073	production_company	Melancoly Films	no
-314074	production_company	惠基	no
-314075	production_company	LEMA’S PRODUCTIONS	no
-314076	production_company	Snob Films	no
-314077	production_company	Cinema Collectiva	no
-314078	production_company	Institut Seni Budaya Indonesia Kalimantan Timur	no
-314079	production_company	Three First Names	no
-314080	production_company	看看新闻Knews	no
-314081	production_company	观察者网(CN)	no
-314082	production_company	看看新闻Knews(CN)	no
-314083	production_company	Mekarya Sinema	no
-314084	production_company	SJL Productions	no
-314085	production_company	IIUTU Media	no
-314086	production_company	The Creek Company	no
-314087	production_company	Imul Films	no
-314088	production_company	Concatena Cine	no
-314089	production_company	31Films	no
-314090	production_company	Karr Dynamic Pictures	no
-314091	production_company	University at Buffalo	no
-314092	production_company	UB Institute for Learning Sciences	no
-314093	production_company	Rudy Bruner Center for Urban Excellence	no
-314094	production_company	Cavalo Pictures	no
-314095	production_company	Domovoy Films	no
-314096	production_company	Swift River Productions	no
-314097	production_company	JCM	yes
-314099	production_company	Eruptor Entertainment	no
-314100	production_company	Tubatomic Studio	no
-314101	production_company	TV5 Entertainment Group	no
-9565	tv_network	History (PL)	no
-9566	tv_network	Nick Jr. Israel	no
+314102	production_company	MBS Pictures	no
+314103	production_company	IIT Madras	no
+314104	production_company	Kylián Productions	no
+314105	production_company	東邦プロ	no
+314106	production_company	Film Flu Production	no
+314107	production_company	dentsu	no
+314108	production_company	Zarni Films	no
+314109	production_company	Two Black Cats Productions	no
+314110	production_company	Wiener Musikverein	no
+314111	production_company	Skincrawl Studios	no
+314112	production_company	Anxur Films	no
+314113	production_company	Clapstick Pictures	no
+314114	production_company	Pemerintah Daerah Provinsi Jawa Barat	no
+314115	production_company	Humas Jabar	no
+314116	production_company	Fundación Salud y Comunidad  (FSC)	no
+314117	production_company	Associació Diversitat Funcional a Relleu	no
+314118	production_company	Webedia	no
+314119	production_company	omilan productions	no
+314120	production_company	RFP	no
+314121	production_company	Discohuhn Pictures Entertainment	no
+314122	production_company	Filmhaus Frankfurt	no
+314123	production_company	Bundesverband Jugend und Film	no
+314124	production_company	Robbit Creative kft.	no
+314125	production_company	Hepworth Pictures	no
+314126	production_company	Creative Cinephile	no
+314127	production_company	Mother Pictures	no
+314128	production_company	Slice of Space	no
+314129	production_company	White Forest Productions	no
+314130	production_company	Wooducktions Productions	no
+314131	production_company	Logline Production	no
+314132	production_company	AA Storyline Productions	no
+314133	production_company	You Will See Film	no
+314134	production_company	Dulce Cine	no
+314135	production_company	Garden Pictures	no
+314136	production_company	Unicorn Pictures	no
+314137	production_company	Misideal	yes
+314138	production_company	Femme Flash Films	no
+314139	production_company	Outside Joke Productions	no
+314140	production_company	Samuel Crossley Media	no
+314141	production_company	Gugurban Production	no
+314142	production_company	Clémence Crave	no
+314143	production_company	Paradyan studio	no
+314144	production_company	Mirage	no
+314145	production_company	Noah's Atelier	no
+314146	production_company	Sagüi Studios	no
+314147	production_company	Midnight Shadow Productions	no
+314148	production_company	Voices Films	no
+314149	production_company	Hyperobjects Visual Arts & Films	no
+314150	production_company	Elephant Films	no
+314151	production_company	Guagua Productions	no
+314152	production_company	Trilobit Films LLC	no
+314153	production_company	Gdynia Film Center	no
+314155	production_company	Vriza Productions	no
+314156	production_company	Yamaguchi Center for Arts and Media	no
+314157	production_company	petit chicago	no
+314158	production_company	JT:S FILMER	no
+314159	production_company	Screaming Idiots	no
+314160	production_company	Mason Jar Legumes	no
+314161	production_company	De Vlaamse Overheid	no
+314162	production_company	Platform 0090	no
+314163	production_company	C-Takt	no
+314164	production_company	de Brakke Grond	no
+314165	production_company	VAi	no
+314166	production_company	Het Bos	no
+314167	production_company	Workspacebrussels	no
+314168	production_company	STORMOPKOMST	no
+314169	production_company	MOPRHO	no
+314170	production_company	Pivonka Production	no
+314171	production_company	Timberwolf Filmes	no
+314172	production_company	Bird 24	no
+314173	production_company	rumrainroad films	no
+314174	production_company	Modulation Studios	no
+314175	production_company	Iraq Visions Film Production	no
+314176	production_company	Dichosos los ojos	no
+314177	production_company	Baltic Productions	no
+314178	production_company	Solent	no
+314179	production_company	cineCA	no
+314180	production_company	Lightwood Green	no
+314181	production_company	Nocte Films	no
+314182	production_company	Rugio!	no
+314183	production_company	Art Dialogue	no
+314184	production_company	Taswir Production	no
+314185	production_company	Reckoncile Films	no
+314186	production_company	Watchful Eye Productions	no
+314187	production_company	Nicocam	no
+314188	production_company	Volo Lux	no
+314189	production_company	Centro de Ensino Medio 02 de Brazlândia - DF	no
+314190	production_company	Incom	no
+314191	production_company	Antediluvian Dream	no
+314192	production_company	Fun Movie Club	no
+314193	production_company	The Jacks	no
+314194	production_company	Bernd Umbreit Filmproduktion	no
+314195	production_company	Martello Media	no
+314196	production_company	liludko	no
+314197	production_company	guziechusband	no
+314198	production_company	liludzieclabel	no
+314199	production_company	Péndulo Productions	yes
+314200	production_company	Skylight	no
+314201	production_company	Pink Lake Creative Pty Ltd	no
+314202	production_company	See You Later, Alligator Pictures	no
+314203	production_company	Aha Studios	no
+314204	production_company	Absecon Entertainment	no
+314205	production_company	Team Backpack Productions	no
+314206	production_company	Space	yes
+314207	production_company	Yolitic Casa Productora	no
+314208	production_company	K10 film	no
+314209	production_company	K10 Films	no
+314210	production_company	Nine Elder Productions	no
+314211	production_company	Reel Dreams And You	no
+314212	production_company	СПбГИКиТ	no
+314213	production_company	Defiant Lens Productions	no
+314214	production_company	64 74 Films	no
+314215	production_company	Débora Aladim	no
+314216	production_company	Centre Weld	no
+314217	production_company	Morgan Miller Studios	no
+314218	production_company	Ammi Media	no
+314219	production_company	39/6	no
+314220	production_company	Kar Film	no
+314221	production_company	Sinelama	no
+314222	production_company	B1R TV Production	no
+314223	production_company	Sunday Night Salad	no
+314224	production_company	Retorno 369 MEDIA	no
+314225	production_company	Dana Direktor, Hila Itzchaki, Duby Kroitoro	no
+314226	production_company	Bilkent University	yes
+314227	production_company	FROM ZCN	no
+314228	production_company	KU-Film Ulrich & Neuß GmbH	no
+314229	production_company	Rotten Crown Films	no
+314230	production_company	A Forrestfire Film	no
+314231	production_company	PB PON XX Papua 2021	no
+9568	tv_network	YouTube	no
 ```
