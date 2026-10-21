@@ -1,155 +1,143 @@
 # Companies added
 
-- Added: 146 (141 production companies, 5 tv networks)
-- With logos: 16
-- Refreshed: 1797
+- Added: 134 (131 production companies, 3 tv networks)
+- With logos: 15
+- Refreshed: 1796
 
 ```
 id	type	name	has_logo
-314841	production_company	TEGO plus	no
-314842	production_company	Kontradiksi Ukuran Production	no
-314843	production_company	SAWO	no
-314844	production_company	Wattever Works	no
-314845	production_company	SAWO Sabah	no
-314846	production_company	VisArt Ltd.	no
-314847	production_company	Pannon Entertainment	no
-314848	production_company	National Tainan University of Technology and Arts	no
-314849	production_company	Samcreta	no
-314850	production_company	Filmhochschule Dortmund	no
-314851	production_company	Sotong Productions	no
-314852	production_company	Eb & Flow Independent	no
-314853	production_company	Sorozo House	no
-314854	production_company	Universiti Teknologi MARA	no
-314855	production_company	Grotesco Films	no
-314856	production_company	СНПДФ	no
-314857	production_company	Renat and Co.	no
-314858	production_company	Na Media Iraq	yes
-314859	production_company	Baghdad Art	yes
-314860	production_company	Capital Art	yes
-314861	production_company	Podium Global	no
-314862	production_company	Løvblåser Inc.	no
-314863	production_company	Stuff Toy Productions	no
-314864	production_company	Naughty Pictures	no
-314865	production_company	Inklusi	no
-314866	production_company	Kemitraan	no
-314867	production_company	Saung Bimantara	no
-314868	production_company	Luukafilms Stopmotion	no
-314869	production_company	Housego Films	no
-314870	production_company	Moveria	no
-314871	production_company	Ліцей №200 м. Київ	no
-314872	production_company	Moving Pics	no
-314873	production_company	Brillito SRL	no
-314874	production_company	Ultron Event Horizon	no
-314875	production_company	Lost The Plot Productions	no
-314876	production_company	Rouxinóis	no
-314877	production_company	Parker Wilson Productions	no
-314878	production_company	Hoods Entertainment	no
-314879	production_company	Pilot Field	no
-314880	production_company	Little Hell Production	no
-314881	production_company	Farmed Out	no
-314882	production_company	Creative Entertainment inc	no
-314883	production_company	Manara Animation	no
-314884	production_company	Dream Search	no
-314885	production_company	Air Play	no
-314886	production_company	Al muslim	no
-314887	production_company	Sociedad Española de Conmemoraciones Culturales	no
-314888	production_company	Fundación Caixa Galicia	no
-314889	production_company	Thin Air Cinematics	no
-314890	production_company	Universidade Federal de Roraima (UFRR)	no
-314891	production_company	Comunicação Socioambiental dos Biomas Brasileiros desde a Amazônia	no
-314892	production_company	Stoplight City	no
-314893	production_company	Blue September	no
-314894	production_company	Saturn Storm Media	no
-314895	production_company	La Sagrada Films	no
-314896	production_company	Birds on trees	no
-314897	production_company	Terminal Beach	no
-314898	production_company	Jedidjah Lee Films	no
-314899	production_company	Sad Sack Cinema	no
-314900	production_company	The Center for Bioethics and Culture Network	no
-314901	production_company	HJacobs Creative	no
-314902	production_company	km465lab	no
-314903	production_company	国际电影懋业有限公司	no
-314904	production_company	Piano Films	no
-314905	production_company	CAMX FILMS	no
-314906	production_company	Weekend	no
-314907	production_company	Chopper Film	no
-314908	production_company	ASICS	no
-314909	production_company	The Jung School	no
-314910	production_company	Doomass	no
-314911	production_company	Doomass Productions	no
-314912	production_company	Haus MTL	yes
-314913	production_company	Salab Filmes	no
-314914	production_company	TEENAVISION	no
-314915	production_company	On Pointe Productions	no
-314916	production_company	GoodShort	no
-314917	production_company	ReThink New Media Solutions	no
-314918	production_company	Los Wildhorses	no
-314919	production_company	Mountain Top Films	no
-314920	production_company	Cinema Six Productions	no
-314921	production_company	snackermans productions	no
-314922	production_company	Itaipu Filmes	no
-314923	production_company	Celestial Filmes	no
-314924	production_company	Rev.Pictures	no
-314925	production_company	EDGE WORK Film	no
-314926	production_company	Apex Pictures	no
-314927	production_company	STARKID	no
-314928	production_company	6 Star Productions	no
-314929	production_company	The British Royal Ballet	no
-314930	production_company	Rm. 19 Productions	no
-314931	production_company	ToTes de ojos	no
-314932	production_company	kade wiles mackay	no
-314933	production_company	Cartoon Films Inc.	no
-314934	production_company	Embrace The Cheese Productions	no
-314935	production_company	NOBS Creative	no
-314936	production_company	Marsh Filmes	no
-314937	production_company	Andýras Film	no
-314938	production_company	Moore Movies	no
-314939	production_company	Engadi Studios	no
-314940	production_company	Universo Gordo Lesbiana	no
-314941	production_company	Rain3owland	no
-314942	production_company	Russ Films	no
-314943	production_company	香港傷健共融網絡 Hong Kong Network for the Promotion of Inclusive Society	no
-314944	production_company	But The Kitchen Sink	no
-314945	production_company	MIRA	no
-314946	production_company	Period Piece Productions	no
-314947	production_company	源源滚滚剧场	yes
-314948	production_company	First Impression	no
-314949	production_company	Pixpics Production	no
-314950	production_company	Abra Cadaver Films	no
-314951	production_company	Acra Media	no
-314952	production_company	北京电视艺术中心音像出版社	no
-314953	production_company	小鹿乱撞	yes
-314954	production_company	Bmore Films	no
-314955	production_company	景阅剧场	yes
-314956	production_company	吾里短剧	yes
-314957	production_company	River Warrior LLC	no
-314958	production_company	Numinous Studios LLC	no
-314959	production_company	Brown Glass Film Co.	no
-314960	production_company	Maya Films	no
-314961	production_company	Hand of Fire	no
-314962	production_company	听花岛剧场	yes
-314963	production_company	青榕剧场	yes
-314964	production_company	万千星辰剧场	no
-314965	production_company	Degausser Video	no
-314966	production_company	Nought Films	no
-314967	production_company	IG Records	no
-314968	production_company	快看漫剧	yes
-314969	production_company	Obvious.tv	no
-314970	production_company	AS Productions (PH)	no
-314971	production_company	星柠短剧	yes
-314972	production_company	掌玩短剧	yes
-314973	production_company	Ikatan Keluarga Gunungkidul	no
-314974	production_company	Asa Nafiri Lau	no
-314975	production_company	Hubart Pictures	no
-314976	production_company	Sedulur Pitu Sinema	no
-314977	production_company	People's Movie Mumbai	no
-314978	production_company	南泽文化	yes
-314979	production_company	CINEMAMINOR	no
-314980	production_company	Generazione Disagio	no
-314981	production_company	溯光	yes
-9588	tv_network	ARTE	no
-9589	tv_network	ARTE	no
-9590	tv_network	The U	yes
-9591	tv_network	Bilibili	no
-9592	tv_network	Channel 7	no
+314982	production_company	Film GRIDA	no
+314983	production_company	阅文短剧	yes
+314984	production_company	诸云短剧	yes
+314985	production_company	秋元影视	yes
+314986	production_company	友和剧场	yes
+314987	production_company	Ujwal Thapa Foundation	no
+314988	production_company	Dream Wizards Pictures Production	no
+314989	production_company	Haaretz	no
+314990	production_company	Lente Curta+	no
+314991	production_company	飒视	yes
+314992	production_company	影谭短剧官方号	yes
+314993	production_company	zebra valley	no
+314994	production_company	Yayasan Pusat Perfilman H. Usmar Ismail	no
+314995	production_company	CEO Indonesia	no
+314996	production_company	The Herzog Company	no
+314997	production_company	Sfelab	no
+314998	production_company	GOLDEN FILM PRODUCTION	no
+314999	production_company	Ma Boutique	no
+315000	production_company	Alias	no
+315001	production_company	eccentric arts	no
+315002	production_company	Zomb Leader Studios	no
+315003	production_company	The Learning Garden	no
+315004	production_company	萤火悦动	yes
+315005	production_company	萤火官方剧场	no
+315006	production_company	过儿传媒	yes
+315007	production_company	Fat Bidin	no
+315008	production_company	Soul Rider Studios	no
+315009	production_company	唐果文化剧场	yes
+315010	production_company	Utthan Capital	no
+315011	production_company	蜜糖短剧	yes
+315012	production_company	342 artes	no
+315013	production_company	掌阅	yes
+315014	production_company	大元	no
+315015	production_company	戏精有戏	yes
+315016	production_company	唐音短剧	yes
+315017	production_company	Thelmo	no
+315018	production_company	CROPE	no
+315019	production_company	发疯剧场	yes
+315020	production_company	好有本领	yes
+315021	production_company	Bless Bless Productions	no
+315022	production_company	パンド	no
+315023	production_company	ClassicFlix	no
+315024	production_company	bowtieanimation	no
+315025	production_company	Spirit Halloween	no
+315026	production_company	TR4NSGRESS PRODUCTIONS	no
+315027	production_company	Burre Film	no
+315028	production_company	Blue Hippo Media	no
+315029	production_company	Studio 309093	no
+315030	production_company	东阳国金影视制作有限公司	no
+315031	production_company	黑龙江广播影视传媒集团有限公司	no
+315032	production_company	Offsite Studio	no
+315033	production_company	Hibernate Studios	no
+315034	production_company	Peninsula Pictures	no
+315035	production_company	27 Studio	no
+315036	production_company	27 studio	no
+315037	production_company	27 studio	no
+315038	production_company	27 studio	no
+315039	production_company	Slacker Studios	no
+315040	production_company	27 studio	no
+315041	production_company	Salsa Cycles	no
+315042	production_company	Golden L Productions	no
+315043	production_company	Lviv Film Hub	no
+315044	production_company	Blacksun	no
+315045	production_company	Kukus Production	no
+315046	production_company	Purol Salida	no
+315047	production_company	Nomat Films	no
+315048	production_company	Peartree Productions	no
+315049	production_company	Arva Lab	no
+315050	production_company	Freehub	no
+315051	production_company	LABA firenze	no
+315052	production_company	FAABZ films	no
+315053	production_company	Hazy Plant Pictures Ltd	no
+315054	production_company	TB10 Studios	no
+315055	production_company	Allimbus	no
+315056	production_company	Cuerpos en escena	no
+315057	production_company	Gimeno Films	no
+315058	production_company	RestArts Studio (ES)	no
+315059	production_company	Masclet Films	no
+315060	production_company	Amaltea Audiovisuales	no
+315061	production_company	Producciones Palmito	no
+315062	production_company	StarKid Productions	no
+315063	production_company	JRVisuals	no
+315064	production_company	Nox Division	no
+315065	production_company	GH PRODUÇÕES	no
+315066	production_company	Corojo Cinema	no
+315067	production_company	SYNC Studios (VRChat)	no
+315068	production_company	KK and K Movies	no
+315069	production_company	The Goldador Productions	no
+315070	production_company	Postopía	no
+315071	production_company	manhaus films	no
+315072	production_company	Untamed Media	no
+315073	production_company	New Edge Studios (VRChat)	no
+315074	production_company	Varmint Hole	no
+315075	production_company	Frcmzerc Dhort Films	no
+315077	production_company	Inicjatywa Wydawnicza Banan	no
+315078	production_company	Jojo lapin prod	no
+315079	production_company	Service cinématographique du ministère de l'Agriculture	no
+315080	production_company	Unapei 92	no
+315081	production_company	La Société pour l'utilisation rationnelle des gaz	no
+315082	production_company	Hendryc mika e Daniel dias	no
+315083	production_company	Storyboard Pros.	no
+315084	production_company	Thomas Holloway Productions	no
+315085	production_company	Running Wolf Studios	no
+315086	production_company	zqtvrn films [gb]	no
+315087	production_company	Bruna Diniz	no
+315088	production_company	London Film Company	no
+315089	production_company	Artist Equity Independent Pictures	no
+315090	production_company	Big Picture Co.	no
+315091	production_company	Producciones Ala Studios Sccl	no
+315092	production_company	Fargo Produzioni	no
+315093	production_company	Institute of American Indian Arts	no
+315094	production_company	Super Popular Studios	no
+315095	production_company	Gatamay production	no
+315096	production_company	Screaming Cow Pictures	no
+315097	production_company	北京金盾信通影视文化有限责任公司	no
+315098	production_company	Rivalry Films	no
+315099	production_company	X Pictures	no
+315100	production_company	上海景天红韵商务咨询中心	no
+315101	production_company	Over Our Head Players	no
+315102	production_company	中央电视台、西安曲江大秦帝国影业投资有限公司、中国国际电视总公司、中国广播电影电视节目交易中心、西安曲江新区管理委员会、西安曲江文化产业投资(集团) 有限公司、西安曲江文化产业风险投资有限公司等	no
+315103	production_company	Shining Dark Productions	no
+315104	production_company	The Free Press	no
+315105	production_company	PT Sinema Utama Film	no
+315106	production_company	Green Yapım	no
+315107	production_company	4MMMS	no
+315108	production_company	Rally & Co.	no
+315109	production_company	Skatestring Productions	no
+315110	production_company	Waterfront Television	no
+315111	production_company	PT Sinar Permatamas Film	no
+315112	production_company	CIRCUS17	no
+315113	production_company	Mr. Button Family Video	no
+9593	tv_network	ZDF	no
+9594	tv_network	RBS TV	no
+9595	tv_network	TV Jornal	no
 ```
