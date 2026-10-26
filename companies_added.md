@@ -1,128 +1,130 @@
 # Companies added
 
-- Added: 119 (115 production companies, 4 tv networks)
-- With logos: 4
-- Refreshed: 1800
+- Added: 121 (113 production companies, 8 tv networks)
+- With logos: 3
+- Refreshed: 1798
 
 ```
 id	type	name	has_logo
-315511	production_company	マジックミラー号	no
-315512	production_company	OLM Digital	no
-315513	production_company	Dominatrix 6	yes
-315514	production_company	Muzeum Mazowieckie w Płocku	no
-315515	production_company	Suveksha Films Pvt. Ltd.	no
-315516	production_company	Nerve Creations [SE]	no
-315517	production_company	Himalaya Film	no
-315518	production_company	Bikash Raj Acharya Film Prodution	no
-315519	production_company	Germania	no
-315520	production_company	SSR Entertainment	no
-315521	production_company	Ruluc Studios	no
-315522	production_company	ATTI BOYS	no
-315523	production_company	Stuttgart Ballet	no
-315524	production_company	Hardy Fools	no
-315525	production_company	SparklingPlay	no
-315526	production_company	MrTMMProductions	no
-315527	production_company	ComeandCKCK	no
-315528	production_company	Akimoto Yasushi Office	no
-315529	production_company	DIAMOND	no
-315530	production_company	Alfa Pictures	no
-315531	production_company	Comú de Sant Julià de Lòria	no
-315532	production_company	Clúster Audiovisual de Catalunya	no
-315533	production_company	Andorra Business	no
-315534	production_company	Hife Andorra	no
-315535	production_company	AKH Ventures	no
-315536	production_company	Impuls Film	no
-315537	production_company	Studio Form Telewizyjnych (PL)	no
-315538	production_company	Hwantasy Entertainment	no
-315539	production_company	DÓMfilm	no
-315540	production_company	Ab Atelier Apollo Oy	no
-315541	production_company	MA&TH Entertainment Network	no
-315542	production_company	Street Stories Films	no
-315543	production_company	ArTVision (PL)	no
-315544	production_company	Children's Productions	no
-315545	production_company	Ugly Duckling Studios	no
-315546	production_company	Fowl Fight Productions	no
-315547	production_company	Fleecey	no
-315548	production_company	Eldee Films (PH)	no
-315549	production_company	I Am Charlie	no
-315550	production_company	Just a Bit Productions	no
-315551	production_company	Intercept Brasil	no
-315552	production_company	Main Street Entertainment Productions	no
-315553	production_company	Tri-Rahn Productions	no
-315554	production_company	YAMA Cine	no
-315555	production_company	Little Pictures	no
-315556	production_company	Frame of Two	no
-315557	production_company	Ortiz Entertainment	no
-315558	production_company	Twisted Stickman Productions	no
-315559	production_company	Stills Studios	no
-315560	production_company	Starkid	no
-315561	production_company	University of Ulster	no
-315562	production_company	Lucki	no
-315563	production_company	Lionhead Movies	no
-315564	production_company	Jamin Heat	no
-315565	production_company	Blue Lab Productions	no
-315566	production_company	[trigger warning]	no
-315567	production_company	Fotoaura Institute of Photography	no
-315568	production_company	Taichung Art Museum	no
-315569	production_company	Happy Campers Productions	no
-315570	production_company	Walkabout Asia	no
-315571	production_company	Darbininkai	no
-315572	production_company	Riverside Stories	no
-315573	production_company	Dari Dapur	no
-315574	production_company	Young Lives	no
-315575	production_company	Katha Mandala Productions	no
-315576	production_company	Mirumir Studio	no
-315577	production_company	Nirantar Trust	no
-315578	production_company	The Third Eye	no
-315579	production_company	Lina Films	no
-315580	production_company	Studio Hans Op de Beeck	no
-315581	production_company	جينا فيلم	no
-315582	production_company	Altitude Television	yes
-315583	production_company	Cinematic Labs	no
-315584	production_company	Kinkkrew	no
-315585	production_company	Slutet	yes
-315586	production_company	HS Film	no
-315587	production_company	Slutet	no
-315588	production_company	StarKid Productions	no
-315589	production_company	Emerald Triangle Girls	no
-315590	production_company	Mega Pug Productions	no
-315591	production_company	Romeo Studios	no
-315592	production_company	Czołówka Filmowa Wojska Polskiego (PL)	no
-315593	production_company	HR VISIONS	no
-315594	production_company	Thirdstreet	no
-315595	production_company	A suitcase and a dream	no
-315596	production_company	Quartermaster Creative	no
-315597	production_company	Epode Ltd.	no
-315598	production_company	Agora	no
-315599	production_company	Xworks	no
-315600	production_company	Estudios Cinematográficos	no
-315601	production_company	Netwood Pictures Production	no
-315602	production_company	Subjective Objective	no
-315603	production_company	Fata Morgana	no
-315604	production_company	La Vida y El Cine Producciones	no
-315605	production_company	Dos Goats	no
-315606	production_company	Mirror Studios	no
-315607	production_company	Canary Productions	no
-315608	production_company	Sean Sprawling	no
-315609	production_company	Idaho Films	no
-315610	production_company	Astral Epoch International Corporation	no
-315611	production_company	WendlWood Productions	no
-315612	production_company	A Couple of Idiots Productions	no
-315613	production_company	Sily Film	no
-315614	production_company	浙江永康炫酷影视文化有限公司	no
-315615	production_company	济南鸿景文化产业有限公司	no
-315616	production_company	GRACE	no
-315617	production_company	Trem Feliz	no
-315618	production_company	ACB Vídeos	no
-315619	production_company	La Factoría	no
-315620	production_company	Metro Entertainment Film Department	no
-315621	production_company	New World Spirits Film Creation	no
-315622	production_company	Kilusan Studios	no
-315623	production_company	Sampaguita Films, Inc.	no
-315624	production_company	Fou Films	no
-315625	production_company	Character Tales	no
-9617	tv_network	TROS	no
-9618	tv_network	TROS	no
-9619	tv_network	TROS	no
-9620	tv_network	TV Liberal	yes
+315626	production_company	Shin-hwa Film	no
+315627	production_company	VBCU Productions	no
+315628	production_company	8 Arms Pictures	no
+315629	production_company	Infinite Sums	no
+315630	production_company	Weird Things Production	no
+315631	production_company	Abusuan	no
+315632	production_company	Aetia Studio	no
+315633	production_company	Stillhouse Pictures	no
+315634	production_company	Restrap	no
+315635	production_company	Friction Collective	no
+315636	production_company	The Adventure Syndicate	no
+315637	production_company	Cineverse	no
+315638	production_company	werkself.tv	no
+315639	production_company	Argos Pictures	no
+315640	production_company	reeljuice	no
+315641	production_company	Julie Jakobek	no
+315642	production_company	Babilon - Centar za razvoj na urbana kultura	no
+315643	production_company	Producciones LB	no
+315644	production_company	Two18 Films	no
+315645	production_company	The realist films	no
+315646	production_company	Princigalli Produzioni	no
+315647	production_company	TR Films Productions	no
+315648	production_company	studio AIR	no
+315649	production_company	Champions Birdemic	no
+315650	production_company	Scotica Film	no
+315651	production_company	elcreators	no
+315652	production_company	theboywhojumpedthemoon	no
+315653	production_company	Tukmiit Production	no
+315654	production_company	Cruel World Team	no
+315655	production_company	Hypnosis Films	no
+315656	production_company	Rhino Pictures	no
+315657	production_company	New View Studio	no
+315658	production_company	Falanster	no
+315659	production_company	Unexposed film	no
+315660	production_company	It’s a laugh productions (season 6-10, 2008-2017	no
+315661	production_company	Anger animation pictures	no
+315662	production_company	Skylifetv Co	no
+315663	production_company	min(d) studio	no
+315664	production_company	Full Power Film Production	no
+315665	production_company	SVAN PRODUCTIONS	no
+315666	production_company	Media Made Now	no
+315667	production_company	Metropolis Music	no
+315668	production_company	Openville	no
+315669	production_company	Openville Limited	no
+315670	production_company	Producciones Mondo Maldito	no
+315671	production_company	Tashmoo Productions	no
+315672	production_company	Moving Pictures & L. F. S.	no
+315673	production_company	丁丁短剧官方	yes
+315674	production_company	蜜芽剧场	yes
+315675	production_company	digTV	no
+315676	production_company	Sunbeam Production	no
+315677	production_company	La Sede Audiovisual	no
+315678	production_company	Tredici Agencia	no
+315679	production_company	RUDE NEWS FILMS	no
+315680	production_company	Gold Star Films	no
+315681	production_company	Ginji Production	no
+315682	production_company	Общество.Будущее	no
+315683	production_company	Northern Lights (EG)	no
+315684	production_company	Tob Film	no
+315685	production_company	Bompiani Editore	no
+315686	production_company	DAMS Università di Torino	no
+315687	production_company	Digital SKIP Station	no
+315688	production_company	Films Cetelci S.A.	no
+315689	production_company	Shinwa Holdings	no
+315690	production_company	Tsukuyomi Holdings	no
+315691	production_company	itemLabel	no
+315692	production_company	Samiam Flim	no
+315693	production_company	samiam flim	no
+315694	production_company	Rakuda Studio	no
+315695	production_company	Amour Fou Luxenburg	no
+315696	production_company	samiam film	no
+315697	production_company	iGnarly	no
+315698	production_company	Mikey Bradford	no
+315699	production_company	Japan Writers' Association	no
+315700	production_company	MABU	no
+315701	production_company	fil and.	no
+315702	production_company	DAWN ENTERTAINMENT	no
+315703	production_company	Tsuri Komachi Production Committee	no
+315705	production_company	Friend Group B	no
+315706	production_company	Poly- Blue	no
+315707	production_company	Studio Gołąb	no
+315708	production_company	الفنية للسينما	no
+315709	production_company	هاديكو فيلم	no
+315710	production_company	أفلام حسن الإمام الجديدة	no
+315711	production_company	ToneLock Films	no
+315712	production_company	41 Films	no
+315713	production_company	Aeterna Films	no
+315714	production_company	DiezCincuenta	no
+315715	production_company	Mesa Audiovisual de Arica	no
+315716	production_company	Peoples Strategy Group	no
+315717	production_company	Qingkong Qianli	no
+315718	production_company	JRA PRODUCTIONS	no
+315719	production_company	Made by Spooky	yes
+315720	production_company	Art Fiction	no
+315721	production_company	Arte Feroz	no
+315722	production_company	West End Productions	no
+315723	production_company	Ensueño Pictures	no
+315724	production_company	Eggrock Cinema	no
+315725	production_company	赵雷工作室	no
+315726	production_company	Team Skeet	no
+315727	production_company	Rotten Core	no
+315728	production_company	Municipalité de Gennevilliers	no
+315729	production_company	Fallen Horse	no
+315730	production_company	Bolsa Producciones	no
+315731	production_company	Glass Films	no
+315732	production_company	Blue Crab Productions	no
+315733	production_company	Big Howl	no
+315734	production_company	TV Face	no
+315735	production_company	Platinum Dove Pictures	no
+315736	production_company	Fronza Media	no
+315737	production_company	Fronza Family LLC	no
+315738	production_company	Nusantara Pictures	no
+315739	production_company	Dragonfly J	no
+9621	tv_network	werkself.tv	no
+9622	tv_network	UltraBox+	no
+9623	tv_network	Plex	no
+9624	tv_network	Arte	no
+9625	tv_network	Qingkong Qianli	no
+9626	tv_network	bilibili YouXi	no
+9627	tv_network	艾尔平方	no
+9628	tv_network	两点十分动漫	no
 ```
