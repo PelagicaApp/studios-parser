@@ -1,163 +1,106 @@
 # Companies added
 
-- Added: 154 (151 production companies, 3 tv networks)
-- With logos: 6
-- Refreshed: 1807
+- Added: 97 (95 production companies, 2 tv networks)
+- With logos: 3
+- Refreshed: 1806
 
 ```
 id	type	name	has_logo
-315936	production_company	Iff Production	no
-315937	production_company	KT ENTERTAINMENT	no
-315938	production_company	Wierke Film	no
-315939	production_company	Fullframe srls	no
-315940	production_company	Dextramedia Kft.	no
-315941	production_company	6 e mezzo	no
-315942	production_company	KP Infotainment	no
-315943	production_company	Templon Films	no
-315944	production_company	Poolgirl Productions Oy	no
-315945	production_company	Si Fang Film Co., Ltd.	no
-315946	production_company	Cultured Mammoth Studios	no
-315947	production_company	Origami Records	no
-315948	production_company	Seamonster Media	no
-315949	production_company	CLG Films	no
-315950	production_company	JPLCP Productions	no
-315951	production_company	Schüppenauer art + projects	no
-315952	production_company	Racket Studio	no
-315953	production_company	Jean Pierre Leaud Communist Party Productions	no
-315954	production_company	Horse Opera	no
-315955	production_company	Otter House Productions	no
-315956	production_company	Hitters LLC	no
-315957	production_company	Mordel Films International	no
-315958	production_company	Better Master Company	no
-315959	production_company	H.B. Halicki Productions	no
-315960	production_company	Under The Tongue	no
-315961	production_company	The Process Project	no
-315962	production_company	Horror Enterprises	no
-315963	production_company	Kandice King Productions	no
-315964	production_company	Horseplay Productions Inc.	no
-315965	production_company	Butler Hall Productions	no
-315966	production_company	Vidno	no
-315967	production_company	Bravura Arts and Entertainment Ltd	no
-315968	production_company	Machine Age Productions	no
-315969	production_company	WeDú Creative World	no
-315970	production_company	Sui	no
-315971	production_company	Acousmatic Film Sound	no
-315972	production_company	Devafilm.be	no
-315973	production_company	Latin-Flanders	no
-315974	production_company	Odo Yapım	no
-315975	production_company	Mekanism Media	no
-315976	production_company	Ksiazek Media	no
-315977	production_company	H15 Concern Group	no
-315978	production_company	Fridtjof AS	no
-315979	production_company	Cireșica Miron	no
-315980	production_company	Premiere Scene Production	no
-315981	production_company	Hall Productions	no
-315982	production_company	Momento Film	no
-315983	production_company	Hangzhou Benba Film	no
-315984	production_company	Zhouyi	no
-315985	production_company	garnet	no
-315986	production_company	GARNET	no
-315987	production_company	Studio Osobiście Prywatne	no
-315988	production_company	NPD OVT	no
-315989	production_company	Ezemell	no
-315990	production_company	RYC Studio	no
-315991	production_company	CV Lovers Management	no
-315992	production_company	Grimoire Pictures	no
-315993	production_company	Ginger Rock Productions	no
-315994	production_company	Nowhereland Publications Limited	yes
-315995	production_company	Teatro Nacional Cervantes	no
-315996	production_company	海峰影视	yes
-315997	production_company	Big Head Media	no
-315998	production_company	Nata Production	no
-315999	production_company	Garland Films	no
-316000	production_company	Tantra Films	no
-316001	production_company	Mansion Films	no
-316002	production_company	Almighty Aphrodite Productions	no
-316003	production_company	KPS Films	no
-316004	production_company	Me Mata Producciones	no
-316005	production_company	nighttrain produktions	no
-316006	production_company	HVJ Media	no
-316007	production_company	Myradha Motion Pictures	no
-316008	production_company	Fundacja Sztuki Współczesnej In Situ	yes
-316009	production_company	KZN	no
-316010	production_company	BEADS Productions	no
-316011	production_company	tooth lifeless	no
-316012	production_company	Tooth Lifeless	no
-316013	production_company	Lacandona Cine	no
-316014	production_company	Moonlit Wings Productions	no
-316015	production_company	Quiet Child Films Ltd	no
-316016	production_company	No Bobbi	no
-316017	production_company	Tri.Rei.Pro	no
-316018	production_company	Consultor individual	no
-316019	production_company	Fullmix Studio Post	no
-316020	production_company	King Leo Films (PH)	no
-316021	production_company	D-Ras Film	no
-316022	production_company	Aloes audiovisuel productions	no
-316023	production_company	Cosmologies Productions	no
-316024	production_company	Dog Eagle Studios	no
-316025	production_company	Jerry Fairbanks Studios	no
-316026	production_company	Deerstalker Films	no
-316027	production_company	Transgressive North	no
-316028	production_company	Mellor&Smith	no
-316029	production_company	MIRAR UNO FILMS	no
-316030	production_company	SteakKnife	no
-316031	production_company	No company	no
-316032	production_company	Brand in Entertainment	no
-316033	production_company	Dream State Studios	no
-316034	production_company	Somerville Studios	no
-316035	production_company	GIACCONE PRODUCTION	no
-316036	production_company	Cámara Nómada	no
-316037	production_company	adg producciones	no
-316038	production_company	Caldeo Producciones	no
-316039	production_company	Burrowed Alive	no
-316040	production_company	Talent Associates	no
-316041	production_company	Pasajes Producciones	no
-316042	production_company	Kazandibi Animasyon	no
-316043	production_company	Qué digital	no
-316044	production_company	Cooperativa de Trabajo La Redacción	no
-316045	production_company	Story Matters Studios	no
-316046	production_company	Failure band	no
-316047	production_company	CBC	no
-316048	production_company	North Deck Productions	no
-316049	production_company	Ttenra Productions	no
-316050	production_company	Sky Content Factor	no
-316051	production_company	Specksgatan	no
-316052	production_company	Valori Films	no
-316053	production_company	Mimo's	no
-316054	production_company	Tripod3 Producciones	no
-316055	production_company	Wanna Films	no
-316056	production_company	78Studio	no
-316057	production_company	AMO MOTION	no
-316059	production_company	Baraka Film	no
-316060	production_company	Possible Metrics	no
-316061	production_company	Bico Sujo Produções	no
-316062	production_company	FOX Entertainment Animation	no
-316063	production_company	Emotions to Generate Change	no
-316064	production_company	Untold	no
-316065	production_company	Ludozcine Films	no
-316066	production_company	Gizmotech Industries	no
-316067	production_company	Mediazhka	no
-316068	production_company	La Furia Films	no
-316069	production_company	Raven & Lion Media	no
-316070	production_company	Jasper Ian Jones	no
-316071	production_company	La bernasala	no
-316072	production_company	Anis_projects	no
-316073	production_company	La Vampirina	no
-316074	production_company	Hayat Poshti	yes
-316075	production_company	FX Camera	no
-316076	production_company	HD Productions	no
-316077	production_company	Jambô Editora	no
-316078	production_company	C&C’s Other-Worldly Ordeals	no
-316079	production_company	NeonCrownEntertainment	no
-316080	production_company	4X3 MEDIA	no
-316081	production_company	Gunther Oakbark	no
-316082	production_company	Studio 311	no
-316083	production_company	Venn Creative Media	no
-316084	production_company	manbehindthecurtains productions	no
-316085	production_company	Tirol-Film	no
-316086	production_company	Orda D'Oro Film	no
-316087	production_company	Autonomous 8A	no
-9631	tv_network	Kwenda Magic	no
-9632	tv_network	TPA	yes
-9633	tv_network	MC Producciones	yes
+316088	production_company	Primaco Productions	yes
+316089	production_company	Salotto Monogatari	no
+316090	production_company	ROSÉN	no
+316091	production_company	Miyo Pimatisiwin Productions Inc	no
+316092	production_company	Independent	no
+316093	production_company	His House Pictures	no
+316094	production_company	Krish Pictures	no
+316095	production_company	H501	no
+316096	production_company	Ze Maison Productions	no
+316097	production_company	Brigham Young University	no
+316098	production_company	Sarinjay Entertainment	no
+316099	production_company	Oglio Records	no
+316100	production_company	Friday Film Club Productions	no
+316101	production_company	Maraschino Film Group	no
+316102	production_company	Motion Picture Lighting	no
+316103	production_company	TANAH PATAH PRODUCTION	no
+316104	production_company	Revenge Films Ltd.	no
+316105	production_company	Melvin Film Company	no
+316106	production_company	sagacidade filmes	no
+316107	production_company	AFP Docs	no
+316108	production_company	Oceanika	no
+316109	production_company	ONBAI Productions	no
+316110	production_company	Vulcanika	no
+316111	production_company	Qimao Short Dramas	yes
+316112	production_company	NewVillage	no
+316113	production_company	SG Animation (SG)	no
+316114	production_company	produzaê	no
+316115	production_company	Lupa Lensa	no
+316116	production_company	Harmony Picture Company	no
+316117	production_company	Illusive	no
+316118	production_company	Creative Canopy	no
+316119	production_company	Day10 Films	no
+316120	production_company	El Espino Films	no
+316121	production_company	DYYD Creative Action	yes
+316122	production_company	Om/No Productions	no
+316123	production_company	Scandia-Hus Films	no
+316124	production_company	DR Production	no
+316125	production_company	raiz filmes	no
+316126	production_company	Acun Medya	no
+316127	production_company	CBS Mobile	no
+316128	production_company	Scribner	no
+316129	production_company	Sabrejet	no
+316130	production_company	Playboy Video Entertainment Group	no
+316131	production_company	KCV International Presents	no
+316132	production_company	Brozene Pictures LLC	no
+316133	production_company	Millennials Movie Production LLP	no
+316134	production_company	The INDiE ROOM	no
+316135	production_company	Iranian ministry of Oil	no
+316136	production_company	T. N. R. Productions	no
+316137	production_company	Jank Ass Pictures	no
+316138	production_company	Digital Post	no
+316139	production_company	After School Productions	no
+316140	production_company	KNK Production	no
+316141	production_company	Produktifity	no
+316142	production_company	Project Parasite	no
+316143	production_company	theoutakes	no
+316144	production_company	Ashoka Pictures	no
+316145	production_company	Unstable Films	no
+316146	production_company	Blue Sunday Productions	no
+316147	production_company	Dirty Skunk	no
+316148	production_company	Mess around and Find out	no
+316149	production_company	Fade to Black Media	no
+316151	production_company	Lacelid Productions	no
+316152	production_company	SWICK cinema	no
+316153	production_company	storytelle	no
+316154	production_company	Colomish Films	no
+316155	production_company	Selling Spots Studios	no
+316156	production_company	Léo Degiovani Film	no
+316157	production_company	Tommy Does Everything	no
+316158	production_company	Tommy Does Drama	no
+316159	production_company	Harbor Heights Entertainment	no
+316160	production_company	Studio Prisma	no
+316161	production_company	Devenir Films (CO)	no
+316162	production_company	Tranki Production	no
+316163	production_company	Fast Times Skateboarding	no
+316164	production_company	No One Cares	no
+316165	production_company	Bored In Basement	no
+316166	production_company	Panther Media	no
+316167	production_company	5 yard productions	no
+316168	production_company	fuji apple productions	no
+316169	production_company	Peak Pictures	no
+316170	production_company	Interspace Anomalies	no
+316171	production_company	Retro Digital	no
+316172	production_company	Portobello Electric	no
+316173	production_company	Gm Film Studio	no
+316174	production_company	Vegas Casting Couch	no
+316175	production_company	Collateral Image	no
+316176	production_company	Helltown	no
+316177	production_company	Low Level Hum	no
+316178	production_company	Teambangan Production	no
+316179	production_company	TeamBangan Films	no
+316180	production_company	演唱会	no
+316181	production_company	I'm a Big Fan	no
+316182	production_company	Fine Nine Entertainment	no
+316183	production_company	Contact Motion GmbH	no
+9634	tv_network	русский роман	no
+9635	tv_network	https://superstartv.rs	no
 ```
