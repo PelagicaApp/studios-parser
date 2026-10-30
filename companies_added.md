@@ -1,106 +1,132 @@
 # Companies added
 
-- Added: 97 (95 production companies, 2 tv networks)
-- With logos: 3
-- Refreshed: 1806
+- Added: 123 (121 production companies, 2 tv networks)
+- With logos: 8
+- Refreshed: 1805
 
 ```
 id	type	name	has_logo
-316088	production_company	Primaco Productions	yes
-316089	production_company	Salotto Monogatari	no
-316090	production_company	ROSÉN	no
-316091	production_company	Miyo Pimatisiwin Productions Inc	no
-316092	production_company	Independent	no
-316093	production_company	His House Pictures	no
-316094	production_company	Krish Pictures	no
-316095	production_company	H501	no
-316096	production_company	Ze Maison Productions	no
-316097	production_company	Brigham Young University	no
-316098	production_company	Sarinjay Entertainment	no
-316099	production_company	Oglio Records	no
-316100	production_company	Friday Film Club Productions	no
-316101	production_company	Maraschino Film Group	no
-316102	production_company	Motion Picture Lighting	no
-316103	production_company	TANAH PATAH PRODUCTION	no
-316104	production_company	Revenge Films Ltd.	no
-316105	production_company	Melvin Film Company	no
-316106	production_company	sagacidade filmes	no
-316107	production_company	AFP Docs	no
-316108	production_company	Oceanika	no
-316109	production_company	ONBAI Productions	no
-316110	production_company	Vulcanika	no
-316111	production_company	Qimao Short Dramas	yes
-316112	production_company	NewVillage	no
-316113	production_company	SG Animation (SG)	no
-316114	production_company	produzaê	no
-316115	production_company	Lupa Lensa	no
-316116	production_company	Harmony Picture Company	no
-316117	production_company	Illusive	no
-316118	production_company	Creative Canopy	no
-316119	production_company	Day10 Films	no
-316120	production_company	El Espino Films	no
-316121	production_company	DYYD Creative Action	yes
-316122	production_company	Om/No Productions	no
-316123	production_company	Scandia-Hus Films	no
-316124	production_company	DR Production	no
-316125	production_company	raiz filmes	no
-316126	production_company	Acun Medya	no
-316127	production_company	CBS Mobile	no
-316128	production_company	Scribner	no
-316129	production_company	Sabrejet	no
-316130	production_company	Playboy Video Entertainment Group	no
-316131	production_company	KCV International Presents	no
-316132	production_company	Brozene Pictures LLC	no
-316133	production_company	Millennials Movie Production LLP	no
-316134	production_company	The INDiE ROOM	no
-316135	production_company	Iranian ministry of Oil	no
-316136	production_company	T. N. R. Productions	no
-316137	production_company	Jank Ass Pictures	no
-316138	production_company	Digital Post	no
-316139	production_company	After School Productions	no
-316140	production_company	KNK Production	no
-316141	production_company	Produktifity	no
-316142	production_company	Project Parasite	no
-316143	production_company	theoutakes	no
-316144	production_company	Ashoka Pictures	no
-316145	production_company	Unstable Films	no
-316146	production_company	Blue Sunday Productions	no
-316147	production_company	Dirty Skunk	no
-316148	production_company	Mess around and Find out	no
-316149	production_company	Fade to Black Media	no
-316151	production_company	Lacelid Productions	no
-316152	production_company	SWICK cinema	no
-316153	production_company	storytelle	no
-316154	production_company	Colomish Films	no
-316155	production_company	Selling Spots Studios	no
-316156	production_company	Léo Degiovani Film	no
-316157	production_company	Tommy Does Everything	no
-316158	production_company	Tommy Does Drama	no
-316159	production_company	Harbor Heights Entertainment	no
-316160	production_company	Studio Prisma	no
-316161	production_company	Devenir Films (CO)	no
-316162	production_company	Tranki Production	no
-316163	production_company	Fast Times Skateboarding	no
-316164	production_company	No One Cares	no
-316165	production_company	Bored In Basement	no
-316166	production_company	Panther Media	no
-316167	production_company	5 yard productions	no
-316168	production_company	fuji apple productions	no
-316169	production_company	Peak Pictures	no
-316170	production_company	Interspace Anomalies	no
-316171	production_company	Retro Digital	no
-316172	production_company	Portobello Electric	no
-316173	production_company	Gm Film Studio	no
-316174	production_company	Vegas Casting Couch	no
-316175	production_company	Collateral Image	no
-316176	production_company	Helltown	no
-316177	production_company	Low Level Hum	no
-316178	production_company	Teambangan Production	no
-316179	production_company	TeamBangan Films	no
-316180	production_company	演唱会	no
-316181	production_company	I'm a Big Fan	no
-316182	production_company	Fine Nine Entertainment	no
-316183	production_company	Contact Motion GmbH	no
-9634	tv_network	русский роман	no
-9635	tv_network	https://superstartv.rs	no
+316184	production_company	Vijaya Balaji Movies	no
+316185	production_company	14 Avril Productions	no
+316186	production_company	Lucky Number 7	no
+316187	production_company	Multiversal film	no
+316188	production_company	Ganesh Films	no
+316189	production_company	Mora Mora	no
+316190	production_company	Prostor Production	no
+316191	production_company	'90 Films	no
+316192	production_company	J.ONE ENM	no
+316193	production_company	TOOLMUSIC	yes
+316194	production_company	Associazione Culturale "Orizzonte" A.P.S.	no
+316195	production_company	Topical Productions Glasgow	no
+316196	production_company	Humans of Cinema	no
+316197	production_company	Safarnaama Pictures	no
+316198	production_company	Takva	no
+316199	production_company	박하필름	no
+316200	production_company	وزارة الثقافة الجزائرية	no
+316201	production_company	Contents Sero	yes
+316202	production_company	Ville de Vallon-Pont-d’Arc	no
+316203	production_company	PLAYFUL	no
+316204	production_company	MM productions.be srl	no
+316205	production_company	Doc. Dream	no
+316206	production_company	Arkadinia	no
+316207	production_company	Class of Wibu	no
+316208	production_company	2Buffoons Production	no
+316209	production_company	Aistės filmai	yes
+316210	production_company	Mod Films	no
+316211	production_company	角马	no
+316212	production_company	Phoenix Films	no
+316213	production_company	Phoenix Films	no
+316214	production_company	Pierrot Plus	no
+316215	production_company	Preziosa	no
+316216	production_company	THNV-Media	no
+316217	production_company	DRM Entertainment	no
+316218	production_company	Hoff Studios	no
+316219	production_company	The Toronto Area Stakes of The Church of Jesus Christ of Latterday Saints	no
+316220	production_company	FOTOCÓPIA FILMES	no
+316221	production_company	Donya Tecla	no
+316222	production_company	Rusalka Pictures	no
+316223	production_company	We Are One World	yes
+316224	production_company	7Fifty (GB)	no
+316225	production_company	DH’BAB Productions	no
+316226	production_company	BEBFILMSTUDIO	no
+316227	production_company	Lime Film	no
+316228	production_company	Movie And	no
+316229	production_company	Pedal Born Pictures	no
+316230	production_company	硕才短剧	yes
+316231	production_company	Institut Thomas More	no
+316232	production_company	九州短剧官方	yes
+316233	production_company	Duckochan Pictures	no
+316234	production_company	Outdoor Cat	no
+316235	production_company	Huru Hara Films	no
+316236	production_company	le le productions	no
+316237	production_company	Baiskoafu	no
+316238	production_company	University of Chicago	no
+316239	production_company	Rima Rima Cine	no
+316240	production_company	Gnu Pictures	no
+316241	production_company	角马电影公司	no
+316242	production_company	DC Media	no
+316243	production_company	Entire	no
+316244	production_company	Syndicast Services	no
+316245	production_company	The Neat Corporation	no
+316246	production_company	Montreux Colorfilm	no
+316247	production_company	Cinemawest	no
+316248	production_company	Yale Feature Film Co.	no
+316249	production_company	Titanheart Studios	no
+316250	production_company	Oraview Productions	no
+316251	production_company	BDC Productions	no
+316252	production_company	Bosburn Photoplay Co.	no
+316253	production_company	dryTree Films	no
+316254	production_company	Dorado Productions Incorporated	no
+316255	production_company	EB Films	no
+316256	production_company	Cultured Swine	no
+316257	production_company	Blah Blah Blah Productions	no
+316258	production_company	Cubed Notepad Productions	no
+316259	production_company	Starwood Films Advertising	no
+316260	production_company	Keep Good Company	no
+316261	production_company	Twenty One Pilots	no
+316262	production_company	Firelock Productions	no
+316263	production_company	S. T. Combines	no
+316264	production_company	Video Express	no
+316265	production_company	Atom Media Ventures	no
+316266	production_company	I.R.I.S. Inspiring Research of Impossible Sciences	no
+316267	production_company	Wrong Organ	no
+316268	production_company	Roblox	no
+316269	production_company	roblox	yes
+316270	production_company	scarla	no
+316271	production_company	Asphalt Films	no
+316272	production_company	Landeo Cine	no
+316273	production_company	Rio Mendez	no
+316274	production_company	Enchilada Studio	no
+316275	production_company	Focus Film	no
+316276	production_company	JaDanGuPul Studios	no
+316277	production_company	Nicholson Øye- og Øreverk	no
+316278	production_company	Herstory	no
+316279	production_company	Floresta Filmes	no
+316280	production_company	Mini Goblins Productions	no
+316281	production_company	HAWK Studios	no
+316282	production_company	algeria	no
+316283	production_company	4th River Films	no
+316284	production_company	Dolomia Film	no
+316285	production_company	Kita Sama Grow Project	no
+316286	production_company	Sycamore Street Film Production Company Limited	no
+316287	production_company	Pc Arts	no
+316288	production_company	Mondial Video	no
+316289	production_company	unrelatedtopic	no
+316290	production_company	Plantation Pictures	no
+316291	production_company	Studio Butter	no
+316292	production_company	Simetri Media	no
+316293	production_company	Vv MAGICK	no
+316294	production_company	Sri Pinaaka Motion Pictures	no
+316295	production_company	Harmon Foundation	no
+316296	production_company	Eiten	no
+316297	production_company	Basement Video	no
+316298	production_company	Kine FISIP UNNES	no
+316299	production_company	Baby Jane	yes
+316300	production_company	Film Labours	no
+316301	production_company	Duel Frame	no
+316302	production_company	Turtle Films	no
+316303	production_company	ANKProductions	no
+316304	production_company	Télépease	no
+9636	tv_network	BBC One	no
+9637	tv_network	Patreon	no
 ```
