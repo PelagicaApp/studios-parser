@@ -1,132 +1,144 @@
 # Companies added
 
-- Added: 123 (120 production companies, 3 tv networks)
-- With logos: 10
-- Refreshed: 1807
+- Added: 135 (124 production companies, 11 tv networks)
+- With logos: 12
+- Refreshed: 1809
 
 ```
 id	type	name	has_logo
-316998	production_company	Navada GmbH	no
-316999	production_company	SF Media Oy	no
-317000	production_company	Bad Wasabi	no
-317001	production_company	Fauve Films	no
-317002	production_company	La Conserve	no
-317003	production_company	RJ Cinemas	no
-317004	production_company	PT Gramedia Film	no
-317005	production_company	Room 64	no
-317006	production_company	Warrix	no
-317007	production_company	Liobleaud Films	yes
-317008	production_company	SNMPROD	no
-317009	production_company	Films Minerva	no
-317010	production_company	Scheunemann-Film	no
-317011	production_company	Ibérica Films	no
-317012	production_company	NAGOMI	yes
-317013	production_company	Producciones Guillermín	no
-317014	production_company	Macchina Parallela	no
-317015	production_company	muzeum podgórza	no
-317016	production_company	Muzeum Podgórza	no
-317017	production_company	Vetri Vinayagar Creations	no
-317018	production_company	R.A. Madero	no
-317019	production_company	Anil Creations	no
-317020	production_company	Bislet Video	no
-317021	production_company	Filmhaus Sage	no
-317022	production_company	NSDAP Reischpropagandaleitung Hauptabt Film	no
-317023	production_company	PSV Video	no
-317024	production_company	Homies Hideout	no
-317025	production_company	Pomodoro Productions	no
-317026	production_company	Pyewacket Films	no
-317027	production_company	D Square Productions	no
-317028	production_company	Refúgio Onírico	yes
-317029	production_company	Assum Filmes	yes
-317030	production_company	The Flying Frames	no
-317031	production_company	Dreambox Studios	no
-317032	production_company	Louis Seel	no
-317033	production_company	辽宁北方影视艺术有限公司	no
-317034	production_company	Films Albatros	no
-317035	production_company	Aurora Films	no
-317036	production_company	Production Soul	no
-317037	production_company	Truval Entertainment	no
-317038	production_company	Lifestyle	no
-317039	production_company	DIX21 Prod	no
-317040	production_company	France Télévisions	no
-317041	production_company	Intermezzo srl	no
-317042	production_company	Reelplays Corporation	no
-317043	production_company	U.S. Feature Film Company	no
-317044	production_company	11c Produkcija	no
-317045	production_company	SolMirror	no
-317046	production_company	Les Films A.N.C	no
-317047	production_company	Guthrie-Huckert Productions	no
-317048	production_company	Six Side Studios	no
-317049	production_company	Foy Media	no
-317050	production_company	MARKAND Media	no
-317051	production_company	The Ordinary Company	no
-317052	production_company	Nightingale and Ward Productions	no
-317053	production_company	Adam Nightingale Films	no
-317054	production_company	MAFAP	no
-317055	production_company	Chiarafama	no
-317056	production_company	La Bola Productions	no
-317057	production_company	Fleapit	no
-317058	production_company	Fabula	yes
-317059	production_company	Jailtime Films	no
-317060	production_company	Códice Cine	no
-317061	production_company	The Table Productions	no
-317062	production_company	Equation Entertainment	no
-317063	production_company	Best Guess Productions	no
-317064	production_company	TAS Audiovisual	no
-317065	production_company	Agência Klacat	no
-317066	production_company	BCFilms	no
-317067	production_company	Full Surrender Films	no
-317068	production_company	Akelarre Audiovisual	no
-317069	production_company	Stovetop Productions	no
-317070	production_company	Falcova studios	no
-317071	production_company	Ander Parra	no
-317072	production_company	Kemal Film	no
-317073	production_company	Foreign Made Films	no
-317074	production_company	Forrest Milkshake Productions	no
-317075	production_company	Identity Media	no
-317076	production_company	Atlantia Films	no
-317077	production_company	Empiric, Ltd	no
-317078	production_company	Dział Produkcji Fabularnej TVN Warner Bros	no
-317079	production_company	Dział Produkcji Fabularnej TVN Warner Bros. Discovery	no
-317080	production_company	هادي ميلود	no
-317081	production_company	Both/And Productions	no
-317082	production_company	Perspective Films	yes
-317083	production_company	MPS Sarim Fassi-Firhi	no
-317084	production_company	queality productions	no
-317085	production_company	Raft Films	no
-317086	production_company	AB Film Company	no
-317087	production_company	RYN CINEMA	no
-317088	production_company	SoftLight Pictures	no
-317089	production_company	Dogs of Passion	no
-317090	production_company	Three Musketeers Productions	no
-317091	production_company	Gris Production	no
-317092	production_company	PansexualX	yes
-317093	production_company	S.F.O.T.W. Productions	no
-317094	production_company	FarBeyond	no
-317095	production_company	Agents After All	no
-317096	production_company	Sightline Productions	no
-317097	production_company	Agência Daphne	no
-317098	production_company	STUDIO 321 / Valenciennes	no
-317099	production_company	Les Aventuriers Voyageurs	no
-317100	production_company	李志	no
-317101	production_company	AB Pictures Farm	no
-317102	production_company	Producciones VideoHumor	no
-317103	production_company	Handsome Productions	no
-317104	production_company	Black Mountain Studios	no
-317105	production_company	Merlin Street Films	no
-317106	production_company	Black Sheep Productions (MI)	no
-317107	production_company	Basement Gang	no
-317108	production_company	Auteur Independent Films	no
-317109	production_company	Sony Pictures International Productions Spain	no
-317110	production_company	Fribes n Films	no
-317111	production_company	28 In Blue	no
-317112	production_company	21 Video Planning	no
-317113	production_company	mulch studios	no
-317114	production_company	mulch productions	no
-317115	production_company	Temanteman Production	no
-317116	production_company	Ceria Art Entertainment	no
-317117	production_company	Pringa Pictures	no
-9656	tv_network	KNN	yes
-9657	tv_network	LG HelloVision Corp.	yes
-9658	tv_network	Nickelodeon Asia	yes
+317118	production_company	IP4 Media	no
+317119	production_company	Sunflower County Film Academy	no
+317120	production_company	Batuhan Karadağoğlu	no
+317121	production_company	Serdar Atacan	no
+317122	production_company	David y Layla, AIE	no
+317123	production_company	Tosca Film GmbH	no
+317124	production_company	ឥន្ទ្រិយហ្វីម	no
+317125	production_company	Orca Productions	no
+317126	production_company	Elephant Goldfish	no
+317127	production_company	Aarati International Films	no
+317128	production_company	A Stewy Production	no
+317129	production_company	NovaBridge Studios	no
+317130	production_company	NovaBridge Productions	no
+317131	production_company	Ganesha Shubh Movies	no
+317132	production_company	Lychee Entertainment Pvt. Ltd.	no
+317133	production_company	Prometheus-Film-Verleih und Vertriebs-GmbH	no
+317134	production_company	Alvarez Company	no
+317135	production_company	HairCog Media	no
+317136	production_company	Filmatelier Luca	no
+317137	production_company	Sideflare	no
+317138	production_company	Arriguri	no
+317139	production_company	Cinema Culture Society of Ghana	no
+317140	production_company	MIRAI	no
+317141	production_company	DRVN Social	no
+317142	production_company	Uyirmei Productions	no
+317143	production_company	1 Volt Prodüksiyon	no
+317144	production_company	V1 VFX & Digital Production Studios	no
+317145	production_company	Inaka City	no
+317146	production_company	Iron Studio	yes
+317147	production_company	Indie	no
+317148	production_company	Proper Standard	no
+317149	production_company	Cinemalaya Studios Sdn Bhd	no
+317150	production_company	Dupuy Compton & Associés	no
+317151	production_company	兔叽叽短剧	yes
+317152	production_company	Cinétapped	no
+317153	production_company	Cursed Ink Productions	no
+317154	production_company	Sejati Entertainment	no
+317155	production_company	三荐客剧场	yes
+317156	production_company	oltreset	no
+317157	production_company	盈虹文化	yes
+317158	production_company	Qlayan	no
+317159	production_company	Qlayan Productions	no
+317160	production_company	La Séptima	no
+317161	production_company	Nereus Films	no
+317162	production_company	Maraveyas Productions	no
+317163	production_company	Explosive Pictures	no
+317164	production_company	Universal Squallor	no
+317165	production_company	Bismarck-Film GmbH	no
+317166	production_company	Vision Entertainment	no
+317167	production_company	Hasham Productions	no
+317168	production_company	Tokyu Land Corporation	yes
+317169	production_company	North of the Border Creative	no
+317170	production_company	Opos	no
+317171	production_company	Bullfrog Digital	no
+317172	production_company	Binsurfen	no
+317173	production_company	Take Shelter Productions	no
+317174	production_company	Kaguya-hime Pt/Delusion Tribe	no
+317175	production_company	Block 10 Productions	no
+317176	production_company	zagora du film transaharien	no
+317177	production_company	douaa production	no
+317178	production_company	Above the Cellar Door	no
+317179	production_company	Mo-Net	no
+317180	production_company	Ministry of Culture and Information of the Republic of Kazakhstan	yes
+317181	production_company	Lokesh Productions	no
+317182	production_company	Film i Västerbotten	no
+317183	production_company	Jyothi Productions	no
+317184	production_company	ciné clem	no
+317185	production_company	Estanciero Producciones	no
+317186	production_company	Bindlestiff	no
+317187	production_company	ciné cism	no
+317188	production_company	American Anal	no
+317189	production_company	She Spun Films	no
+317190	production_company	Obsidian Creek	no
+317191	production_company	Wolfgang Bayer	no
+317192	production_company	Coraven C.A., Caracas	no
+317193	production_company	Right Off Films	yes
+317194	production_company	Dream Valley Studios	no
+317195	production_company	Vuvuzela Visual Studios	no
+317196	production_company	Retoma Producciones	no
+317197	production_company	Jackslash Media Inc.	no
+317198	production_company	Black Film Space Manitoba	no
+317199	production_company	Qozmo Producciones	no
+317200	production_company	الشام الدولية للإنتاج والتوزيع الفني	no
+317201	production_company	jacknjellify	no
+317202	production_company	Horror Inc	no
+317203	production_company	Hammer Museum	no
+317204	production_company	Medianoche Productions	no
+317205	production_company	SHAM Productions	no
+317206	production_company	Spacetoon	no
+317207	production_company	CGT Cheminots Nord–Pas-de-Calais	no
+317208	production_company	Blind Entertainment	no
+317209	production_company	Afrovisions Media	no
+317210	production_company	GMC Films	no
+317211	production_company	The Lewis Foy Show	no
+317212	production_company	钜星公司	no
+317213	production_company	SoaresFilms	no
+317214	production_company	Turtle Gang Studios	no
+317215	production_company	New Picture Production	no
+317216	production_company	Berakar	no
+317217	production_company	Public health watch	no
+317218	production_company	Toruga Productions	no
+317219	production_company	Diamond Batiste Films	no
+317220	production_company	Tenet Productions	no
+317221	production_company	Fatty Watty Productions	no
+317222	production_company	Nüman Films	yes
+317223	production_company	my little airport	no
+317224	production_company	Atlas Incorporated	no
+317225	production_company	White Wolf Studio	no
+317226	production_company	Projuicy productions	no
+317227	production_company	RH entertainment	no
+317228	production_company	Shubh Media	no
+317229	production_company	my little airport	no
+317230	production_company	my little airport	no
+317231	production_company	风芒短剧	yes
+317232	production_company	Mitad del Mundo Cine	no
+317233	production_company	Underground Creative Group Pa-jeok	no
+317234	production_company	Blinding Films	yes
+317235	production_company	Fersani Media	no
+317236	production_company	SVC Entertainment Pvt. Ltd	no
+317237	production_company	CELENTANO FILMS	yes
+317238	production_company	Todo Modo	no
+317239	production_company	Sinematek Indonesia	no
+317240	production_company	Kelas Liarsip	no
+317241	production_company	Infinite Loop Productions	no
+9659	tv_network	TRT Okul	no
+9660	tv_network	TRT Okul	no
+9661	tv_network	TRT Okul	no
+9662	tv_network	La Séptima	yes
+9663	tv_network	شركة الشام الدولية	no
+9664	tv_network	Star!	no
+9665	tv_network	الشام الدولية للإنتاج والتوزيع الفني	no
+9666	tv_network	الشام الدولية للإنتاج والتوزيع الفني	no
+9667	tv_network	سانيلاند فيلم إنترناشيونال	no
+9668	tv_network	The Lewis Foy Show	no
+9669	tv_network	中視	no
 ```
