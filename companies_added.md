@@ -1,147 +1,119 @@
 # Companies added
 
-- Added: 138 (131 production companies, 7 tv networks)
-- With logos: 3
-- Refreshed: 1814
+- Added: 110 (101 production companies, 9 tv networks)
+- With logos: 4
+- Refreshed: 1811
 
 ```
 id	type	name	has_logo
-317545	production_company	Ojago Films	no
-317546	production_company	Zcik	no
-317547	production_company	Fisuar Films	no
-317548	production_company	Chainsaw Cat Productions	no
-317549	production_company	Komunitas Film Trieng	no
-317550	production_company	김보철프로덕션	no
-317551	production_company	Kaldhungi Films	no
-317552	production_company	Artifacts Projects	no
-317553	production_company	Active Vesta	no
-317554	production_company	Active Vista	no
-317555	production_company	Dakila	no
-317556	production_company	Picture People	no
-317557	production_company	Sacred Elephant Studios	no
-317558	production_company	Twenty Manila	no
-317559	production_company	Narra by Wildsound	no
-317560	production_company	Magnetix Tonstudio AG	no
-317561	production_company	FIIP	no
-317562	production_company	云雀凶猛剧场	yes
-317563	production_company	Cosmesis	no
-317564	production_company	Motif Studios	no
-317565	production_company	Kuragatto	no
-317566	production_company	Endralon Space	no
-317567	production_company	Rapidz	no
-317568	production_company	翎光剧场	yes
-317569	production_company	江苏荣耀文化教育有限公司	no
-317570	production_company	Document Media	no
-317571	production_company	Storyscope Pty Ltd	no
-317572	production_company	Objective Entertainment	no
-317573	production_company	TBIWIA Productions	no
-317574	production_company	Teal House Foundation	no
-317575	production_company	360° Reportage	no
-317576	production_company	17th Floor Collective	no
-317577	production_company	Evil Iguana Productions	no
-317578	production_company	Ekler Films	no
-317579	production_company	antswood	no
-317580	production_company	FilmONs	no
-317581	production_company	Vigory Pictures	no
-317582	production_company	AV Films	no
-317583	production_company	Kanal Filmska Produkcija	no
-317584	production_company	Doneraile Media	no
-317585	production_company	Roamer	no
-317586	production_company	MDJ Producciones	no
-317587	production_company	Indie Rental	no
-317588	production_company	Kama Film Company	no
-317589	production_company	Pauligrafi	no
-317590	production_company	Cinco Rosas Productions	no
-317591	production_company	Glass Asylum Productions	no
-317592	production_company	Colours & Shapes	no
-317593	production_company	Chainsmokers	no
-317594	production_company	Matgou	no
-317595	production_company	Katha Projects Independent Studio	no
-317596	production_company	Creative Makura Media Production	no
-317597	production_company	De la Cruz Productions	no
-317598	production_company	Ejamaans Production	no
-317599	production_company	Little Men Entertainment	no
-317600	production_company	Wax Rhapsodic LLC	no
-317601	production_company	0nca_studios	no
-317602	production_company	Snake & Olive	no
-317603	production_company	Trigger Spirit Studios	no
-317604	production_company	Ramshackle Productions	no
-317605	production_company	Jiang Hu Productions	no
-317606	production_company	Perfidious Movie	no
-317607	production_company	Solomon's Signature Productions	no
-317608	production_company	Irving Klaw Productions	no
-317609	production_company	Richmark	no
-317610	production_company	Save the Mermaid Productions	no
-317611	production_company	Hong Kong Roc Film Productions	no
-317612	production_company	Headlock Productions	no
-317613	production_company	St. Dympna Productions	no
-317614	production_company	Free Hazel Films	no
-317615	production_company	Fresh Independence Productions	no
-317616	production_company	Right in the Microwave Productions	no
-317617	production_company	Sharp End Media	no
-317618	production_company	But Better... Productions	no
-317619	production_company	Frame172	no
-317620	production_company	Agence Wile	no
-317621	production_company	Grim Film Sdn Bhd	no
-317622	production_company	Cheswick Brothers Productions	no
-317623	production_company	Lubin Productions	no
-317624	production_company	Briarstone Pictures	no
-317625	production_company	Level Six	no
-317626	production_company	Solipsist Media Group	no
-317627	production_company	Punking Out Producers	no
-317628	production_company	Mithras Films	no
-317629	production_company	Seven Heavens Studios	no
-317630	production_company	Raito's Art Studio	no
-317631	production_company	GJK	no
-317632	production_company	and modern	no
-317633	production_company	Association des Professeurs pour la Promotion de l'Education Cinématographique (APEC)	no
-317634	production_company	Ministère de la Jeunesse, des Sports et de la Vie Associative	no
-317635	production_company	Superhuman	no
-317636	production_company	ITV News	no
-317637	production_company	Alghanim Entertainment	no
-317638	production_company	Hoff Studios	no
-317639	production_company	Skupp Media	no
-317640	production_company	BLH Pictures	no
-317641	production_company	ICTA	no
-317642	production_company	XTA Media	no
-317643	production_company	North Ship Film	no
-317644	production_company	Outtake Media Productions	no
-317645	production_company	Fat Puss Productions	no
-317646	production_company	Pink Visual (US)	no
-317647	production_company	Time Zone Capital	no
-317648	production_company	Bert Green Inc	no
-317649	production_company	Citizen Sports Management	no
-317650	production_company	Cinearte Estúdios	no
-317651	production_company	Proyecto Escombro	no
-317652	production_company	Mandíbula	no
-317653	production_company	Pulpo Azul	no
-317654	production_company	GATA FILM PRODUCTION LTD	no
-317655	production_company	Junction Ridge LLC	no
-317656	production_company	Hidden campfire productions	no
-317657	production_company	Krøsus Creations	no
-317658	production_company	Estudios XP	no
-317659	production_company	Marca Blanca	no
-317660	production_company	Birns & Sawyer	no
-317661	production_company	Habitación Insana	no
-317662	production_company	Bwdrtg Music Record	no
-317663	production_company	Rogan Scotland (GB)	no
-317664	production_company	University of Southern Queensland	no
-317665	production_company	Calladitos	no
-317666	production_company	Micu Films	no
-317667	production_company	Ana Cruz	no
-317668	production_company	Young Poet Productions	no
-317669	production_company	Arbeitsgemeinschaft "Neuer Film"	no
-317670	production_company	PT Inter Ksatria Film	no
-317671	production_company	Freaky Fiala Films	no
-317672	production_company	Nanneri Padaippagam	no
-317673	production_company	Mirasol Films	no
-317674	production_company	Clum Creative	no
-317675	production_company	FA Production Studio	no
-9677	tv_network	Polsat Café	no
-9678	tv_network	ONE store	yes
-9679	tv_network	TA-DAA!	no
-9680	tv_network	- América Televisión	no
-9681	tv_network	- América Televisión (PE)	no
-9682	tv_network	América Televisión (PE)	no
-9683	tv_network	boomerang	no
+317676	production_company	Evolving Eye Productions	no
+317677	production_company	Sree Rajakaliamman Cine Arts	no
+317678	production_company	crescendo prod & ifs	no
+317679	production_company	Liminal 77 Films	no
+317680	production_company	Discombobulated Productions	no
+317681	production_company	OXY Inc.	no
+317682	production_company	Kingyo Productions	no
+317683	production_company	Xiangshan Film and Television College	no
+317684	production_company	Ningbo University of Finance & Economics	no
+317685	production_company	Write n See Studio	no
+317686	production_company	Ashoka Creations	no
+317687	production_company	The Film Tribunal	no
+317688	production_company	Pablo Filmkollektiv GbR	no
+317689	production_company	Koning Willem 1 College	no
+317690	production_company	99 Winters	no
+317691	production_company	Aiti St.	no
+317692	production_company	Simkl	no
+317693	production_company	DRKROOM PICTURES	no
+317694	production_company	333 secondes production	no
+317695	production_company	B. V. N. Productions	no
+317696	production_company	S. Morris Produccions	no
+317697	production_company	Sugaralmond Video	no
+317698	production_company	SUI Motion Films	no
+317699	production_company	Clown Food Productions	no
+317700	production_company	Filmes Mínimos	no
+317701	production_company	3DOT Recordings	yes
+317702	production_company	AV Films	no
+317703	production_company	Oruga Cine	no
+317704	production_company	捷克军事历史研究所 VHÚ	no
+317705	production_company	Federconsunatori - Abruzzo	no
+317706	production_company	4AM Productions	no
+317707	production_company	Regione Abruzzo	no
+317708	production_company	Rodolfo Durán	no
+317709	production_company	XY-Pictures	no
+317710	production_company	Agence régionale Écla	no
+317711	production_company	Région Aquitaine Limousin Poitou-Charentes	no
+317712	production_company	Les Films Collard	no
+317713	production_company	Diamond In The Rough Productions	no
+317714	production_company	Teras Tekun	yes
+317715	production_company	Lauren Shuler Donner Productions	no
+317716	production_company	Equity Pictures Medienfonds III	no
+317717	production_company	Aisle7 Post	no
+317718	production_company	Eyeheart Cinema	no
+317719	production_company	La Buzine Maison des cinématographies de la Méditerranée	no
+317720	production_company	CSE UES INEOS PETROINEOS Lavera	no
+317721	production_company	Autosud - Bernabeu	no
+317722	production_company	Chez PP Restaurant Pizzeria Marseille	no
+317723	production_company	Carrosserie Le Fiacre	no
+317724	production_company	L'atelier de l'opticien	no
+317725	production_company	MSA Environnement	no
+317726	production_company	PanCam Pictures	no
+317727	production_company	White Swan Films	no
+317728	production_company	Bernstein Film Productions	no
+317729	production_company	Hankyu Corporation	no
+317730	production_company	event.video	no
+317731	production_company	Apollonia Zine	no
+317732	production_company	B.A. Goodman Productions	no
+317733	production_company	Blackfriar Pictures	no
+317734	production_company	Landslide Productions	no
+317735	production_company	映音空間	no
+317736	production_company	Eion Kukan	no
+317737	production_company	Pale Blue Dot Films	no
+317738	production_company	OnlySky Media	no
+317739	production_company	Spry	yes
+317740	production_company	Goliath Multimedia	no
+317741	production_company	Sakura Blue Studios	no
+317742	production_company	Sport-Film	no
+317743	production_company	Parizhskaya Kommuna	no
+317744	production_company	Images of the World, Ltd.	no
+317745	production_company	Imagenall Productions	no
+317746	production_company	Homage	no
+317747	production_company	Pharos Films	no
+317748	production_company	Vamika Production	no
+317749	production_company	Sarah N. Production	no
+317750	production_company	Ceebs Productions	no
+317751	production_company	Evolution Media	no
+317752	production_company	Animal Logic	no
+317753	production_company	Animal Logic Entertainment	no
+317754	production_company	Smoking Production	no
+317755	production_company	Smoking Guy Productions	no
+317756	production_company	Amrapur Overseas Inc	no
+317757	production_company	Streetlife Productions	no
+317758	production_company	Full Flavor	no
+317759	production_company	PurgatoryX	no
+317760	production_company	Iron Gavel Productions	no
+317761	production_company	Frozen Solid Pictures	no
+317762	production_company	Voltaje Neón	no
+317763	production_company	RayEagle	no
+317764	production_company	ArtsNB	no
+317765	production_company	Hulu	no
+317766	production_company	Teras y Teras	no
+317767	production_company	Blair Russell Productions	no
+317768	production_company	KND - Kogda Ne Delali	no
+317769	production_company	Peartree Films	no
+317770	production_company	5222 Films	no
+317771	production_company	WSFA 12 News	no
+317772	production_company	PT Indoasia Rekaperkasa Film	no
+317773	production_company	Global Creations	no
+317774	production_company	厦门皓月文化传媒有限公司	no
+317775	production_company	Aprender Conectados	no
+317776	production_company	The Hyderabad Public School, Begumpet	no
+9684	tv_network	LEGO.com	no
+9685	tv_network	LEGO.com	no
+9686	tv_network	TV2 Séf	no
+9687	tv_network	Syndication	no
+9688	tv_network	FilmRise	no
+9689	tv_network	DigitalChickTV	no
+9690	tv_network	Clicker	no
+9691	tv_network	MinglemediaTV	no
+9692	tv_network	Omni Broadcasting Network	yes
 ```
