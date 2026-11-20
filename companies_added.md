@@ -1,154 +1,122 @@
 # Companies added
 
-- Added: 145 (115 production companies, 30 tv networks)
-- With logos: 5
-- Refreshed: 1834
+- Added: 113 (106 production companies, 7 tv networks)
+- With logos: 13
+- Refreshed: 1830
 
 ```
 id	type	name	has_logo
-320537	production_company	Los Cabos International Film Festival	no
-320538	production_company	Agrupación Caramelo Producciones	no
-320539	production_company	Ojo Kerke Films	no
-320540	production_company	Coordinación de Radio, Cine y Televisión de Tlaxcala	no
-320541	production_company	Producciones en Casa	no
-320542	production_company	Sabás Films	no
-320543	production_company	John D. and Catherine T. MacArthur Foundation	no
-320544	production_company	Essegi Cineproduction Messina	no
-320545	production_company	Nunca Films	no
-320546	production_company	Cactus Film and Video México	no
-320547	production_company	La Compagnie Leïla Ka	no
-320548	production_company	La Garance – Scène Nationale de Cavaillon	no
-320549	production_company	Centro Nacional de las Artes	no
-320550	production_company	Totora Films	no
-320551	production_company	Fundación Cuauhtémoc Moctezuma	no
-320552	production_company	Fundación Takeda	no
-320553	production_company	Instituto Mexiquense de Cultura	no
-320554	production_company	Instituto Mexiquense de la Juventud	no
-320555	production_company	Cámara Carnal Producciones	no
-320556	production_company	Fundación Carmen Toscano	no
-320557	production_company	Instituto Tlaxcalteca de Cultura	no
-320558	production_company	Black Papa Films	no
-320559	production_company	Instituto Guerrerense de Cultura	no
-320560	production_company	bg productions ag	no
-320561	production_company	MarGen CINE Producciones	no
-320562	production_company	kino studios	no
-320563	production_company	IZK	no
-320564	production_company	Next Aid Station	no
-320565	production_company	Discovery Global Adventure & Documentaries	no
-320566	production_company	Studio Dark	no
-320567	production_company	Kerjasummer	no
-320568	production_company	广东原创动力文化传播有限公司	no
-320569	production_company	The Ciniphile Monk	no
-320570	production_company	VEERX Creations	no
-320571	production_company	Télévision Française 1	no
-320572	production_company	Tripsitter	no
-320573	production_company	Hüseyin Soylu	no
-320574	production_company	Living in the Asterisk	no
-320575	production_company	The Norwegian TV-School	no
-320576	production_company	NorthGate Studios	no
-320577	production_company	Jung & Groß	no
-320578	production_company	Virtual Artists Studio	yes
-320579	production_company	Kelompok Dadakan	no
-320580	production_company	AV Films	no
-320581	production_company	AV Films	no
-320582	production_company	Trigpoint Films	no
-320583	production_company	Amerta Creative Collection	no
-320584	production_company	Berkah Films	no
-320585	production_company	AV Films	no
-320586	production_company	John & Sons	no
-320587	production_company	Llera Films	no
-320588	production_company	Safe Trip Media	no
-320589	production_company	FIA	no
-320590	production_company	Cinema Space	no
-320591	production_company	Superintel Films	no
-320592	production_company	1-All Stars	no
-320594	production_company	Maentra Media	yes
-320595	production_company	dot net digital	no
-320596	production_company	Door+Bridge Film	no
-320597	production_company	MayDay Movie Productions	no
-320598	production_company	Figure in Motion Films	no
-320599	production_company	Starlane Productions	no
-320600	production_company	Fenomeno	no
-320601	production_company	Panelinha Audiovisual	no
-320602	production_company	Alder Street Productions	no
-320603	production_company	Barro	no
-320604	production_company	TPC Dream House	no
-320605	production_company	Las almas perdidas [pl]	no
-320606	production_company	Eye Hook Films	no
-320607	production_company	Twenty One Media	no
-320608	production_company	Chaudet-Hurst Productions	no
-320609	production_company	OFF!CINE	no
-320610	production_company	Todo Tangible Productions	no
-320611	production_company	R.A.T. Studios	no
-320612	production_company	Josh Guy Kemp	no
-320613	production_company	BPM Video	no
-320614	production_company	Betwixt	no
-320615	production_company	Cine Alquimia	no
-320616	production_company	ChocoPro	yes
-320617	production_company	Lost Trail Productions	no
-320618	production_company	Sélénite Productions	no
-320619	production_company	Cosmik Video	no
-320620	production_company	tymrciné	no
-320621	production_company	Tymrciné	no
-320622	production_company	Californio FIlms	no
-320623	production_company	735 FIlms	no
-320624	production_company	Mehr Creative House	no
-320625	production_company	Hoff Studios	no
-320626	production_company	Slim4K	no
-320627	production_company	Susanne Riegler	no
-320628	production_company	Dreamzone Production	no
-320629	production_company	Moviestar Entertainment	no
-320630	production_company	Pegasus Film	no
-320631	production_company	EFG Productions	no
-320632	production_company	North Visual	no
-320633	production_company	All of My Dreams LLC	no
-320634	production_company	Livicated Film LLC	no
-320635	production_company	Projeto Teatro Nomade	no
-320636	production_company	Centro de Capacitación Cinematográfica	no
-320637	production_company	Shura Productions	no
-320638	production_company	Electric Moth Productions	no
-320639	production_company	Dunaújvárosi Televízió	no
-320640	production_company	Warner Bros. Television Studios	no
-320641	production_company	Ero-Tron	no
-320642	production_company	al jazeera 360	no
-320643	production_company	Al Jazeera 360	no
-320644	production_company	Al Jazeera	no
-320645	production_company	Centro de Capacitación Cinematográfica	no
-320646	production_company	Centro de Capacitación Cinematográfica	no
-320647	production_company	Sky Dragon Entertainment	no
-320648	production_company	Onda Filmes	no
-320649	production_company	Interpares	no
-320650	production_company	Misfits Labs	no
-320651	production_company	Newgrounds	no
-320652	production_company	Deutsche Films	no
-9729	tv_network	History	yes
-9730	tv_network	FOX	no
-9731	tv_network	TRT 1	no
-9732	tv_network	TRT 1	no
-9733	tv_network	atv	no
-9734	tv_network	TGRT	no
-9735	tv_network	TGRT	no
-9736	tv_network	TRT 1	no
-9737	tv_network	TGRT	no
-9738	tv_network	atv	no
-9739	tv_network	TGRT	no
-9740	tv_network	TGRT	no
-9741	tv_network	Show TV	no
-9742	tv_network	atv	no
-9743	tv_network	Discovery	no
-9744	tv_network	Show TV	no
-9745	tv_network	Show TV	no
-9746	tv_network	TGRT	no
-9747	tv_network	atv	no
-9748	tv_network	TRT 1	no
-9749	tv_network	Show TV	no
-9750	tv_network	FOX	no
-9751	tv_network	Investigation Discovery	no
-9752	tv_network	Animal Planet	no
-9753	tv_network	atv	no
-9754	tv_network	GAİN	no
-9755	tv_network	Travel Channel	no
-9756	tv_network	RallyTV	no
-9757	tv_network	pbs kids	no
-9758	tv_network	Plex	yes
+320653	production_company	Pasado de rosquis STUDIOS	no
+320654	production_company	ChoraStudios	no
+320655	production_company	Swallow Bird Entertainment	no
+320656	production_company	SP Robert Productions [in]	no
+320657	production_company	RANCHO	no
+320658	production_company	RANCHO PRODUCTORA	no
+320659	production_company	A.X.N Studios	yes
+320660	production_company	Waag Films	no
+320661	production_company	Mountain High Pictures	no
+320662	production_company	Ob'ektivArt	no
+320663	production_company	Komunitas Film Pekanbaru	no
+320664	production_company	العربية للإنتاج الفني	no
+320665	production_company	Soni-Khan Productions	no
+320666	production_company	Cybercut	no
+320667	production_company	Capture	no
+320668	production_company	Santangelo Arts & Media	no
+320669	production_company	KHAO Wrestling	no
+320670	production_company	cinekoop	no
+320672	production_company	AV STUDOS	no
+320673	production_company	АS	no
+320674	production_company	蜜桃短剧	no
+320675	production_company	Eleusis TV	no
+320676	production_company	Boccult Films	no
+320677	production_company	Original Flavour Productions	no
+320678	production_company	Espiral Productora	no
+320679	production_company	Cable Rock Pictures	no
+320680	production_company	Golden Entertainment	no
+320681	production_company	Le Ciné Collectif	no
+320682	production_company	الهيئة العامة للإذاعة والتلفزيون	no
+320683	production_company	Polityka	no
+320684	production_company	S. V. Celluloid	no
+320685	production_company	GSK Network	no
+320686	production_company	Nelladans Media	no
+320687	production_company	Not a cinephile	no
+320688	production_company	Haus of KO	no
+320689	production_company	jai ho media	no
+320690	production_company	EarlyBird Media Ltd	no
+320691	production_company	redemption46studios	no
+320692	production_company	القنيطرة الدولية للإنتاج الفني	no
+320693	production_company	Sinalvideo	yes
+320694	production_company	Museu do Douro	yes
+320695	production_company	Volátil Estudio	no
+320696	production_company	Filmax	no
+320697	production_company	DGM Lotus Productions	no
+320698	production_company	HEADflicks	no
+320699	production_company	Treasure Tower Films	no
+320700	production_company	Outshine Entertainment	no
+320701	production_company	Havahall Pictures	no
+320702	production_company	Westart Pictures	no
+320703	production_company	The Report	no
+320704	production_company	Smoky Hills Public Television	no
+320705	production_company	Zoarial Movies	no
+320706	production_company	First Hour Productions	no
+320707	production_company	All Love Productions	no
+320708	production_company	Impera Lux	no
+320709	production_company	Parlament-Film	no
+320710	production_company	Inac-Filmges. (München)	no
+320711	production_company	LKfilms	no
+320712	production_company	Jonathan Logan Family Fund	no
+320713	production_company	القلمون للإنتاج والتوزيع الفني	no
+320714	production_company	Four Moons Films	no
+320715	production_company	Fox Movie Studios®	no
+320716	production_company	Rustbelt Reels	no
+320718	production_company	Imagina	no
+320719	production_company	AV Films	no
+320720	production_company	John & Sons	no
+320721	production_company	georgejamesindustries	no
+320722	production_company	Impermanence Films	no
+320723	production_company	Laurus Productions	no
+320724	production_company	Foolscap	no
+320725	production_company	Myriad Imaginations	no
+320726	production_company	AV Films	no
+320727	production_company	1739 Films	no
+320728	production_company	Jesse Womack Productions	no
+320729	production_company	Jesse Womack Productions	no
+320730	production_company	Fonds de dotation Camera One	no
+320731	production_company	Helen Holmes Productions	no
+320732	production_company	William Steiner	no
+320733	production_company	S4 Capital	no
+320734	production_company	The Friendly Media	no
+320735	production_company	Graham Moore	no
+320736	production_company	HDR Pictures	no
+320737	production_company	Goldenes Häkchen	no
+320738	production_company	Furkan Peksen Art	no
+320739	production_company	Anet America company	no
+320740	production_company	UMH Studio	yes
+320741	production_company	花生书城(CN)	no
+320742	production_company	Capri Cinema Club	no
+320743	production_company	TBS Entertainment	yes
+320744	production_company	aljo	no
+320745	production_company	Flying Panda Studio	no
+320746	production_company	Company B	no
+320747	production_company	Optus	no
+320748	production_company	ABC2	yes
+320749	production_company	Skyline Studios	no
+320750	production_company	Priddy Productions	no
+320751	production_company	Waag films (IN)	no
+320752	production_company	Foundation University Film Lab	no
+320753	production_company	DEMCproductions	no
+320754	production_company	Pentacine Studio	no
+320755	production_company	Ventouts Studios	no
+320756	production_company	DyvoVision Production	no
+320757	production_company	Filmroots	no
+320758	production_company	Sasta Cinema	no
+320759	production_company	Khanabadosh Films	no
+320760	production_company	AM Productions	no
+9759	tv_network	Acorn TV	yes
+9760	tv_network	Acorn TV	yes
+9761	tv_network	Acorn TV	yes
+9762	tv_network	Sky Comedy	yes
+9763	tv_network	SoHo	yes
+9764	tv_network	Acorn TV	yes
+9765	tv_network	Channel U	yes
 ```
