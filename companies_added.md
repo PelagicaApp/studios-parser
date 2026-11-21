@@ -1,122 +1,102 @@
 # Companies added
 
-- Added: 113 (106 production companies, 7 tv networks)
-- With logos: 13
-- Refreshed: 1830
+- Added: 93 (93 production companies, 0 tv networks)
+- With logos: 4
+- Refreshed: 1826
 
 ```
 id	type	name	has_logo
-320653	production_company	Pasado de rosquis STUDIOS	no
-320654	production_company	ChoraStudios	no
-320655	production_company	Swallow Bird Entertainment	no
-320656	production_company	SP Robert Productions [in]	no
-320657	production_company	RANCHO	no
-320658	production_company	RANCHO PRODUCTORA	no
-320659	production_company	A.X.N Studios	yes
-320660	production_company	Waag Films	no
-320661	production_company	Mountain High Pictures	no
-320662	production_company	Ob'ektivArt	no
-320663	production_company	Komunitas Film Pekanbaru	no
-320664	production_company	العربية للإنتاج الفني	no
-320665	production_company	Soni-Khan Productions	no
-320666	production_company	Cybercut	no
-320667	production_company	Capture	no
-320668	production_company	Santangelo Arts & Media	no
-320669	production_company	KHAO Wrestling	no
-320670	production_company	cinekoop	no
-320672	production_company	AV STUDOS	no
-320673	production_company	АS	no
-320674	production_company	蜜桃短剧	no
-320675	production_company	Eleusis TV	no
-320676	production_company	Boccult Films	no
-320677	production_company	Original Flavour Productions	no
-320678	production_company	Espiral Productora	no
-320679	production_company	Cable Rock Pictures	no
-320680	production_company	Golden Entertainment	no
-320681	production_company	Le Ciné Collectif	no
-320682	production_company	الهيئة العامة للإذاعة والتلفزيون	no
-320683	production_company	Polityka	no
-320684	production_company	S. V. Celluloid	no
-320685	production_company	GSK Network	no
-320686	production_company	Nelladans Media	no
-320687	production_company	Not a cinephile	no
-320688	production_company	Haus of KO	no
-320689	production_company	jai ho media	no
-320690	production_company	EarlyBird Media Ltd	no
-320691	production_company	redemption46studios	no
-320692	production_company	القنيطرة الدولية للإنتاج الفني	no
-320693	production_company	Sinalvideo	yes
-320694	production_company	Museu do Douro	yes
-320695	production_company	Volátil Estudio	no
-320696	production_company	Filmax	no
-320697	production_company	DGM Lotus Productions	no
-320698	production_company	HEADflicks	no
-320699	production_company	Treasure Tower Films	no
-320700	production_company	Outshine Entertainment	no
-320701	production_company	Havahall Pictures	no
-320702	production_company	Westart Pictures	no
-320703	production_company	The Report	no
-320704	production_company	Smoky Hills Public Television	no
-320705	production_company	Zoarial Movies	no
-320706	production_company	First Hour Productions	no
-320707	production_company	All Love Productions	no
-320708	production_company	Impera Lux	no
-320709	production_company	Parlament-Film	no
-320710	production_company	Inac-Filmges. (München)	no
-320711	production_company	LKfilms	no
-320712	production_company	Jonathan Logan Family Fund	no
-320713	production_company	القلمون للإنتاج والتوزيع الفني	no
-320714	production_company	Four Moons Films	no
-320715	production_company	Fox Movie Studios®	no
-320716	production_company	Rustbelt Reels	no
-320718	production_company	Imagina	no
-320719	production_company	AV Films	no
-320720	production_company	John & Sons	no
-320721	production_company	georgejamesindustries	no
-320722	production_company	Impermanence Films	no
-320723	production_company	Laurus Productions	no
-320724	production_company	Foolscap	no
-320725	production_company	Myriad Imaginations	no
-320726	production_company	AV Films	no
-320727	production_company	1739 Films	no
-320728	production_company	Jesse Womack Productions	no
-320729	production_company	Jesse Womack Productions	no
-320730	production_company	Fonds de dotation Camera One	no
-320731	production_company	Helen Holmes Productions	no
-320732	production_company	William Steiner	no
-320733	production_company	S4 Capital	no
-320734	production_company	The Friendly Media	no
-320735	production_company	Graham Moore	no
-320736	production_company	HDR Pictures	no
-320737	production_company	Goldenes Häkchen	no
-320738	production_company	Furkan Peksen Art	no
-320739	production_company	Anet America company	no
-320740	production_company	UMH Studio	yes
-320741	production_company	花生书城(CN)	no
-320742	production_company	Capri Cinema Club	no
-320743	production_company	TBS Entertainment	yes
-320744	production_company	aljo	no
-320745	production_company	Flying Panda Studio	no
-320746	production_company	Company B	no
-320747	production_company	Optus	no
-320748	production_company	ABC2	yes
-320749	production_company	Skyline Studios	no
-320750	production_company	Priddy Productions	no
-320751	production_company	Waag films (IN)	no
-320752	production_company	Foundation University Film Lab	no
-320753	production_company	DEMCproductions	no
-320754	production_company	Pentacine Studio	no
-320755	production_company	Ventouts Studios	no
-320756	production_company	DyvoVision Production	no
-320757	production_company	Filmroots	no
-320758	production_company	Sasta Cinema	no
-320759	production_company	Khanabadosh Films	no
-320760	production_company	AM Productions	no
-9759	tv_network	Acorn TV	yes
-9760	tv_network	Acorn TV	yes
-9761	tv_network	Acorn TV	yes
-9762	tv_network	Sky Comedy	yes
-9763	tv_network	SoHo	yes
-9764	tv_network	Acorn TV	yes
-9765	tv_network	Channel U	yes
+320761	production_company	3D/CG	no
+320763	production_company	Stowarzyszenie Mosaic	no
+320764	production_company	Think Less	no
+320766	production_company	mangAncha	yes
+320767	production_company	Ringing Cedars Press	no
+320768	production_company	Cenas Underground	no
+320769	production_company	Big Productions	no
+320770	production_company	Lil Critter Workshop Sdn Bhd	no
+320771	production_company	Kadokawa Gempak Starz Sdn Bhd	no
+320772	production_company	Brand Risk Promotions	no
+320773	production_company	Polsat Box Go	no
+320774	production_company	O‘Neil Brothers Production	no
+320775	production_company	E26	no
+320776	production_company	Will Lovett & Co.	no
+320777	production_company	钐川文和	yes
+320778	production_company	Electric Skin	no
+320779	production_company	Pigstep	no
+320780	production_company	Filmograf	no
+320781	production_company	Gallery Film	no
+320782	production_company	Will Parr productions	no
+320783	production_company	Roya Film Produktion	no
+320784	production_company	Villarlod Production	no
+320785	production_company	Visionária Filmes	no
+320786	production_company	J. Joseph Sameth Productions	no
+320787	production_company	Barkath Sangham	no
+320788	production_company	Harmony Film Company	no
+320789	production_company	Espacio Media	no
+320790	production_company	SAS Films	no
+320791	production_company	SAS Films	no
+320792	production_company	GoodKnight Films	no
+320793	production_company	Switchboard Magazine	no
+320794	production_company	Inntale	no
+320795	production_company	Easier Said Than Done Productions	no
+320796	production_company	التلفزيون العربي السوري	no
+320797	production_company	Exosphere Entertainment	no
+320798	production_company	3mantas production	no
+320799	production_company	Helen Gibson Productions	no
+320800	production_company	Calgary Arts Development Authority	no
+320801	production_company	Intercreated Productions	no
+320802	production_company	Velvet Moon Studio	no
+320803	production_company	Ch'cut Discret Productions	no
+320804	production_company	Ted Nemeth Studio	no
+320805	production_company	Puff Piece Productions	no
+320806	production_company	Mediawan Prod H.O.T.	no
+320807	production_company	La Bonnette	no
+320808	production_company	Brick House FIlms	no
+320809	production_company	Langley Park Pictures	no
+320810	production_company	AIGENBERG	yes
+320811	production_company	The Mel Hoppenheim School of Cinema at Concordia University	no
+320812	production_company	Rusty Quill	no
+320813	production_company	Elvie Productions	no
+320814	production_company	Clan do Cinema	no
+320815	production_company	Arte Filmes do Brasil	no
+320816	production_company	Karthaz Cultural	no
+320817	production_company	Sodapop Production	no
+320818	production_company	Wellmoney Productions	no
+320819	production_company	Studio Null Theory	no
+320820	production_company	Hemeroscope Studios	no
+320821	production_company	Tiny Circus Productions	no
+320822	production_company	I-17 Studios	no
+320823	production_company	The Response Documentary LLC	no
+320824	production_company	David Yates Ltd.	no
+320825	production_company	Faculdade Cenecista de Bento Gonçalves	no
+320826	production_company	Som de Cinema	no
+320827	production_company	Núcleo Audiovisual Cenecista	no
+320828	production_company	Fern Andra-Film	no
+320829	production_company	TG Boston Productions	no
+320830	production_company	Aunt Judy's XXX	yes
+320831	production_company	Sri Kali Amman Pictures	no
+320832	production_company	Faculdade Cenecista de Bento Gonçalves	no
+320833	production_company	Mini Filmes Caseirinhos	no
+320834	production_company	Stuntmen Entertainment	no
+320835	production_company	Casa Escobar	no
+320836	production_company	The Ingram Effect	no
+320837	production_company	شركة شمرا للإنتاج الفني	no
+320838	production_company	Earth Magic Pictures	no
+320839	production_company	Prophecy Pictures International	no
+320840	production_company	Emperor Productions	no
+320841	production_company	White Rose	no
+320842	production_company	r17	no
+320843	production_company	Turnabout Productions	no
+320844	production_company	Banyan Ltd.	no
+320845	production_company	Expanding Roots	no
+320846	production_company	PT Ratna Mutiara Indah Film	no
+320847	production_company	Acibar producciones	no
+320848	production_company	Surprise	no
+320849	production_company	WOUB Athens, OH	no
+320850	production_company	Barrel-O-Laughs	no
+320851	production_company	Fortune Favor Films	no
+320852	production_company	Hecho A Mano Films	no
+320853	production_company	Meteor Films	no
+320854	production_company	Playlist4You	no
+320855	production_company	Cock VR	no
 ```
