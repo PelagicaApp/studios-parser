@@ -1,129 +1,115 @@
 # Companies added
 
-- Added: 120 (117 production companies, 3 tv networks)
-- With logos: 3
-- Refreshed: 1830
+- Added: 106 (103 production companies, 3 tv networks)
+- With logos: 6
+- Refreshed: 1837
 
 ```
 id	type	name	has_logo
-320963	production_company	RJ Cine Creations	no
-320964	production_company	Primestar Studio Production	no
-320965	production_company	RJ Cine Creations	no
-320966	production_company	Edenflicks Productions India Pvt Ltd	no
-320967	production_company	Veverita Production	no
-320968	production_company	在场影视	no
-320969	production_company	隐风剧场	no
-320970	production_company	Netyland Productions	no
-320971	production_company	Shivyug Films	no
-320972	production_company	AZ Content Production	no
-320973	production_company	Tuwaiq Club	no
-320974	production_company	Irmãos Rotta Audiovisual	no
-320975	production_company	Marzenia Do Spełnienia	no
-320976	production_company	Black Zink	no
-320977	production_company	Estiu Pictures	no
-320978	production_company	Ngerujaks Studio	no
-320979	production_company	Ruang Aktor Project	no
-320980	production_company	MOOV Pictures	no
-320981	production_company	Rijksakademie van Beeldende Kunsten (NL)	no
-320982	production_company	محمد الزوزو	no
-320983	production_company	Kaya Film	no
-320984	production_company	Neon Duck	no
-320985	production_company	Pagi Collective	no
-320986	production_company	Pegasus Entertainment	no
-320987	production_company	W139	no
-320988	production_company	EJB Entertainment	no
-320989	production_company	Neo Film School	no
-320990	production_company	Histrionicista Production	no
-320991	production_company	City Girl	no
-320992	production_company	آسيا داغر	no
-320993	production_company	sohoplace	yes
-320994	production_company	In the Character Co., Ltd.	no
-320995	production_company	Ophidian Films	no
-320996	production_company	Populus Brands	no
-320997	production_company	Framegate Productions	no
-320998	production_company	أكشن الإنتاج السينمائي والتلفزيوني	no
-320999	production_company	Cinefilia Films	no
-321000	production_company	CrossFit Games	no
-321001	production_company	Volo Digital	no
-321002	production_company	آلاء للإنتاج الفني	no
-321003	production_company	BEX Television	no
-321004	production_company	Paramount+	no
-321005	production_company	Infinitus Entertainment (MY)	no
-321006	production_company	Cinemagore Productions	no
-321007	production_company	JoyBott Animation	no
-321008	production_company	Seven Stars Systems S.A.	no
-321009	production_company	Axe Studios	no
-321010	production_company	Tafeltheater	no
-321011	production_company	TBC Management	no
-321012	production_company	Go The Hack Records	no
-321013	production_company	Sange-Film	no
-321014	production_company	Joshua Chislett Films	no
-321015	production_company	Ben Roy Productions	no
-321016	production_company	Jordana Produções	no
-321017	production_company	Movente	no
-321018	production_company	Mad Decent	no
-321019	production_company	Murdoock Cinema Guerrero	no
-321020	production_company	Félix Films	no
-321021	production_company	mathew martini studios	no
-321022	production_company	Udruga FFVAL	no
-321023	production_company	Lanaire Aderemi Productions	no
-321024	production_company	Charmer Pictures	no
-321025	production_company	Serene Films	no
-321026	production_company	363 Trees Production	no
-321027	production_company	صورة للإنتاج الفني	no
-321028	production_company	Pear Pressure Productions (NG)	no
-321029	production_company	Paper Goose Productions	no
-321030	production_company	mediaa international	no
-321031	production_company	Udruga Jedina solucija	no
-321032	production_company	Grey Productions	no
-321033	production_company	Nox Entertainment	no
-321034	production_company	FTS Productions	no
-321035	production_company	Swiim Team	no
-321036	production_company	Digital Underdogs	no
-321037	production_company	Sober Society	no
-321038	production_company	Tuscany-Langkopf	no
-321039	production_company	Odds	no
-321040	production_company	ici Hauts-de-France	yes
-321041	production_company	Gallissas Theaterverlag	no
-321042	production_company	Disney XD	no
-321043	production_company	Backronym Films	no
-321044	production_company	Alarcom	no
-321045	production_company	Twenty Minute Productions	no
-321046	production_company	Kicking Horse Productions	no
-321047	production_company	PHENOMENA Bangkok, THAILAND	no
-321048	production_company	Sistem Film	no
-321049	production_company	Sci-Fi Cruise Films	no
-321050	production_company	Greenlens Productions	no
-321051	production_company	Pugnacious Productions	no
-321052	production_company	RTV	no
-321053	production_company	Ongamavile Pictures	no
-321054	production_company	Xi'an Qujiang Cultural Tourism	no
-321055	production_company	Hearst Corporation	no
-321056	production_company	Televisão de Moçambique (TVM) (MZ)	no
-321057	production_company	أفلام أشرف فهمي	no
-321058	production_company	Ghost Head Productions	no
-321059	production_company	Thong Studios	yes
-321060	production_company	ADA-MAX	no
-321061	production_company	Noer Creative Lab	no
-321062	production_company	Pelifilm Productions	no
-321063	production_company	ConeXión Aztlán-Cuba	no
-321064	production_company	New Vista Communications, LLC	no
-321065	production_company	Changó Media	no
-321066	production_company	ACG	no
-321067	production_company	Kinyosha	no
-321068	production_company	Chariot	no
-321069	production_company	Andrew Horn	no
-321070	production_company	Technological Educational Institute of Athens	no
-321071	production_company	Infinitus Productions	no
-321072	production_company	RSSS Pictures	no
-321073	production_company	RSSS Pictures	no
-321074	production_company	RSSS Pictures	no
-321075	production_company	RSSS Pictures	no
-321076	production_company	K Square Cinemas	no
-321077	production_company	AFOR	no
-321078	production_company	Silent Dark Films	no
-321079	production_company	OMS Production	no
-9772	tv_network	Canal+ 4K Ultra HD	no
-9773	tv_network	Warhammer TV	no
-9774	tv_network	Warhammer TV	no
+321080	production_company	Vamsi Nandipati Entertainments	no
+321081	production_company	TheeStoriies	no
+321082	production_company	Lonely Flower Productions	no
+321083	production_company	AHC	no
+321084	production_company	Quest	no
+321085	production_company	Marda Entertainment	no
+321086	production_company	Projekt Film	no
+321087	production_company	The Alternate Reality Pictures	no
+321088	production_company	Ife Film Community	no
+321089	production_company	Erompleni Films	no
+321090	production_company	Flash One	no
+321091	production_company	Animadre Studio	no
+321092	production_company	Animadre Studio	no
+321093	production_company	Animadre Studio (AT)	no
+321094	production_company	Massfilms	no
+321095	production_company	The Good Bunch Video Agency	no
+321096	production_company	RA Krik	no
+321097	production_company	North Yorkshire County Council	no
+321098	production_company	Gaffer Tape Productions	no
+321099	production_company	DeCantillon Films	no
+321100	production_company	Kinoluk Workshop	no
+321101	production_company	Lana Cinema	no
+321102	production_company	PT Simbar Intan Film	no
+321103	production_company	Studio Á	no
+321104	production_company	Hazel productions	no
+321105	production_company	Hazel Eyes Productionz	no
+321106	production_company	Jim Gunn Productions	no
+321107	production_company	Tucker&Co	no
+321108	production_company	GeorgeHarryJamesIndustries	no
+321109	production_company	The'Whithams'	no
+321110	production_company	1609 Studios	no
+321111	production_company	Magnifica Ars Films	no
+321112	production_company	Fab Film	no
+321113	production_company	Saehan Film Co., Ltd.	no
+321114	production_company	PT Sufin Film	no
+321115	production_company	来耶剧场	yes
+321116	production_company	A Rouge Rose Project	no
+321117	production_company	HBG Productions	no
+321118	production_company	Sapien Films	no
+321119	production_company	Nightmistful Production	no
+321120	production_company	Theater Oostpool	no
+321121	production_company	Fahleen Fang Films	no
+321122	production_company	Gray Studio Films	no
+321123	production_company	House Fancy	no
+321124	production_company	Base Station	no
+321125	production_company	Stoodio16	no
+321126	production_company	Djegin Films	no
+321127	production_company	Ice Cream Prod	no
+321128	production_company	Broken Bird	no
+321129	production_company	Tatayga	no
+321130	production_company	MASTERgroup	no
+321131	production_company	Element Film	no
+321132	production_company	layar lentera films	no
+321133	production_company	Detective Mx	yes
+321134	production_company	Supreme entertainment	no
+321135	production_company	C.K. TV Agencja Reklamowa	no
+321136	production_company	Twentyninecents Productions	no
+321137	production_company	Ergo Sum SL	no
+321138	production_company	Walten Files Team	no
+321139	production_company	Presse Orange Productions	no
+321140	production_company	Prines@n Studios	no
+321141	production_company	Harkat Studio	no
+321142	production_company	Digant Studios	no
+321143	production_company	百童茁壮（北京）影业有限公司	no
+321144	production_company	شركة الثروة للإعلان والانتاج الفني	no
+321145	production_company	Tucano Produzioni Televisive	no
+321146	production_company	Paparusso Communication	no
+321147	production_company	EQUEENS	no
+321148	production_company	Onnox Pictures AB	no
+321149	production_company	Majestic Media	no
+321150	production_company	Cruachan Films	no
+321151	production_company	ABRT.	no
+321152	production_company	Será? Filmes	no
+321153	production_company	Enochian Vision Studios	no
+321154	production_company	Bardya Pictures	no
+321155	production_company	Mugshot Media	no
+321156	production_company	Went Entertainment	no
+321157	production_company	On Nox Pictures	no
+321158	production_company	Detail Films	no
+321159	production_company	KidsCo	no
+321160	production_company	Szczecin Online (PL)	no
+321161	production_company	Mittuniversitetet	no
+321162	production_company	Sugarbush Hill Productions	no
+321163	production_company	PT Hanjaya Mitra Film	no
+321164	production_company	Alcha Group	no
+321165	production_company	K&S	no
+321166	production_company	K&S	no
+321167	production_company	Belsky-Memgard Productions	no
+321168	production_company	Pas à pas	no
+321169	production_company	Cherflix	yes
+321170	production_company	Sistema Nacional de Apoyo a la Movilización Social (SINAMOS)	no
+321171	production_company	Kaziranga Pictures	no
+321172	production_company	Heimann-Hubbard Studios	no
+321173	production_company	8 Pagi	no
+321174	production_company	WizardFarm Co., Ltd.	yes
+321175	production_company	TV Española (ES)	no
+321176	production_company	Nam-a Jinheung Co., Ltd.	no
+321177	production_company	Spacestation Animation	no
+321178	production_company	KAIGAN PICTURES	no
+321179	production_company	PT Diah Pitaloka Film	no
+321180	production_company	Rubiru Studios	no
+321181	production_company	Restu Prabu Pictures	no
+321182	production_company	Sunglap Machine	no
+9775	tv_network	Epsilon TV	yes
+9776	tv_network	Ninateka	no
+9777	tv_network	KidsCo	yes
 ```
