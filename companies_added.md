@@ -1,152 +1,110 @@
 # Companies added
 
-- Added: 143 (136 production companies, 7 tv networks)
-- With logos: 9
-- Refreshed: 1828
+- Added: 101 (94 production companies, 7 tv networks)
+- With logos: 2
+- Refreshed: 1823
 
 ```
 id	type	name	has_logo
-321183	production_company	- VS International Films	no
-321184	production_company	- VS International Films	no
-321186	production_company	- VS International Films	no
-321187	production_company	Produce Boy Productions	no
-321188	production_company	SS Hashtag Films	no
-321189	production_company	SS Hashtag Films	no
-321190	production_company	SS Hashtag Films	no
-321191	production_company	SS Hashtag Films	no
-321192	production_company	[image]	no
-321193	production_company	[image]	no
-321195	production_company	[image]	no
-321196	production_company	Nippon Television Network Corporation	no
-321197	production_company	Pompee Entertainments	no
-321198	production_company	Flying Colours Entertainments	no
-321199	production_company	OutKast Production	yes
-321200	production_company	Becoming Femme	yes
-321201	production_company	1001 Stories	no
-321202	production_company	## Release Dates & Platforms	no
-321203	production_company	## Release Dates & Platforms	no
-321204	production_company	## Release Dates & Platforms	no
-321205	production_company	## Release Dates & Platforms	no
-321206	production_company	BGN Productions	no
-321207	production_company	PT Surya Kresta Film	no
-321208	production_company	Gone Feral	no
-321209	production_company	JCT	no
-321210	production_company	Leftover	no
-321211	production_company	MKM Group	no
-321212	production_company	Argia Films	no
-321213	production_company	Ladra Caramelo	no
-321214	production_company	Black Pen Production	no
-321215	production_company	Desai Creations	no
-321216	production_company	Desai Creations	no
-321219	production_company	S G R Films	no
-321220	production_company	S G R Films	no
-321222	production_company	S G R Films	no
-321223	production_company	Oxford University	no
-321224	production_company	Bodhini Studios	no
-321225	production_company	Ratnasiddi Films	no
-321226	production_company	Vinay Ratnasiddi Film Productions	no
-321227	production_company	ニュース映画製作者連盟	no
-321228	production_company	Incomati Filmes	no
-321229	production_company	The Terminal Motion Pictures Services	no
-321230	production_company	Tøyseball	no
-321231	production_company	PT Ewa Raya Film	no
-321232	production_company	Amuture film productions	no
-321233	production_company	PT Tridharma Bakti	no
-321234	production_company	عرب للإنتاج والتوزيع الفني	no
-321235	production_company	Filmdreams	no
-321236	production_company	Temgrange	no
-321237	production_company	Neivuz Film	no
-321238	production_company	ET2media	no
-321239	production_company	Video Research	no
-321240	production_company	Mad Story	no
-321241	production_company	Desi Movies Factory	no
-321242	production_company	Light House Film Company	no
-321243	production_company	Grup Scout Fénix 215	no
-321244	production_company	PACHANGA	no
-321245	production_company	NYSÆTHER PRODUCTIONS	no
-321246	production_company	PT Madu Segara Film	no
-321247	production_company	PT Citra Indah Film	no
-321248	production_company	Anemone Films	no
-321249	production_company	Truewonder Film	no
-321250	production_company	Jubarte Films	no
-321251	production_company	MP Studios	no
-321252	production_company	Silly Studios	no
-321253	production_company	PT Sinar Tekun Film	no
-321254	production_company	Ocho y Medio Producciones	no
-321255	production_company	BLN Entertainment	no
-321256	production_company	Hondurtucky Television	no
-321257	production_company	Eyeroll Entertainment	no
-321258	production_company	MNC Videos	no
-321259	production_company	Praia Lenta Films	no
-321260	production_company	Provocagent	no
-321261	production_company	Ganesha Entertainment	no
-321262	production_company	Babydoll Music	no
-321263	production_company	Voyeur Vérité	yes
-321264	production_company	DyksTV	no
-321265	production_company	Human Frame Films	no
-321266	production_company	Project East West - A	no
-321267	production_company	Overtime Studios (Grady Animates)	no
-321268	production_company	Jolanta Gwardys Media	no
-321269	production_company	أوغاريت للإنتاج الفني	no
-321270	production_company	Altruistic Films	no
-321271	production_company	Videopota	no
-321272	production_company	De Barba y Pipa	no
-321273	production_company	Stone Production	no
-321274	production_company	The C Brothers	no
-321275	production_company	Well Well Productions	no
-321276	production_company	Arktisk Cirkus AB	no
-321277	production_company	La Penélope CINE	no
-321278	production_company	TerrorConcept	no
-321279	production_company	Cherries	no
-321280	production_company	Annenberg Inclusion Initiative	no
-321281	production_company	Horror Skunx	no
-321282	production_company	No ver films	no
-321283	production_company	BBT Production	no
-321284	production_company	Abrava Produções	yes
-321285	production_company	TCB i Kiruna AB	no
-321286	production_company	Leader Tornedalen 2030	no
-321287	production_company	Akimbo Films	no
-321288	production_company	Free World Pictures	no
-321289	production_company	Cavo Films	no
-321290	production_company	Cabeza de Chivo	no
-321291	production_company	Tully's Rainbow	no
-321292	production_company	Fitterpiper Entertainment	no
-321293	production_company	1620 Media	no
-321294	production_company	VF Visionary Films	no
-321295	production_company	光宇出品	no
-321296	production_company	Bhairava Cinemas	no
-321297	production_company	CVR Cinemas	no
-321298	production_company	Mortal Storm Pictures	no
-321299	production_company	Tamil dubbed version certification details:	no
-321300	production_company	Certificate No.: VIL/2/40/2024-BAN	no
-321301	production_company	Certified Duration: 129 minutes 19 seconds	no
-321302	production_company	Type: Video	no
-321303	production_company	Producer Name: Devavigins Devadhason	no
-321304	production_company	Certificate: UA	no
-321305	production_company	Baroda Talkies	no
-321306	production_company	Waterdrop Macau	yes
-321307	production_company	MovieCafe500	no
-321308	production_company	Grace Reiter	no
-321309	production_company	Aspecto 2 Filmes	no
-321310	production_company	Cut Studios	no
-321311	production_company	Candy Castle Motion Pictures	no
-321312	production_company	Moha Nokor Pictures	yes
-321313	production_company	Noetic	no
-321314	production_company	Cynthia Yorkin Productions	no
-321315	production_company	skep	no
-321316	production_company	Doble A Estudios	no
-321317	production_company	Compumedia	no
-321318	production_company	Zionist Occupation	no
-321319	production_company	Youth Art Film Association Production	no
-321320	production_company	Five Star Entertainments	no
-321321	production_company	VS International Films	no
-321322	production_company	Bhavani Entertainment	no
-321323	production_company	Aurora Films	no
-9778	tv_network	CANAL+ 360	yes
-9779	tv_network	CANAL+	yes
-9780	tv_network	CANAL+ Domo	no
-9781	tv_network	TVP World	no
-9782	tv_network	ديالا للإنتاج الفني	no
-9783	tv_network	جولدن لاين للإنتاج والتوزيع الفني	no
-9784	tv_network	WUSA9+	yes
+321324	production_company	Dominic Solomon Films	no
+321325	production_company	Eagle Captures	no
+321326	production_company	Namastey Flix	no
+321327	production_company	Production Credits	no
+321328	production_company	Old School Films	no
+321329	production_company	Roland Suso Richter	no
+321330	production_company	October Narratives	no
+321331	production_company	PT Candi Dewi Film	no
+321332	production_company	A1 group	no
+321333	production_company	Stonefield	no
+321334	production_company	Alpaka Walk	no
+321335	production_company	Seniorenresidenz Moseltal	no
+321336	production_company	Fip Fop Films	no
+321337	production_company	Shantha Pictures	no
+321338	production_company	Welebit	no
+321339	production_company	Bamenda Film School	no
+321340	production_company	Joliba e.V.	no
+321341	production_company	SLAM Films	no
+321342	production_company	Timtok	no
+321343	production_company	Vatican Pictures	no
+321344	production_company	4AM Film Studios	no
+321345	production_company	Afewfriends&AnIdiot	no
+321346	production_company	Stryak Pictures	no
+321347	production_company	PP Studio	no
+321348	production_company	Skaska Film Creations	no
+321349	production_company	Sri Vaari Entertainment	no
+321350	production_company	Nightjar Films	no
+321351	production_company	الصقر العربي للإنتاج الفني	no
+321352	production_company	Chup Chaap Films	no
+321353	production_company	SVG Studio	no
+321354	production_company	Tyler Cox Productions	no
+321355	production_company	Nidhi Films Productions	no
+321356	production_company	Factory of Found Clothes	no
+321357	production_company	Redbait Pictures	no
+321358	production_company	Fusion Film Production	no
+321359	production_company	Kyara. Studio	no
+321360	production_company	Kyara Studio	no
+321361	production_company	kanyaraasi	no
+321362	production_company	Laurostudio	no
+321363	production_company	Road & Sky	no
+321364	production_company	Moving forward independent productions	no
+321365	production_company	Enterprise Productions	no
+321366	production_company	Cotton Prod	no
+321367	production_company	La mira films	no
+321368	production_company	Long Beach Motion Pictures	no
+321369	production_company	北京萌宝科技有限公司	no
+321370	production_company	Miral Film	no
+321371	production_company	Saperlichaussette	no
+321372	production_company	MADMAS Productions	no
+321373	production_company	Tirifilms	no
+321374	production_company	شركة الشرق للإنتاج والتوزيع الفني	no
+321375	production_company	Mallemala Entertainments	no
+321376	production_company	Mandakini Chitra	no
+321377	production_company	Sri Ranjith Movies	no
+321378	production_company	Ivor McFadden Productions	no
+321379	production_company	Gopi Krishna Movies	no
+321380	production_company	KB PRODUCTIONS	no
+321381	production_company	Clinton Productions	no
+321382	production_company	Les Films Monfort	no
+321383	production_company	Story Academy	no
+321384	production_company	Film Crew Academy	no
+321385	production_company	Gatamay Productions	no
+321386	production_company	Delerno Films	no
+321387	production_company	Entre Luces	no
+321388	production_company	Office Margarita	no
+321389	production_company	Swell Cinema	no
+321390	production_company	Cineflor	no
+321391	production_company	Productions Karim Inc.	no
+321392	production_company	Iskra Cinematografica	no
+321393	production_company	Northside Productions	no
+321394	production_company	Fonti Centrali	no
+321395	production_company	Fundación El Futuro Imposible	no
+321396	production_company	Moms Head Films	yes
+321397	production_company	&Cut Production	no
+321398	production_company	أفلام محسن سرحان	no
+321399	production_company	Wild Abandon Films	no
+321400	production_company	The Orion United	no
+321401	production_company	Northcott	no
+321402	production_company	颐合制作有限公司	no
+321403	production_company	Poulet-Malassis Films	no
+321404	production_company	جومانا انترناشونال	no
+321405	production_company	Sree Star Film Production	no
+321406	production_company	Opera Klasik Film Sdn Bhd	no
+321407	production_company	Arta Adventura (M) Sdn Bhd	no
+321408	production_company	ИВД Кино	no
+321409	production_company	MJ Films	no
+321410	production_company	Kids Explore Productions	no
+321411	production_company	Fiilmy Fellow Studioz	no
+321412	production_company	Institut polaire français Paul-Émile Victor (IPEV)	no
+321413	production_company	Pemerintah Daerah Provinsi Jawa Timur	no
+321414	production_company	YARDS Creations	no
+321415	production_company	Pixel Play Frame Works	no
+321416	production_company	NB Production	yes
+321417	production_company	WMNU-TV	no
+9785	tv_network	即梦	no
+9786	tv_network	即梦AI	no
+9787	tv_network	CANAL+ Kuchnia	no
+9788	tv_network	K-T.V. (GR)	no
+9789	tv_network	Remix	no
+9790	tv_network	DETT Network	no
+9791	tv_network	DailyMotion	no
 ```
